@@ -399,7 +399,7 @@
             <div class="art-row">
               <div class="name">${escapeHtml(a.articulo)}${a.socioComercial ? ` <span style="color:var(--gris); font-weight:400;">— ${escapeHtml(a.socioComercial)}</span>` : ""}</div>
               <div class="add-line">
-                <input type="number" min="1" step="1" placeholder="Cajas sugeridas" id="qty-${a.id}">
+                <input type="number" min="1" step="1" inputmode="numeric" pattern="[0-9]*" placeholder="Cajas sugeridas" id="qty-${a.id}">
                 <button class="btn btn-verde" data-agregar="${a.id}">Agregar</button>
               </div>
             </div>
