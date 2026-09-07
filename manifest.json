@@ -7,7 +7,7 @@
     "background_color": "#041046",
     "theme_color": "#041046",
     "icons": [
-          { "src": "Favicon verde.png", "sizes": "192x192", "type": "image/png" },
-          { "src": "Favicon verde.png", "sizes": "512x512", "type": "image/png" }
+          { "src": "Favicon%20verde.png", "sizes": "192x192", "type": "image/png" },
+          { "src": "Favicon%20verde.png", "sizes": "512x512", "type": "image/png" }
     ]
 }
