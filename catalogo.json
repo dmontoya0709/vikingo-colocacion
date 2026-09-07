@@ -1,0 +1,5726 @@
+{
+  "generadoEn": "2026-09-07T17:41:26.456Z",
+  "clientes": [
+    {
+      "id": "cli_5upyhxq",
+      "cliente": "3032033 SERVICIOS VARIOS UNION PROGRESISTA",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_e1wvszj",
+      "cliente": "3032248 DISTRIBUIDORA EL IPALTECO",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_mu0hipv",
+      "cliente": "3032263 INVERSIONES ELOHIM SA",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_q9qc377",
+      "cliente": "3032264 DISTRIBUIDORA J Y C",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_rn5kpic",
+      "cliente": "3032274 COPASA",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_lw1whwj",
+      "cliente": "3032417 GRUPO DISPERSA",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_eeg439o",
+      "cliente": "3032431 LA BODEGONA",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_vkwzy8j",
+      "cliente": "3032495 DISTRIBUCIONES HORIZONTALES S.A.",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_x6w7oqy",
+      "cliente": "3032511 GRUPO CEMBER S.A.",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_hbn2f0g",
+      "cliente": "3032518 DISTRIBUCIONES DE ABARROTES DEL SUR",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_6hqqv0a",
+      "cliente": "3032558 ABARROTERIAS ALBAMAR",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_2fgmbn8",
+      "cliente": "3032568 DISPENSARIO MEDICO ADEPH S.A.",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_x4cd5uh",
+      "cliente": "3032606 SUPER TIENDA MEDALLA MILAGROSA S.A",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_8q4s1wa",
+      "cliente": "3032643 LA BODEGONA DE ANTIGUA, S.A.",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_7vqxwli",
+      "cliente": "3032673 INVERSIONES TONANTEL S.A.",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_wr4kqqa",
+      "cliente": "3044090 MULTIMAYOREO IPALTECA, SA",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_jhztuuq",
+      "cliente": "3051450 SURTIMAYOREO",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_qtsz8qd",
+      "cliente": "3054099 DISTRIBUIDORA PEÑA DE HOREB, S.A/JHIRE",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_1qeou4z",
+      "cliente": "3054610 JULIETA MARITZA DIAZ ORTEGA",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_t4cufct",
+      "cliente": "3070104 SUPER BODEGA EL GRAN GALLO",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_trlqe88",
+      "cliente": "3440105 DEPOSITO SAMUEL",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_2qaj3sc",
+      "cliente": "3457652 TIENDAS DE ORIENTE S. A.",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_9tv2uvd",
+      "cliente": "3458804 DISTRIBUIDORA SANTA MARTA, S.A.",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_l6jyvwe",
+      "cliente": "3459442 DISTRIBUCIONES CRUIX S.A",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_c23gr3f",
+      "cliente": "3462024 DISTRIBUIDORA GEMELAS, S.A",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_oroj85r",
+      "cliente": "3469297 MERCADOS EFECTIVOS",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_hw0dhii",
+      "cliente": "3481263 DEPÓSITO KUAN, SOCIEDAD ANONIMA",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_ncyr1c7",
+      "cliente": "3481264 LA ABUNDANCIA DEL 7-52, SOCIEDAD ANONIMA",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_8xy41br",
+      "cliente": "3482092 COMAB DE GUATEMALA SOCIEDAD ANONIMA",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_q8mnjrv",
+      "cliente": "3487223 DISTRIBUIDORA ORIENTAL",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_seafzwz",
+      "cliente": "3495863 CORPORACIÓN DE MAYOREO LA ESPERANZA SA",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_lk4uzjt",
+      "cliente": "3513427 CENTRO DE DISTRIBUCIÓN DEL PACÍFICO",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_dcgyujk",
+      "cliente": "3519503 TIENDA WALTER JOSUE",
+      "pais": "SV El Salvador"
+    },
+    {
+      "id": "cli_bsruaa6",
+      "cliente": "3519507 COMERCIAL EL PORVENIR",
+      "pais": "SV El Salvador"
+    },
+    {
+      "id": "cli_b2jwxug",
+      "cliente": "3519511 YUVINY ZETINO",
+      "pais": "SV El Salvador"
+    },
+    {
+      "id": "cli_myxlml7",
+      "cliente": "3519512 RINA PEREZ",
+      "pais": "SV El Salvador"
+    },
+    {
+      "id": "cli_ap4q838",
+      "cliente": "3519513 SUPER TIENDA ALAMEDA",
+      "pais": "SV El Salvador"
+    },
+    {
+      "id": "cli_s5tl7tj",
+      "cliente": "3519515 DISTRIBUIDORA SINAI JR.",
+      "pais": "SV El Salvador"
+    },
+    {
+      "id": "cli_pn1ew0h",
+      "cliente": "3519516 TIENDA LOS ALMENDROS",
+      "pais": "SV El Salvador"
+    },
+    {
+      "id": "cli_nbbu03a",
+      "cliente": "3519522 TIENDA EL SUPERCITO",
+      "pais": "SV El Salvador"
+    },
+    {
+      "id": "cli_n2kzuev",
+      "cliente": "3519530 TIENDA JEHOVA JIREH",
+      "pais": "SV El Salvador"
+    },
+    {
+      "id": "cli_l0a5bmc",
+      "cliente": "3519532 TIENDA EL SOCORRO",
+      "pais": "SV El Salvador"
+    },
+    {
+      "id": "cli_8cgxlqr",
+      "cliente": "3519535 ABARROTERIA JULITA",
+      "pais": "SV El Salvador"
+    },
+    {
+      "id": "cli_x9fo2qe",
+      "cliente": "3519779 SUPER ROBERT",
+      "pais": "SV El Salvador"
+    },
+    {
+      "id": "cli_okjaeqr",
+      "cliente": "3519780 INVERSIONES&NEGOCIOS SANTA ROSA",
+      "pais": "SV El Salvador"
+    },
+    {
+      "id": "cli_hxtvbi8",
+      "cliente": "3519783 COMERCIAL JOSUE",
+      "pais": "SV El Salvador"
+    },
+    {
+      "id": "cli_it9ifzm",
+      "cliente": "3519784 TIENDA ISAAC",
+      "pais": "SV El Salvador"
+    },
+    {
+      "id": "cli_li3lcbk",
+      "cliente": "3519785 TIENDA CRISTAL",
+      "pais": "SV El Salvador"
+    },
+    {
+      "id": "cli_mjtvk2z",
+      "cliente": "3519786 COMERCIAL LA FAMILIA",
+      "pais": "SV El Salvador"
+    },
+    {
+      "id": "cli_onwb4s0",
+      "cliente": "3519787 DISTRIBUIDORA ROSITA, S.A. DE C.V.",
+      "pais": "SV El Salvador"
+    },
+    {
+      "id": "cli_rhce642",
+      "cliente": "3519788 TIENDA GALO",
+      "pais": "SV El Salvador"
+    },
+    {
+      "id": "cli_8h921vq",
+      "cliente": "3519789 COSMETICOS GLADIS",
+      "pais": "SV El Salvador"
+    },
+    {
+      "id": "cli_fl80tn5",
+      "cliente": "3519790 TIENDA ISAAC",
+      "pais": "SV El Salvador"
+    },
+    {
+      "id": "cli_0zz53d6",
+      "cliente": "3519793 SUPER JEHOVA JIREH S.A",
+      "pais": "SV El Salvador"
+    },
+    {
+      "id": "cli_6nparv4",
+      "cliente": "3547623 TIENDA RODRIGUEZ",
+      "pais": "SV El Salvador"
+    },
+    {
+      "id": "cli_r0nk7m8",
+      "cliente": "3566168 DISTRIBUIDORA TRIGALES, SOCIEDAD ANÓNIMA",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_lhqwp9u",
+      "cliente": "3628145 COMERCIAL LA NUEVA ESPERANZA",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_mje5hk1",
+      "cliente": "3713193 COMERCIALIZADORA PRIMAVERA",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_k61i873",
+      "cliente": "3713264 BODEGA CENTRAL",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_obm31cx",
+      "cliente": "3715599 SUPERMERCADO LA ESTRELLA",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_uhcxewj",
+      "cliente": "3721174 SUPER ISAAC",
+      "pais": "SV El Salvador"
+    },
+    {
+      "id": "cli_bbsx9sb",
+      "cliente": "3728675 FLOCO S A DE C V",
+      "pais": "SV El Salvador"
+    },
+    {
+      "id": "cli_buucacg",
+      "cliente": "3729689 MAYOREO DEL PACIFICO",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_vrrasrw",
+      "cliente": "3742551 COPASA LA PRIMERA",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_u2bneab",
+      "cliente": "3787862 DISTRIBUIDORA EL SUPREMO",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_c8vhk6y",
+      "cliente": "3853378 CENTRO DE DISTRIBUCION DEL PACIFICO",
+      "pais": "GT Guatemala"
+    },
+    {
+      "id": "cli_wom0nk4",
+      "cliente": "3853827 LA NUEVA ESTRELLA",
+      "pais": "GT Guatemala"
+    }
+  ],
+  "articulos": [
+    {
+      "id": "art_7hky9wx",
+      "articulo": "100800090 CAROZZI QUIFARO  400G UXC.: 30",
+      "socioComercial": "CAROZZI"
+    },
+    {
+      "id": "art_ye1r2uq",
+      "articulo": "102100130 DULCE GUANDY CRAZYKONGFRE 15G UXC.: 24",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_nfodsic",
+      "articulo": "100800260 CAROZZI LASAÑA TRADI  400G UXC.: 10",
+      "socioComercial": "CAROZZI"
+    },
+    {
+      "id": "art_iqdeyxz",
+      "articulo": "102600780 BEBIDA HERSHEYS CNCREME 236 ML UXC.: 27",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_2h062fd",
+      "articulo": "104300110 PAPAS PRINGLES CREYCEB 21GR UXC.: 60",
+      "socioComercial": "PRINGLES KELLOGG'S"
+    },
+    {
+      "id": "art_6ymlqjv",
+      "articulo": "102600360 CHOCO HERSHEYS GIANTALMD 6.8OZ UXC.: 12",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_6e9yfia",
+      "articulo": "106800030 ACEITE OLIVA SENSAT LATA1000ML UXC.: 12",
+      "socioComercial": "DEOLEO"
+    },
+    {
+      "id": "art_x5uh3xq",
+      "articulo": "105200180 INSECTICIDA RAID AE C&J 400 ML UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_h15w4em",
+      "articulo": "105400230 LIMPIADOR PATO P DISCOLIMAF RP UXC.: 24",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_79guxc3",
+      "articulo": "105500040 BOLSA ZIPLOC CONGELAR MEDIANA UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_0azvb2q",
+      "articulo": "105900160 INSECTICIDA BAYGON AEULTRAVERD UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_5s8uwtz",
+      "articulo": "106300010 DESINFECTANTE OUST FLORAL400ML UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_q6y8g5u",
+      "articulo": "105400050 LIMPIADOR PATO P PASTILLACLORO UXC.: 24",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_4o4601n",
+      "articulo": "105500020 BOLSA ZIPLOC CONGELAR GRANDRE UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_v1o9lm0",
+      "articulo": "105800130 LIMPIADOR MR MUSCULO BOL ANTIG UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_h8kj2i3",
+      "articulo": "100800070 CAROZZI ESPIRAL TRICOLOR 400G UXC.: 30",
+      "socioComercial": "CAROZZI"
+    },
+    {
+      "id": "art_foa37s0",
+      "articulo": "102600760 HERSHEYS BEBIDA CHOCOLAT 236ML UXC.: 27",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_ng1pmvl",
+      "articulo": "102600100 HERSHEYS SYRUP CHOCOLATE 24OZ UXC.: 24",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_jr6rfvk",
+      "articulo": "102600310 HERSHEYS BARRA CHOCOALMOND 41G UXC.: 432",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_qyuq2ew",
+      "articulo": "102600240 CHOCO HERSHEYS KISS ALMD 5.3OZ UXC.: 12",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_t1tdiab",
+      "articulo": "106400210 PROTECTOR SABA LARGO 12X90S UXC.: 12",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_q4sbzaz",
+      "articulo": "105400190 LIMPIADOR PATO P LQ VERDE 500M UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_yafpvts",
+      "articulo": "105300140 AMBIENTAL GLADE AUTOS AP NITRO UXC.: 6",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_8bimt9t",
+      "articulo": "105500090 BOLSA ZIPLOC SANDWICH GRANDE UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_e2z4r1h",
+      "articulo": "100400100 TE SUPREMO VERDE VAINILLA 20 B UXC.: 48",
+      "socioComercial": "CAMBIASO"
+    },
+    {
+      "id": "art_5ueoxy2",
+      "articulo": "104000090 SARDINA LA SIRENA TOMATECIL 15 UXC.: 24",
+      "socioComercial": "OTIS"
+    },
+    {
+      "id": "art_8w2dt5f",
+      "articulo": "105900020 REPELENTE BAYGON APA ELECTRICO UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_68vyrwj",
+      "articulo": "104000060 SARDINA LA SIRENA PICAPICA 5.5 UXC.: 100",
+      "socioComercial": "OTIS"
+    },
+    {
+      "id": "art_ucj3leo",
+      "articulo": "100800020 CAROZZI ESPIRAL  400G UXC.: 30",
+      "socioComercial": "CAROZZI"
+    },
+    {
+      "id": "art_x3hqtpr",
+      "articulo": "102600210 CHOCO HERSHEYS SUGARF DARK 3OZ UXC.: 12",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_55271zz",
+      "articulo": "106800010 ACEITE OLIVA SENSAT LATA 140ML UXC.: 24",
+      "socioComercial": "DEOLEO"
+    },
+    {
+      "id": "art_5l7pmxk",
+      "articulo": "102200240 GOMITA TROPICAL CULEBRIREF 1KG UXC.: 12",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_pqjd6d6",
+      "articulo": "106800060 ACEITE OLIVA SENSAT VEBOT 500M UXC.: 6",
+      "socioComercial": "DEOLEO"
+    },
+    {
+      "id": "art_zgx1qw0",
+      "articulo": "106800050 ACEITE OLIVA SENSAT PUROBOT500 UXC.: 6",
+      "socioComercial": "DEOLEO"
+    },
+    {
+      "id": "art_4eoq4l2",
+      "articulo": "105300100 AMBIENTAL GLADE AE LAVANDA UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_58rvfky",
+      "articulo": "105400240 LIMPIADOR PATO P DISCO BRIM RP UXC.: 24",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_n2013xf",
+      "articulo": "106300050 AMBIENTAL GLADE HC EO FLORAL UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_zdtp6tc",
+      "articulo": "106300020 DESINFECTANTE OUST FRESCM400ML UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_y58ygqy",
+      "articulo": "105900120 REPELENTE BAYGON PLAQUITAS RP UXC.: 24",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_zbh5sev",
+      "articulo": "100400030 TE SUPREMO SURTIDO 6 SABO 20 B UXC.: 48",
+      "socioComercial": "CAMBIASO"
+    },
+    {
+      "id": "art_ufklox9",
+      "articulo": "106100020 REPELENTE AUTAN ESPIRAL VERDE UXC.: 60",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_0228d29",
+      "articulo": "100800050 CAROZZI SPAGHETTI 5  400G UXC.: 25",
+      "socioComercial": "CAROZZI"
+    },
+    {
+      "id": "art_u7za37a",
+      "articulo": "102100140 DULCE GUANDY CRAZYKONGUV 15G UXC.: 24",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_l33vani",
+      "articulo": "102600070 HRSH SYRUP CRML 22OZ UXC.: 12",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_05frjri",
+      "articulo": "102600060 COCOA HERSHEYS UNSWEETENED 8OZ UXC.: 12",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_z7tda1v",
+      "articulo": "106800080 ACEITE OLIVA SENSAT PUROBOT250 UXC.: 12",
+      "socioComercial": "DEOLEO"
+    },
+    {
+      "id": "art_z0765q1",
+      "articulo": "100400010 TE SUPREMO CANELA 20 BOLSITAS UXC.: 48",
+      "socioComercial": "CAMBIASO"
+    },
+    {
+      "id": "art_lyccq36",
+      "articulo": "105500110 BOLSA ZIPLOC CIERRE FACIL GDE UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_y3d928m",
+      "articulo": "105301000 AMBIENTAL GLADEAUTOMALAV-VAIRP UXC.: 6",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_29mt0rv",
+      "articulo": "105500030 BOLSA ZIPLOC GUARDAR GRANDE UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_2lca1xf",
+      "articulo": "105400180 LIMPIADOR PATO P LIQ AZUL 500M UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_izro12o",
+      "articulo": "105400110 LIMPIADOR PATO P PASTILLA AZUL UXC.: 48",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_cfhf3eo",
+      "articulo": "100400020 TE SUPREMO MANZANA CANELA 20 B UXC.: 48",
+      "socioComercial": "CAMBIASO"
+    },
+    {
+      "id": "art_34gr4m2",
+      "articulo": "104000110 SARDINA LA SIRENA TOMATE 5.5OZ UXC.: 100",
+      "socioComercial": "OTIS"
+    },
+    {
+      "id": "art_pyygtn3",
+      "articulo": "104000070 SARDINA LA SIRENA OVALADA 7.5O UXC.: 48",
+      "socioComercial": "OTIS"
+    },
+    {
+      "id": "art_wh5ki7u",
+      "articulo": "100800320 CAROZZI TALLARIN ESPINACA 400G UXC.: 25",
+      "socioComercial": "CAROZZI"
+    },
+    {
+      "id": "art_a17k2q1",
+      "articulo": "100800060 CAROZZI RIGATI TRICOLOR 400G UXC.: 30",
+      "socioComercial": "CAROZZI"
+    },
+    {
+      "id": "art_z313qde",
+      "articulo": "102600230 CHOCO HERSHEYS MINIATURA 5.3OZ UXC.: 12",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_7t5b7md",
+      "articulo": "100400040 TE SUPREMO MANZANILLA 20 BOLSI UXC.: 48",
+      "socioComercial": "CAMBIASO"
+    },
+    {
+      "id": "art_m9jtawq",
+      "articulo": "105500120 BOLSA ZIPLOC CIERRE FACIL PEQ UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_mtc7e9v",
+      "articulo": "100400050 TE SUPREMO DE TILO 20 BOLSITAS UXC.: 48",
+      "socioComercial": "CAMBIASO"
+    },
+    {
+      "id": "art_8bl8fum",
+      "articulo": "100400110 TE SUPREMO AMARETTO 20 BOLSITA UXC.: 48",
+      "socioComercial": "CAMBIASO"
+    },
+    {
+      "id": "art_kygmt1s",
+      "articulo": "106100030 REPELENTE AUTAN ESPIRALLAVANDA UXC.: 60",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_nfamw1m",
+      "articulo": "105900010 INSECTICIDA BAYGON AE 250 ML UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_55e86oh",
+      "articulo": "104000080 SARDINA LA SIRENA PICA CIL 15O UXC.: 24",
+      "socioComercial": "OTIS"
+    },
+    {
+      "id": "art_o26l6y5",
+      "articulo": "100800330 PASTA CAROZZI SPAGHEINTEGR250G UXC.: 40",
+      "socioComercial": "CAROZZI"
+    },
+    {
+      "id": "art_cbqvfqb",
+      "articulo": "102600330 HERSHEYS BARRA CHOCO CNCRM 43G UXC.: 432",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_in0ofjp",
+      "articulo": "102600300 CHOCO HERSHEYS BARRA MILK UXC.: 432",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_6cbbwlg",
+      "articulo": "102601090 CHOCO HERSHEYS BPI SS MINI12OZ UXC.: 12",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_kxa0kly",
+      "articulo": "102600340 CHOCO HERSHEYS KISS MILK REGUL UXC.: 288",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_rowu2p4",
+      "articulo": "103100010 MIEL EL PANAL ORIGINAL 1000 GR UXC.: 12",
+      "socioComercial": "PAVIA"
+    },
+    {
+      "id": "art_lxu545z",
+      "articulo": "105500050 BOLSA ZIPLOC GUARDAR MEDIANA UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_ib45otk",
+      "articulo": "105400070 LIMPIADOR PATO P CANAS FRESCAP UXC.: 36",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_yqbhfrc",
+      "articulo": "106200030 REPELENTE OFF AE ACTIVE 6 OZ UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_dpuctqc",
+      "articulo": "105300990 AMBIENTAL GLADE AUTOMATMAZCNRP UXC.: 6",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_d16diwx",
+      "articulo": "105400010 LIMPIADOR PATO P PAST LARGADUR UXC.: 24",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_pj0m6r9",
+      "articulo": "105800160 LIMPIADOR MR MUSCULO BOL LVIDR UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_w9povba",
+      "articulo": "100400090 TE SUPREMO VERDE SENCHA 20 BOL UXC.: 48",
+      "socioComercial": "CAMBIASO"
+    },
+    {
+      "id": "art_bthuhli",
+      "articulo": "100800100 CAROZZI FETTUCCINE  400G UXC.: 25",
+      "socioComercial": "CAROZZI"
+    },
+    {
+      "id": "art_82i5su3",
+      "articulo": "102600220 CHOCO HERSHEYS SUGARF MILK 3OZ UXC.: 12",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_1m4re5i",
+      "articulo": "102600090 HERSHEYS SYRUP FRESA 22OZ UXC.: 12",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_06grzkw",
+      "articulo": "102600141 CHOCO HERSHEYS KISS ESTU 4.7OZ UXC.: 24",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_v1f44vp",
+      "articulo": "102600770 HERSHEYS BEBIDA FRESA 236ML UXC.: 27",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_ez3xjty",
+      "articulo": "102600110 CHOCO HERSHEYS B PIEC SSW 12OZ UXC.: 12",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_u6akknu",
+      "articulo": "105300090 AMBIENTAL GLADE AE MANZ CANELA UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_vy7nk76",
+      "articulo": "105200010 INSECTICIDA RAID AE ACTOT 400M UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_ig7qzzo",
+      "articulo": "105500130 BOLSA ZIPLOC SANDWICH PEQUEÑA UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_b81a2el",
+      "articulo": "105600080 LIMPIADOR PLEDGE DP MULTISUPER UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_baeg0wu",
+      "articulo": "105600060 LIMPIADOR PLEDGE ACEITE ROJO UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_m9pc044",
+      "articulo": "105600020 LIMPIADOR PLEDGE AE POTPOU333G UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_6u95nnn",
+      "articulo": "105301010 AMBIENTAL GLADEAUTOMAHAWABRZRP UXC.: 6",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_f5se4i6",
+      "articulo": "105300060 AMBIENTAL GLADE AE HAWAIIAN BR UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_q9yfwvd",
+      "articulo": "105200080 REPELENTE RAID LAMINI APEL+12U UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_ln3ul8f",
+      "articulo": "105400140 LIMPIADOR PATO P PAST ORIGINAL UXC.: 24",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_nhaqb4v",
+      "articulo": "106200080 REPELENTE OFF AESMOOTH&DRY 4OZ UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_s8c8tbi",
+      "articulo": "104000050 SARDINA LA SIRENA OVALADA 15OZ UXC.: 24",
+      "socioComercial": "OTIS"
+    },
+    {
+      "id": "art_oyvw1pf",
+      "articulo": "102600120 CHOCO HERSHEYS BPI MILK 11.5OZ UXC.: 12",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_x82wprj",
+      "articulo": "102601110 CHOCO HERSHEYS BPI SFDCH 8 OZ UXC.: 12",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_t98yd93",
+      "articulo": "100800290 TRATTORIA TALLARIN  400G UXC.: 25",
+      "socioComercial": "CAROZZI"
+    },
+    {
+      "id": "art_jd6f6uv",
+      "articulo": "104300100 PAPAS PRINGLES ORIGINAL 19 GR. UXC.: 60",
+      "socioComercial": "PRINGLES KELLOGG'S"
+    },
+    {
+      "id": "art_qzux2tr",
+      "articulo": "106800070 ACEITE OLIVA SENSAT VEBOT 250M UXC.: 12",
+      "socioComercial": "DEOLEO"
+    },
+    {
+      "id": "art_okn1yzf",
+      "articulo": "105200070 REPELENTE RAID LAMINITASRP 24U UXC.: 24",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_50qe91z",
+      "articulo": "105400080 LIMPIADOR PATO P CANAS FRESCRP UXC.: 36",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_sxc87at",
+      "articulo": "105300110 AMBIENTAL GLADE AE FRESMATINAL UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_thaescl",
+      "articulo": "105800080 LIMPIADOR PATO PURIFIC TIRASLV UXC.: 24",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_a5nu9iw",
+      "articulo": "105300250 AMBIENTAL GLADE PLUGINS APMANZ UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_1ltqsy2",
+      "articulo": "105800090 LIMPIADOR MR MUSCULO TIRASLIMA UXC.: 24",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_3cufs4a",
+      "articulo": "106200040 REPELENTE OFF AE DEEP WOOD 6OZ UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_wphixoe",
+      "articulo": "105300010 AMBIENTAL GLADE GSCENTSRPMANZC UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_i5dawx0",
+      "articulo": "105600010 LIMPIADOR PLEDGE AE LIMON 333G UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_r7yf60z",
+      "articulo": "204000020 PROMO SARDINA LA SIRENA 5.5OZ UXC.: 100",
+      "socioComercial": "OTIS"
+    },
+    {
+      "id": "art_x93ngj7",
+      "articulo": "100400140 TE SUPREMO LA RENDIDORA 20B UXC.: 48",
+      "socioComercial": "CAMBIASO"
+    },
+    {
+      "id": "art_uvywiy3",
+      "articulo": "105800200 DESTAPACAÑOS MR MUSCULO DRN946 UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_1o140lf",
+      "articulo": "102601730 CHOCO HERSHEYS MILK BITES 43GR UXC.: 72",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_vn3f5gc",
+      "articulo": "102601740 CHOCO HERSHEYS CNCR BITES 43GR UXC.: 72",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_6asw9i1",
+      "articulo": "105600090 LIMPIADOR PLEDGE AEMADERA 335G UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_vm8mu9v",
+      "articulo": "102200520 ANGELITOS TROPICAL GBICOL 720G UXC.: 10",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_gmk10p3",
+      "articulo": "105600100 LIMPIADOR PLEDGE AE MADERAMINI UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_av4uuag",
+      "articulo": "105600071 LIMPIADOR PLEDGE AE SACUDI396G UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_cv9ej7i",
+      "articulo": "116500080 BETUN KIWI EN PASTA NEUTRO 70G UXC.: 24",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_h84f5l5",
+      "articulo": "110700020 ESCOBA SUPERPRO SUPER PRIS UXC.: 12",
+      "socioComercial": "PDC SPR PRO NO CL"
+    },
+    {
+      "id": "art_87wwa2v",
+      "articulo": "106200110 REPELENTE OFF SPRAYFAMILY177M UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_6zn0zbk",
+      "articulo": "104000260 SARDINA LA SIRENA OV15OZ PICAP UXC.: 24",
+      "socioComercial": "OTIS"
+    },
+    {
+      "id": "art_mq3xnhb",
+      "articulo": "104300420 PAPALINA PRINGLES ORG 37 GR UXC.: 12",
+      "socioComercial": "PRINGLES KELLOGG'S"
+    },
+    {
+      "id": "art_6ven3x2",
+      "articulo": "104300440 PAPALINA PRINGLES QUESO 40 GR UXC.: 12",
+      "socioComercial": "PRINGLES KELLOGG'S"
+    },
+    {
+      "id": "art_jwajzfl",
+      "articulo": "104300430 PAPALINA PRINGLES SCO 40 GR UXC.: 12",
+      "socioComercial": "PRINGLES KELLOGG'S"
+    },
+    {
+      "id": "art_rblpk5o",
+      "articulo": "105301470 AMBIENTAL GLADE PLUGINSRPHAW3P UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_vbmx5yu",
+      "articulo": "105500310 BOLSA ZIPLOC GUARDAR SNACK 50B UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_3w9c5g1",
+      "articulo": "105301500 AMBIENTAL GLADE 3PK MZ CAN RP UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_ollqmx2",
+      "articulo": "110700040 CEPILLO SUPERPRO OVALIN UXC.: 72",
+      "socioComercial": "PDC SPR PRO NO CL"
+    },
+    {
+      "id": "art_6gbwhuj",
+      "articulo": "106800100 ACEITE OLIVA SENSAT SACHET UXC.: 450",
+      "socioComercial": "DEOLEO"
+    },
+    {
+      "id": "art_52mce3r",
+      "articulo": "104000280 ATUN LA SIRENA VEGETALES 160GR UXC.: 48",
+      "socioComercial": "OTIS"
+    },
+    {
+      "id": "art_jb2uq81",
+      "articulo": "104000310 ATUN LA SIRENA ACEITE 160 GR UXC.: 48",
+      "socioComercial": "OTIS"
+    },
+    {
+      "id": "art_587nbq8",
+      "articulo": "104000320 ATUN LA SIRENA AGUA 160 GR UXC.: 48",
+      "socioComercial": "OTIS"
+    },
+    {
+      "id": "art_1gjy6ue",
+      "articulo": "102200162 ANGELITOS GUANDY 150 GR UXC.: 55",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_ywq8rbr",
+      "articulo": "105301660 AMBIENTAL GLADE GEL LIMON70G UXC.: 30",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_2qol58r",
+      "articulo": "105301670 AMBIENTAL GLADE GEL FLOPERF70G UXC.: 30",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_6729w0v",
+      "articulo": "110700050 ESCOBA SUPERPRO ESTILO MARIA UXC.: 12",
+      "socioComercial": "PDC SPR PRO NO CL"
+    },
+    {
+      "id": "art_kopk16o",
+      "articulo": "105200240 INSECTICIDAS RAID MAX 400ML UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_m8tae2j",
+      "articulo": "106800102 ACEITE DE OLIVA SENSAT RIST 6U UXC.: 24",
+      "socioComercial": "DEOLEO"
+    },
+    {
+      "id": "art_yb5szjd",
+      "articulo": "105600043 LIMPIADOR PLEDGE TRIGMULTISUP UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_feqqjvt",
+      "articulo": "100400160 TÉ SUPREMO FR.BOSQUE 20B UXC.: 48",
+      "socioComercial": "CAMBIASO"
+    },
+    {
+      "id": "art_3rbn75e",
+      "articulo": "104000350 SARDINA LA SIRENA CC AC PICANT UXC.: 24",
+      "socioComercial": "OTIS"
+    },
+    {
+      "id": "art_l8lvgbl",
+      "articulo": "104000340 SARDINA LA SIRENA CC ACE OLIVA UXC.: 24",
+      "socioComercial": "OTIS"
+    },
+    {
+      "id": "art_gavtp77",
+      "articulo": "104000330 SARDINA LA SIRENA CC ACEITE UXC.: 24",
+      "socioComercial": "OTIS"
+    },
+    {
+      "id": "art_p5xysak",
+      "articulo": "105301890 AMBIENTAL GLADE AUTOS APPARAIS UXC.: 6",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_hekoycz",
+      "articulo": "105301900 AMBIENTAL GLADE AE PARAISOAZUL UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_zccxx9v",
+      "articulo": "105301920 AMBIENTAL GLADE SNSTNPARAISORP UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_3y29pi2",
+      "articulo": "105301940 AMBIENTAL GLADE AUTOMPARAISORP UXC.: 6",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_jm6f8wq",
+      "articulo": "105301950 AMBIENTAL GLADE PLUGINSAPPARAI UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_7xmgunb",
+      "articulo": "105400320 LIMPIADOR PATO PAST AZUL WM UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_rkv5qn6",
+      "articulo": "110700060 ESCOBA SUPERPRO ESTILO PAO UXC.: 12",
+      "socioComercial": "PDC SPR PRO NO CL"
+    },
+    {
+      "id": "art_a5t0jsz",
+      "articulo": "105302010 AMBIENTAL GLADE CAR ACQUA UXC.: 30",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_qzkj4ub",
+      "articulo": "105302020 AMBIENTAL GLADE CAR CITRUS UXC.: 30",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_recbuyr",
+      "articulo": "105500340 BOLSA ZIPLOC SNDWCH ECOPK 20CT UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_p3thln3",
+      "articulo": "105900190 INSECTICIDAS BAYGON TOTALAE400 UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_h48pnif",
+      "articulo": "105302210 AMBIENTAL GLADE AUTOMATAPPARAI UXC.: 4",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_cn80a3w",
+      "articulo": "105302220 AMBIENTAL GLADE CONOHAWAIIAN UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_8ysn0d2",
+      "articulo": "105302240 AMBIENTAL GLADE CONO CAMPOSLAV UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_jsku7n9",
+      "articulo": "105302230 AMBIENTAL GLADE CONOMANZCAN UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_gnv8t20",
+      "articulo": "105800380 LIMPIADOR MR MUSCULO BAÑ5-1BOL UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_yjyz75f",
+      "articulo": "105800420 LIMPIADOR MR MUSCULO PAST 4PK UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_b0l5vtj",
+      "articulo": "102602630 CHOCO HERSHEY'S CNCRM 6CT 180G UXC.: 14",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_lh18x2t",
+      "articulo": "104300660 PAPALINA PRINGLES 5PACK SCO 21 UXC.: 12",
+      "socioComercial": "PRINGLES KELLOGG'S"
+    },
+    {
+      "id": "art_77j6pro",
+      "articulo": "104300750 PAPALINA PRINGLES QUESO 21G UXC.: 60",
+      "socioComercial": "PRINGLES KELLOGG'S"
+    },
+    {
+      "id": "art_b0bxnun",
+      "articulo": "105302660 AMBIENTAL GLADE_HC AUTORP LAVM UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_v18ejz1",
+      "articulo": "120800260 CLORO MB 1LX12U UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_634r1qd",
+      "articulo": "120800300 CLORO MB CAMP DE LIM 3.785LX4U UXC.: 4",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_yvkumdv",
+      "articulo": "120800250 CLORO MB 3.785LX4U UXC.: 4",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_8owzvnh",
+      "articulo": "120800270 CLORO MB CAMP DE LIM 1LX12U UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_qpbzwl7",
+      "articulo": "120800280 CLORO MB CASC FLOR 1L X 12 U UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_kxxhynm",
+      "articulo": "120800310 CLORO MB CACS FLOR 3.785L X 4U UXC.: 4",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_cq1epf2",
+      "articulo": "105800520 LIMPIADOR MR MUSCULO ANTGBOLIM UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_vkdrbna",
+      "articulo": "122700020 AMBIENTAL GLADE_AU SPORT AP LV UXC.: 6",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_dmteo9d",
+      "articulo": "122700040 AMBIENTAL GLADE_AU SPORT NVAAP UXC.: 6",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_aws78l8",
+      "articulo": "122700050 AMBIENTAL GLADE_AU SPORT NVARP UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_7ofuwfx",
+      "articulo": "100400210 TÉ SUPREMO VERDE LIMON 20B UXC.: 48",
+      "socioComercial": "CAMBIASO"
+    },
+    {
+      "id": "art_g22joli",
+      "articulo": "104300790 PAPALINA PRINGLES 5 PACK CHZ UXC.: 12",
+      "socioComercial": "PRINGLES KELLOGG'S"
+    },
+    {
+      "id": "art_ea69792",
+      "articulo": "100400240 TÉ SUPREMO MANZANILLA MIEL 20B UXC.: 48",
+      "socioComercial": "CAMBIASO"
+    },
+    {
+      "id": "art_gmtak2x",
+      "articulo": "102602790 LECHE HERSHEY'S_BE CHDES236ML UXC.: 27",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_5ta0f5u",
+      "articulo": "104300830 PAPALINA PRINGLES SCO 71G UXC.: 12",
+      "socioComercial": "PRINGLES KELLOGG'S"
+    },
+    {
+      "id": "art_zbwt4n9",
+      "articulo": "104300820 PAPALINA PRINGLES ORG 67G UXC.: 12",
+      "socioComercial": "PRINGLES KELLOGG'S"
+    },
+    {
+      "id": "art_wico3o1",
+      "articulo": "104300840 PAPALINA PRINGLES CHZ 71G UXC.: 12",
+      "socioComercial": "PRINGLES KELLOGG'S"
+    },
+    {
+      "id": "art_a16d6f9",
+      "articulo": "105302910 AMBIENTAL GLADE_HC AE LIMON UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_3vzss1u",
+      "articulo": "100400290 TÉ SUPREMO ROSA DE JAMAICA 20B UXC.: 48",
+      "socioComercial": "CAMBIASO"
+    },
+    {
+      "id": "art_iuknwtd",
+      "articulo": "102100650 GUANDY BARRA CHOCALE 35G UXC.: 12",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_pczs2u7",
+      "articulo": "105800540 LIMPIADOR MR MUSCULO ANTIG 2PK UXC.: 6",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_3rkyjr8",
+      "articulo": "120800400 MAGIA BLANCA LAVANDA 1LX12IT UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_2anbqb5",
+      "articulo": "120800410 MAGIA BLANCA LAVANDA 3785ML UXC.: 4",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_vi9dcg1",
+      "articulo": "120800440 MAGIA BLANCA CLORO GEL 500MLX2 UXC.: 24",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_y5h6xqs",
+      "articulo": "100800580 CAROZZI RAVIOLI CARNE 400G UXC.: 12",
+      "socioComercial": "CAROZZI"
+    },
+    {
+      "id": "art_tytutv0",
+      "articulo": "120800460 MAGIA BLANCA REG200MLX6X72ITSE UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_rb5wa8b",
+      "articulo": "100800590 ACONCAGUA SPAGHETTI 5  300G UXC.: 24",
+      "socioComercial": "CAROZZI"
+    },
+    {
+      "id": "art_a3ozh5a",
+      "articulo": "204000080 ATUN LA SIRENA PROMO VEGETALES UXC.: 48",
+      "socioComercial": "OTIS"
+    },
+    {
+      "id": "art_bd24czw",
+      "articulo": "105800590 LIMPIADOR MR MUSCULO DISCAP LF UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_r83q1gv",
+      "articulo": "105800580 LIMPIADOR MR MUSCULO DISCAP BM UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_ayygrkv",
+      "articulo": "100800630 CAROZZI LASAÑA PRECOCIDA  360G UXC.: 24",
+      "socioComercial": "CAROZZI"
+    },
+    {
+      "id": "art_it8jhil",
+      "articulo": "105303190 AMBIENTAL GLADE_HC VELA M&C96G UXC.: 6",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_067iuw1",
+      "articulo": "120800520 MB CAMP LI200ML MEDIA DOCENA S UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_qkdyhxf",
+      "articulo": "125400140 MB DESINF BEBE 900ML UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_uft50sw",
+      "articulo": "125400090 MB DESINF LAVANDA BOLSA 450ML UXC.: 24",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_p7h79x8",
+      "articulo": "125400010 MB DESINF MANZANA 3785ML UXC.: 4",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_4tajat7",
+      "articulo": "125400070 MB DESINF LAVANDA 900ML UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_979933x",
+      "articulo": "125400130 MB DESINF FLORAL 900ML UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_nfp79pw",
+      "articulo": "125400060 MB DESINF MANZANA SACHET 100ML UXC.: 72",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_jb7026o",
+      "articulo": "125400110 MB DESINF FLORAL 3785ML UXC.: 4",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_wiw4jq9",
+      "articulo": "125400100 MB DESINF LAVANDA SACHET 100ML UXC.: 72",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_zqzzhqp",
+      "articulo": "125400080 MB DESINF MANZANA BOLSA 450ML UXC.: 24",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_002n46n",
+      "articulo": "125400150 MB DESINF MANZANA 900ML UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_rmmgtmh",
+      "articulo": "125400170 MB DESINF FLORAL BOTELLA 450ML UXC.: 24",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_tiqvymd",
+      "articulo": "125400020 MB DESINF LAVANDA 3785ML UXC.: 4",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_s8kpz9q",
+      "articulo": "125400180 MB DESINF LAVAND BOTELLA 450ML UXC.: 24",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_ea5xmt1",
+      "articulo": "100800690 CAROZZI TORTELLINI  QUESO 400G UXC.: 12",
+      "socioComercial": "CAROZZI"
+    },
+    {
+      "id": "art_r6n26y8",
+      "articulo": "100800680 CAROZZI RAVIOLI  RICOTA 400G UXC.: 12",
+      "socioComercial": "CAROZZI"
+    },
+    {
+      "id": "art_hnux1qy",
+      "articulo": "125400190 MB DESINF MANZAN BOTELLA 450ML UXC.: 24",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_adoerkq",
+      "articulo": "105600220 LIMPIADOR PLEDGE AENARANJA396G UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_7jjdpj8",
+      "articulo": "105303340 AMBIENTAL GLADE_HC AUTOM APM&C UXC.: 4",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_o5x8d4y",
+      "articulo": "105800700 LIMPIADOR MR MUSCULO PT ORI2PK UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_fgmyqnc",
+      "articulo": "105800670 LIMPIADOR MR MUSCULO PAST AZUL UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_mh4ijgs",
+      "articulo": "105800690 LIMPIADOR MR MUSCULO PAST SCOL UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_r4wgtjq",
+      "articulo": "105800680 LIMPIADOR MR MUSCULO PASTI2PK UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_h8x1l8f",
+      "articulo": "102100880 GUANDY CHOCALE TIRA UXC.: 8",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_fuv072p",
+      "articulo": "120800630 MAGIA BLANCA CANECA10L UXC.: 1",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_29xo6yt",
+      "articulo": "105800740 LIMPIADOR MR MUSCULO DPANTG250 UXC.: 18",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_cxt0fla",
+      "articulo": "122001080 CHOCO HERSHEY'S_SN 5PK REESES UXC.: 36",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_wxday1k",
+      "articulo": "120800670 MAGIA BLANCA LIMON 1.895L UXC.: 8",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_t9jxmn4",
+      "articulo": "120800700 MAGIA BLANCA LAVANDA 1.895L UXC.: 8",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_8in494f",
+      "articulo": "120800690 MAGIA BLANCA FLORAL 1.895L UXC.: 8",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_0i333du",
+      "articulo": "120800680 MAGIA BLANCA REGULAR 1.895L UXC.: 8",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_nr20wc8",
+      "articulo": "120800710 CLORO MB REGULAR 200 ML UXC 72 UXC.: 72",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_x24o8wj",
+      "articulo": "100800770 SALSA TOSCANA OLIVA  200G UXC.: 24",
+      "socioComercial": "CAROZZI"
+    },
+    {
+      "id": "art_y7nzluq",
+      "articulo": "100800790 SALSA TOSCANA AL PESTO  200G UXC.: 24",
+      "socioComercial": "CAROZZI"
+    },
+    {
+      "id": "art_10dmral",
+      "articulo": "100800760 SALSA POMAROLA ITALIANA  200G UXC.: 24",
+      "socioComercial": "CAROZZI"
+    },
+    {
+      "id": "art_wwepdek",
+      "articulo": "100800780 SALSA TOSCANA BOLOGNESA  200G UXC.: 24",
+      "socioComercial": "CAROZZI"
+    },
+    {
+      "id": "art_ab1c4vx",
+      "articulo": "100800750 SALSA TOSCANA ARRABBIATA  200G UXC.: 24",
+      "socioComercial": "CAROZZI"
+    },
+    {
+      "id": "art_xwh7dtc",
+      "articulo": "120800750 CLORO MB CAMP NAVID 1L UXC:12 UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_mcvab0t",
+      "articulo": "120800740 CLORO MB CAMP NAVIDEÑO 3785ML UXC.: 4",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_1nwplc5",
+      "articulo": "106800240 ACEITE DE OLIVA SENSAT LATA500 UXC.: 12",
+      "socioComercial": "DEOLEO"
+    },
+    {
+      "id": "art_e6b73h4",
+      "articulo": "125400370 MB DESINF MANZANA 700ML UXC.: 18",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_84y9fhe",
+      "articulo": "125400360 MB DESINF CITRONELA 700ML UXC.: 18",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_iha5q72",
+      "articulo": "125400350 MB DESINF LAVANDA 700ML UXC.: 18",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_6sm61f0",
+      "articulo": "125400380 MB DESINF CITRONELA SACH 100ML UXC.: 72",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_yzkza62",
+      "articulo": "104000530 LSIN SARDINAS TMAT 200G UXC.: 50",
+      "socioComercial": "OTIS"
+    },
+    {
+      "id": "art_g9wfpun",
+      "articulo": "104000540 LSIN SARDINAS PICA PICA 200G UXC.: 50",
+      "socioComercial": "OTIS"
+    },
+    {
+      "id": "art_zz7jj93",
+      "articulo": "128100010 MB ROPA COLOR 100ML UXC:72 UXC.: 72",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_3jovo9z",
+      "articulo": "105303530 AMBIENTAL GLADE_HC PG FROJ3PRP UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_patf7mv",
+      "articulo": "105303510 AMBIENTAL GLADE_HC AUT AVAI RP UXC.: 6",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_qbcifj5",
+      "articulo": "105303580 AMBIENTAL GLADE_HC AUT FORB RP UXC.: 6",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_rv34kxg",
+      "articulo": "105303560 AMBIENTAL GLADE_HC AUT AVAI AP UXC.: 4",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_osh2s95",
+      "articulo": "105303670 AMBIENTAL GLADE_HC AE FROJOS UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_pnh373l",
+      "articulo": "105303650 AMBIENTAL GLADE_HC CONO FROJOS UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_7brzggh",
+      "articulo": "105303630 AMBIENTAL GLADE_HC AE ABRAZVAI UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_70531bx",
+      "articulo": "105303680 AMBIENTAL GLADE_HC AUT FROJ RP UXC.: 6",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_f8066sz",
+      "articulo": "104300970 PAPALINA PRINGLES ORG 124 GR UXC.: 14",
+      "socioComercial": "PRINGLES KELLOGG'S"
+    },
+    {
+      "id": "art_uq15ute",
+      "articulo": "104301000 PAPALINA PRINGLES QUESO 124 GR UXC.: 14",
+      "socioComercial": "PRINGLES KELLOGG'S"
+    },
+    {
+      "id": "art_57abcts",
+      "articulo": "222000020 RECIPIENTE HERSHEY'S_SN VITROL UXC.: 1",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_txpelx2",
+      "articulo": "104301010 PAPALINA PRINGLES SCO 124 GR UXC.: 14",
+      "socioComercial": "PRINGLES KELLOGG'S"
+    },
+    {
+      "id": "art_nk58xu9",
+      "articulo": "128200040 MB PEROX COLOR 120ML UXC.: 72",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_nroid5t",
+      "articulo": "128200030 MB PEROX BLANCO 120ML UXC.: 72",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_etyutcr",
+      "articulo": "105900250 INSECTICIDAS BAYGON C&J 400ML UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_u8h3x38",
+      "articulo": "128200150 MB PEROX COLOR 900G UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_xbiamhu",
+      "articulo": "128200180 MB PEROX BLANCO 900G UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_wlyp4ov",
+      "articulo": "128200170 MB PEROX COLOR 450G UXC.: 24",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_ti16atq",
+      "articulo": "128200160 MB PEROX BLANCO 450G UXC.: 24",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_gay4gwx",
+      "articulo": "120800840 MAGIA BLANCA LIMON 200ML UXC.: 72",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_56v1qs1",
+      "articulo": "129600010 TOALLAS MULTIUSOS MB NATURAL UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_dlg92qs",
+      "articulo": "129600030 TOALLAS MULTIUSOS MB LIMON UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_85dn3gd",
+      "articulo": "129600020 TOALLAS MULTIUSOS MB NARANJA UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_6wwrvva",
+      "articulo": "102100930 GUANDY BOTE RECUBIERTO 30P UXC.: 12",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_8zvs1n6",
+      "articulo": "132000150 GREZON HUEV DISP8 SORP BLAZE UXC.: 48",
+      "socioComercial": "GREZON"
+    },
+    {
+      "id": "art_buhycsw",
+      "articulo": "132000130 GREZON HUEV DISP8 PAW PATROL UXC.: 48",
+      "socioComercial": "GREZON"
+    },
+    {
+      "id": "art_glab077",
+      "articulo": "132000140 GREZON DISP8 JACKIE-PRINCESS UXC.: 48",
+      "socioComercial": "GREZON"
+    },
+    {
+      "id": "art_sj7t2bd",
+      "articulo": "132000120 GREZON HUEV DISP8 PJMASKS UXC.: 48",
+      "socioComercial": "GREZON"
+    },
+    {
+      "id": "art_9910il4",
+      "articulo": "132000160 GREZON HUEV DISP8 SHIMER UXC.: 48",
+      "socioComercial": "GREZON"
+    },
+    {
+      "id": "art_8emp8f3",
+      "articulo": "120800870 CLORO MB 3.785L + PROMO UXC.: 4",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_dmijtuw",
+      "articulo": "104301140 PRINGLES ORG 14X149G UXC.: 14 UXC.: 14",
+      "socioComercial": "PRINGLES KELLOGG'S"
+    },
+    {
+      "id": "art_1l3hmha",
+      "articulo": "104301130 PRINGLES SCO 14X149G  UXC.: 14 UXC.: 14",
+      "socioComercial": "PRINGLES KELLOGG'S"
+    },
+    {
+      "id": "art_k8d50ty",
+      "articulo": "104301120 PRINGLES CHZ 14X149G  UXC.: 14 UXC.: 14",
+      "socioComercial": "PRINGLES KELLOGG'S"
+    },
+    {
+      "id": "art_tkyfwvh",
+      "articulo": "132600090 LA COSTEÑA CHIPOTLESADOBADOS UXC.: 24",
+      "socioComercial": "COSTEÑA"
+    },
+    {
+      "id": "art_0lami8a",
+      "articulo": "132600130 LA COSTEÑA FRIJOLNEGROENT400G UXC.: 12",
+      "socioComercial": "COSTEÑA"
+    },
+    {
+      "id": "art_zfxnu0l",
+      "articulo": "132600040 LA COSTEÑA SALSAVERDE12U475G UXC.: 12",
+      "socioComercial": "COSTEÑA"
+    },
+    {
+      "id": "art_1lb04qz",
+      "articulo": "132600100 LA COSTEÑA JALAPEÑORAJA220G UXC.: 24",
+      "socioComercial": "COSTEÑA"
+    },
+    {
+      "id": "art_7msnmo5",
+      "articulo": "132600030 LA COSTEÑA SALSACASERA12U475G UXC.: 12",
+      "socioComercial": "COSTEÑA"
+    },
+    {
+      "id": "art_00iwbcd",
+      "articulo": "132600020 LA COSTEÑA SALSAMEXICAN24U220G UXC.: 24",
+      "socioComercial": "COSTEÑA"
+    },
+    {
+      "id": "art_0qrabiy",
+      "articulo": "132600010 LA COSTEÑA SALSAPICANT24U140ML UXC.: 24",
+      "socioComercial": "COSTEÑA"
+    },
+    {
+      "id": "art_87hsuet",
+      "articulo": "132600120 LA COSTEÑA FRIJOLCHARRO12U560G UXC.: 12",
+      "socioComercial": "COSTEÑA"
+    },
+    {
+      "id": "art_5yuz5tz",
+      "articulo": "132600110 LA COSTEÑA JALAPEÑOSENT220G UXC.: 24",
+      "socioComercial": "COSTEÑA"
+    },
+    {
+      "id": "art_hxxi2p6",
+      "articulo": "132600050 LA COSTEÑA SALSATAQUERA12U475G UXC.: 12",
+      "socioComercial": "COSTEÑA"
+    },
+    {
+      "id": "art_uxu2wxn",
+      "articulo": "132600140 LA COSTEÑA FRIJOLNEGROENT560G UXC.: 12",
+      "socioComercial": "COSTEÑA"
+    },
+    {
+      "id": "art_v0m5bel",
+      "articulo": "132600160 LA COSTEÑA FRIJOLBAYOENT560G UXC.: 12",
+      "socioComercial": "COSTEÑA"
+    },
+    {
+      "id": "art_yj06qq3",
+      "articulo": "132600150 LA COSTEÑA FRIJOLBAYOENT400G UXC.: 12",
+      "socioComercial": "COSTEÑA"
+    },
+    {
+      "id": "art_hmbo349",
+      "articulo": "132600170 LA COSTEÑA ELOTEDORADO24U220G UXC.: 24",
+      "socioComercial": "COSTEÑA"
+    },
+    {
+      "id": "art_k79e3ta",
+      "articulo": "125400480 MB DESINF CANELA 900ML UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_oq8zzd9",
+      "articulo": "132600180 LA COSTEÑA JALAPEÑOSRAJA 105G UXC.: 40",
+      "socioComercial": "COSTEÑA"
+    },
+    {
+      "id": "art_dvobi14",
+      "articulo": "105303850 AMBIENTAL GLADE_HC MINI GEL FR UXC.: 30",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_1vxpfse",
+      "articulo": "122700230 AMBIENTAL GLADE_AU MINI GEL OA UXC.: 30",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_5q6m659",
+      "articulo": "105303860 AMBIENTAL GLADE_HC MINI GEL LV UXC.: 30",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_i04daxi",
+      "articulo": "122700240 AMBIENTAL GLADE_AU MINIGEL LVM UXC.: 30",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_erco3pd",
+      "articulo": "106600370 COMFORT M 6X10S ROPA INTERIORE UXC.: 6",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_gi42nyn",
+      "articulo": "106600360 COMFORT G 6X10S ROPA INTERIORE UXC.: 6",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_3ymak6p",
+      "articulo": "106401010 ULTRA THN NIGHT WW 16X6SE UXC.: 16",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_brwe6ul",
+      "articulo": "106401450 DIARIOSMULTIESTILOSMF36X60SE UXC.: 36",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_o2ssecf",
+      "articulo": "106401070 CLASICA C/A 24X10S+2S(E) UXC.: 24",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_afnvqu4",
+      "articulo": "106401180 DIARIOS TRADIC REG 12X90SE UXC.: 12",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_8p4ybx4",
+      "articulo": "106401380 SLIP M 6X10S E UXC.: 6",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_tbnbr9l",
+      "articulo": "106401240 CONFORT MANZ REG C/A 12X14SE UXC.: 12",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_nc3q6dz",
+      "articulo": "106401220 DIARIOSTRADICIONALESLNG12X90SE UXC.: 12",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_5dwbq21",
+      "articulo": "106401470 DIARIOSMULTIESTILOSMF24X15SE UXC.: 24",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_dp5qks7",
+      "articulo": "106401640 ULTRA DEL C/A 16X10S E UXC.: 16",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_qft9kzk",
+      "articulo": "106401260 BUENAS NOCHES C/A 16X12SE UXC.: 16",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_sjbzrin",
+      "articulo": "106401340 PREDOBLADO 6X10SE UXC.: 6",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_gdl9w5i",
+      "articulo": "106401080 CLASICA REG C/A 24X10SE UXC.: 24",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_7qblhrn",
+      "articulo": "106401030 DIARIOSMULTIESTILOSTHK28X40SE UXC.: 28",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_d44elj0",
+      "articulo": "106401170 DIARIOS TRADIC REG 24X16SE UXC.: 24",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_lehnw8i",
+      "articulo": "106401300 INVISIBLE DEL C/A 16X10SE UXC.: 16",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_miu9s4t",
+      "articulo": "106401060 TAMPON SUPER US 24X10S COMP AE UXC.: 24",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_akyzyh7",
+      "articulo": "106401570 TAMPON  REGULAR 24X10S A COMPE UXC.: 24",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_xrek9fm",
+      "articulo": "106401630 ULTRA DEL LARGA C/A 16X12S E UXC.: 16",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_8uekb7v",
+      "articulo": "106401540 DIARIOSCONFORTMANZREG8X100SE UXC.: 8",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_eofspsa",
+      "articulo": "106401580 DIARIOSCONFORTMANZREG36X24SE UXC.: 36",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_n9lhjsq",
+      "articulo": "106401360 LADY NORMAL 12X10SE UXC.: 12",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_ne0msdc",
+      "articulo": "106400980 JABONINTIMOV-FRESH12X1S200ML E UXC.: 12",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_241kfjs",
+      "articulo": "106401270 BUENAS NOCHES C/A 24X8SE UXC.: 24",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_ljfqhyn",
+      "articulo": "106401500 CLASICA MANZ REG C/A 36X8SE UXC.: 36",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_5pvg3sh",
+      "articulo": "106401210 TAMPON  SUPER 24X10S COMP AE UXC.: 24",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_ry2do9o",
+      "articulo": "106401190 TOALLA HUMEDA 48X12SV-NATURALE UXC.: 48",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_bwpnaha",
+      "articulo": "106401390 JABONINTIMOVNATURAL12X1S200MLE UXC.: 12",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_p52n5oa",
+      "articulo": "106401610 ULTRADELGNOCTC/A12X10S E UXC.: 12",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_l1hfs65",
+      "articulo": "106401590 CONFORT MANZ DELG C/A 12X14SE UXC.: 12",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_2whed2g",
+      "articulo": "106401150 DIARIOS TRADIC LARGO 24X16SE UXC.: 24",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_x6yj2ic",
+      "articulo": "106401370 SLIP G6X10S E UXC.: 6",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_15tc2ow",
+      "articulo": "106401510 CLASICA REG S/A 24X10SE UXC.: 24",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_87adqb7",
+      "articulo": "106401250 BUENAS NOCHES C/A 6X24SE UXC.: 6",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_vbi27fc",
+      "articulo": "106401530 CONFORTMANZREGC/A10X10S E UXC.: 10",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_5214ois",
+      "articulo": "105400340 LIMPIADOR PATO PURIFIC DACT LF UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_qtd99vx",
+      "articulo": "125400500 MB DESINF CINTRONELA3.785LUXC4 UXC.: 4",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_lw6z1oz",
+      "articulo": "125400490 MB DESINF CITRONELA 900MLUXC12 UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_rot817p",
+      "articulo": "122001530 HERSHEY'S_SN KISS CNC 2.7OZPEG UXC.: 12",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_0lw7pya",
+      "articulo": "122001540 HERSHEY'S_SN KISS PEG 3OZ UXC.: 12",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_gacfd9p",
+      "articulo": "105400350 CLORO PATO PURIFIC GEL CITR500 UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_1dhcj3a",
+      "articulo": "105303890 AMBIENTAL GLADE_HC AE LAV275 UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_6a58h6t",
+      "articulo": "105303900 AMBIENTAL GLADE_HC AEFROJOS275 UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_5qlc0ny",
+      "articulo": "122001570 HERSHEY'S_SN BITES DARK 120G UXC.: 12",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_q2zsxbk",
+      "articulo": "106401770 SABA FP BUENAS NOCHES L 24X3 UXC.: 24",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_8w9f0bv",
+      "articulo": "106401780 SABA FP BUENAS NOCHES M 24X3 UXC.: 24",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_o3uiisf",
+      "articulo": "122700270 AMBIENTAL GLADE_AU PAPEL PINO UXC.: 48",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_1wf8m06",
+      "articulo": "122700260 AMBIENTAL GLADE_AU PAPEL ALGOD UXC.: 48",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_55nvw71",
+      "articulo": "100800920 CAROZZI LASAÑA PRECOCIDA  200G UXC.: 12",
+      "socioComercial": "CAROZZI"
+    },
+    {
+      "id": "art_2sftf79",
+      "articulo": "100800890 ACONCAGUA CABELLO ANGEL  400G UXC.: 30",
+      "socioComercial": "CAROZZI"
+    },
+    {
+      "id": "art_cimlsk6",
+      "articulo": "100800860 CAROZZI QUINOA DOYPACK  250G UXC.: 14",
+      "socioComercial": "CAROZZI"
+    },
+    {
+      "id": "art_6gq0se9",
+      "articulo": "105303960 AMBIENTAL GLADE_HC TM AP LAVN UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_b830man",
+      "articulo": "105303970 AMBIENTAL GLADE_HC PG PARAI3PR UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_778uh0v",
+      "articulo": "120800950 CLORO MB REGULAR 900 ML UXC12 UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_y3l81sq",
+      "articulo": "120800940 CLORO SUPERPRO 240ML UXC.: 72 UXC.: 72",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_47it8vd",
+      "articulo": "102101150 GUANDY CHOCALE VAINILLA 100G UXC.: 8",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_wgj917z",
+      "articulo": "106600740 TENA SLIP M NIGHT 6X8 UXC.: 6",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_lyactlv",
+      "articulo": "106600820 TENA PANTS M 6X10S + 3S(E) UXC.: 6",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_yzgi4f0",
+      "articulo": "106402030 SABAULTRADELGNOCTC/A12X10S+2PZ UXC.: 12",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_8wv85tc",
+      "articulo": "106402040 SABAINVISIBLEDELC/A16X10S+2PZ UXC.: 16",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_3zc4hpv",
+      "articulo": "100400500 TÉ SUPREMO ANIS 20 BOLS UXC.: 48",
+      "socioComercial": "CAMBIASO"
+    },
+    {
+      "id": "art_y04aqyd",
+      "articulo": "100400440 TÉ SUPREMO JENGIBRE LIMON 20BO UXC.: 48",
+      "socioComercial": "CAMBIASO"
+    },
+    {
+      "id": "art_ydwc1b6",
+      "articulo": "100400510 TÉ SUPREMO VERDE CON MATCHA UXC.: 48",
+      "socioComercial": "CAMBIASO"
+    },
+    {
+      "id": "art_x28fkxk",
+      "articulo": "100400520 TÉ SUPREMO MELISA ROMEO, POLEO UXC.: 48",
+      "socioComercial": "CAMBIASO"
+    },
+    {
+      "id": "art_o18aqov",
+      "articulo": "100400540 TÉ SUPREMO LIMON MENTA Y EUCAL UXC.: 48",
+      "socioComercial": "CAMBIASO"
+    },
+    {
+      "id": "art_5s5c0tf",
+      "articulo": "102200660 ANGE GUAND MINI BLANCO*24*100G UXC.: 24",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_jfjdbyj",
+      "articulo": "102200630 MARSH AMERICANO BLANCO 15*200G UXC.: 15",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_kkl201b",
+      "articulo": "102200670 MINI MARSHMALLOW COLOR*24*100G UXC.: 24",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_2bfztc3",
+      "articulo": "106600840 TENA SLIP G 6X10S + 2S(E) UXC.: 6",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_tppjec6",
+      "articulo": "106600850 TENA SLIP M 6X10S + 2S(E) UXC.: 6",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_ge7prmu",
+      "articulo": "102101230 GUANDY ANGELI CHURROFRESA 200G UXC.: 10",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_sk971nh",
+      "articulo": "102101240 MARSHMALLEW GUANDY LOONEY TUNE UXC.: 12",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_4tottwr",
+      "articulo": "104000810 LSIN ATUN MAIZ 160G UXC.: 24",
+      "socioComercial": "OTIS"
+    },
+    {
+      "id": "art_amklw09",
+      "articulo": "104000770 LSIN SARDINAS TMAT 48UN UXC.: 48",
+      "socioComercial": "OTIS"
+    },
+    {
+      "id": "art_do658az",
+      "articulo": "104000840 LSIN SARDINAS OVALADA TMAT 15Z UXC.: 12",
+      "socioComercial": "OTIS"
+    },
+    {
+      "id": "art_g5umzp4",
+      "articulo": "104000860 LSIN SARDINAS VLD PC PC 15Z UXC.: 12",
+      "socioComercial": "OTIS"
+    },
+    {
+      "id": "art_n2bmuqx",
+      "articulo": "104000800 LSIN ATUN JLPN 24UN UXC.: 24",
+      "socioComercial": "OTIS"
+    },
+    {
+      "id": "art_qrepxxx",
+      "articulo": "104000760 LSIN SARDINAS PICA POCO 24UN UXC.: 24",
+      "socioComercial": "OTIS"
+    },
+    {
+      "id": "art_u1r4f8v",
+      "articulo": "104000780 LSIN SARDINAS PICA PICA 48UN UXC.: 48",
+      "socioComercial": "OTIS"
+    },
+    {
+      "id": "art_lf5qu1p",
+      "articulo": "125400520 MB DESINF CITRONELA BOTE 450ML UXC.: 24",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_q9gn05l",
+      "articulo": "138000050 PAÑO CONTRASTE ABSORB ANTIBACT UXC.: 36",
+      "socioComercial": "INBRISA"
+    },
+    {
+      "id": "art_1x787zl",
+      "articulo": "138000040 PAÑO CONTRASTE TRAPEADORABSORB UXC.: 18",
+      "socioComercial": "INBRISA"
+    },
+    {
+      "id": "art_bw10i7o",
+      "articulo": "138000190 FIBRA CONTRASTE FUNDADOBLEUSO UXC.: 60",
+      "socioComercial": "INBRISA"
+    },
+    {
+      "id": "art_mfbdcd1",
+      "articulo": "138000030 PAÑO CONTRASTE LIMPIADOR 3UN UXC.: 36",
+      "socioComercial": "INBRISA"
+    },
+    {
+      "id": "art_kbkqykk",
+      "articulo": "125400530 MBDESINF CANELA 3785ML UXC.: 4",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_lppav6o",
+      "articulo": "110700130 CLORO SUPERPRO REGULAR1L UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_0g81zre",
+      "articulo": "110700120 CLORO SUPERPRO REGULAR 3.785L UXC.: 4",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_atp48st",
+      "articulo": "102101300 GUANDY BOLSONZOO BONGY24X50X5G UXC.: 24",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_olmqds9",
+      "articulo": "138100040 FIBRA ALABRILL FUNDARESISTENTE UXC.: 12",
+      "socioComercial": "INBRISA"
+    },
+    {
+      "id": "art_p26t4s1",
+      "articulo": "138100060 FIBRA ALABRILL FUNDADOBLEUSO UXC.: 12",
+      "socioComercial": "INBRISA"
+    },
+    {
+      "id": "art_cxqyoi0",
+      "articulo": "105304130 AMBIENTAL GLADE_HC AE MC+LV275 UXC.: 6",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_k3ehsz7",
+      "articulo": "105600290 LIMPIADOR PLEDGE ACEITE HUMECT UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_o6ho1on",
+      "articulo": "105304140 AMBIENTAL GLADE_HC TM PARAI AP UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_6h6jmgc",
+      "articulo": "132600250 LA COSTEÑA SALSA MEXICANA 450G UXC.: 12",
+      "socioComercial": "COSTEÑA"
+    },
+    {
+      "id": "art_n8cp3it",
+      "articulo": "132600230 LA COST SALSA TAQUERA BOT 450G UXC.: 12",
+      "socioComercial": "COSTEÑA"
+    },
+    {
+      "id": "art_d21j5as",
+      "articulo": "132600240 LA COSTEÑ SALSA VERDE BOT 450G UXC.: 12",
+      "socioComercial": "COSTEÑA"
+    },
+    {
+      "id": "art_m0y511k",
+      "articulo": "102101440 GUMMIES PINGUIN CE 20*100G UXC.: 20",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_lrgkjcm",
+      "articulo": "102101430 GUMMIES PULPOS CE 20*100G UXC.: 20",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_rftyf2b",
+      "articulo": "102101480 GUMMIES OSITOS CE 20*100G UXC.: 20",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_i2hqbx4",
+      "articulo": "102101510 GUMMIES CULEBRITA AZUL 20*100G UXC.: 20",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_c7m1hnl",
+      "articulo": "102101420 GUMMIES TIBUROLOCOS CE 20*100G UXC.: 20",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_p45jh8b",
+      "articulo": "102101520 GUMMIES CUBO LOCO CE 20*100G UXC.: 20",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_ued61wg",
+      "articulo": "102101490 GUMMIES GAJOS CITRICOS 20*100G UXC.: 20",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_e2phqo2",
+      "articulo": "102101500 GUMMIES DR. DIENTON CE 20*100G UXC.: 20",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_cyhlzbi",
+      "articulo": "102101450 GUMMIES MARACUYA 20*100G UXC.: 20",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_bon6sso",
+      "articulo": "103100150 EL PANAL OSITO PET 340 GR UXC.: 12",
+      "socioComercial": "PAVIA"
+    },
+    {
+      "id": "art_gjfqw9f",
+      "articulo": "125400540 MB DESINF 1/2 GALON CITRONELA UXC.: 8",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_erp6pwt",
+      "articulo": "125400560 MB DESINF 1/2 GALON LAVANDA UXC.: 8",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_c8w2ctw",
+      "articulo": "125400550 MBDESINF1/2 GALON MANZANA UXC.: 8",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_igs5n5y",
+      "articulo": "105304220 GLDAEFRTSRJ275ML+NTGRSDP250ML UXC.: 6",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_n4m7x4u",
+      "articulo": "105304210 GLDAELVND275ML+NTGRS DP 250ML UXC.: 6",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_ownryrc",
+      "articulo": "105200830 INSECTICIDAS RAID MAX 285ML UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_8o1ji4f",
+      "articulo": "105200810 INSECTICIDAS RAID MAX EU 430ML UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_3uv9r8k",
+      "articulo": "105200800 INSECTICIDAS RAID C&JEU 430ML UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_ydhrzya",
+      "articulo": "105200840 INSECTICIDAS RAID AE C&J 285ML UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_osrhgjg",
+      "articulo": "105200820 INSECTICIDA BAYGON AE 285ML UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_e28kk1o",
+      "articulo": "120800990 CLORO MB REG 900 ML POLI UXC12 UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_ajso9my",
+      "articulo": "103100160 MIEL EL PANAL ORIGINAL 500 GR UXC.: 16",
+      "socioComercial": "PAVIA"
+    },
+    {
+      "id": "art_1e1bo25",
+      "articulo": "105900310 INSECTICIDA BAYGON U400+285ML UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_6rhnk29",
+      "articulo": "105400380 LIMPIADOR PATO ACTIVA LIMA FRE UXC.: 8",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_mtenges",
+      "articulo": "102101590 GUANDY GUMY PULPFRASCO*12*800G UXC.: 12",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_ppr30zw",
+      "articulo": "102101600 GUANDY CUBETACULEBRITA UXC.: 12",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_zd5rc73",
+      "articulo": "132000180 GREZON LOL UXC.: 48",
+      "socioComercial": "GREZON"
+    },
+    {
+      "id": "art_5xpnfsm",
+      "articulo": "105800840 LIMPIADOR MR MUSCULO S&MUGR500 UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_jrp4jez",
+      "articulo": "105800800 LIMPIADOR MR MUSCULO TRG LIMÓN UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_myr900z",
+      "articulo": "105800830 LIMPIADOR MR MUSCULO TRG SHCL UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_6xztpy4",
+      "articulo": "105800820 LIMPIADOR MR MUSCULO VIDTRG500 UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_0x4aev9",
+      "articulo": "105800810 LIMPIADOR MR MUSCULO TRG ANTIG UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_k2ly6tz",
+      "articulo": "105600300 LIMPIADOR PLEDGE TRG MULTISUP UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_jbj3skm",
+      "articulo": "105800850 LIMPIADOR MR MUSCULO TRG BAÑOS UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_9jr70x0",
+      "articulo": "100800970 CAROZZI SPAGHETTI INTEGRA 400G UXC.: 25",
+      "socioComercial": "CAROZZI"
+    },
+    {
+      "id": "art_57m43ho",
+      "articulo": "139400160 AUSTRALIAN EVAPORADA 410G UXC.: 48",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_my3fjka",
+      "articulo": "170700010 SMILK AMARILLA BEB LACTEA 120G UXC.: 48",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_poiv8zf",
+      "articulo": "139400150 AUSTRALIAN ENTERA UHT 1L UXC.: 12",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_1gqhcw0",
+      "articulo": "139400050 AUSTRALIAN DESCREMADA 350G UXC.: 24",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_1bv3bmz",
+      "articulo": "170700050 SMILK VERDE BEB LACTEA 2000G UXC.: 6",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_vl21toq",
+      "articulo": "139400030 AUSTRALIAN CONDENSADA 397G UXC.: 48",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_jlujh0g",
+      "articulo": "170600020 AUS EXTRA CALCIO 350G UXC.: 24",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_tmz47sq",
+      "articulo": "139400090 AUSTRALIAN ENTERA 1500G UXC.:6 UXC.: 6",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_v44h74x",
+      "articulo": "139400060 AUSTRALIAN DESCREMADA UHT 1L UXC.: 12",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_ul1dm51",
+      "articulo": "139400120 AUSTRALIAN ENTERA 350GR UXC:24 UXC.: 24",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_a9c7853",
+      "articulo": "170700020 SMILK AMARILLA BEB LACTEA 360G UXC.: 24",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_eytkq7c",
+      "articulo": "170600010 AUS EXTRA CALCIO 1500G UXC.: 6",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_d6ui24i",
+      "articulo": "170700040 SMILK VERDE BEB LACTEA 120G UXC.: 48",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_d30a8fd",
+      "articulo": "139400140 AUSTRALIAN ENTERA 720G UXC.: 12",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_p4xioet",
+      "articulo": "139400040 AUSTRALIAN DESCREMADA 1500G UXC.: 6",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_2u2odhm",
+      "articulo": "139400100 AUSTRALIAN ENTERA 2200G UXC.: 6",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_wfo64wc",
+      "articulo": "139400070 AUSTRALIAN DSL SEMDESCR UHT 1L UXC.: 12",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_x2yehfy",
+      "articulo": "170700060 SMILK VERDE BEB LACTEA 360G UXC.: 24",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_c0xccgj",
+      "articulo": "100400640 SUPREMO TÉ FRUTOS PATAGONICOS UXC.: 48",
+      "socioComercial": "CAMBIASO"
+    },
+    {
+      "id": "art_2hrij3o",
+      "articulo": "106402390 SABA SPORT ULTRADEL LAR 16X12 UXC.: 16",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_flqi337",
+      "articulo": "122100390 DEL CARMEN_SN PIÑACOLADA UXC.: 16",
+      "socioComercial": "PDC DEL CARMEN"
+    },
+    {
+      "id": "art_qq4horv",
+      "articulo": "122001990 BARRA WHITE ALMOND 41G UXC.: 432",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_w5a37r4",
+      "articulo": "103100190 MIEL EL PANAL ORIGINAL 750 GR UXC.: 14",
+      "socioComercial": "PAVIA"
+    },
+    {
+      "id": "art_qfofvm5",
+      "articulo": "110600170 AVENA DEL CARMEN REG 200 UXC20 UXC.: 20",
+      "socioComercial": "PDC DEL CARMEN"
+    },
+    {
+      "id": "art_fxjyjbr",
+      "articulo": "110600180 AVENA DEL CARMEN 350GR UXC14 UXC.: 14",
+      "socioComercial": "PDC DEL CARMEN"
+    },
+    {
+      "id": "art_sgnnldw",
+      "articulo": "110700160 SPR_PRO CL REG 240ML DOC UXC72 UXC.: 72",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_movlyo9",
+      "articulo": "105304320 AMBIENTAL GLADE_AU MINIGELPINO UXC.: 30",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_ym1dek1",
+      "articulo": "122002130 HERSHEYS  BOLSA KISS C&C 50UN UXC.: 1",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_erx9t0c",
+      "articulo": "122100440 DEL CARMEN_SN PASAS UXC.: 16",
+      "socioComercial": "PDC DEL CARMEN"
+    },
+    {
+      "id": "art_9lpx6rn",
+      "articulo": "122100430 DEL CARMEN_SN CHOCO UXC.: 16",
+      "socioComercial": "PDC DEL CARMEN"
+    },
+    {
+      "id": "art_fql1mxj",
+      "articulo": "122100420 DEL CARMEN_SN MANZANA UXC.: 16",
+      "socioComercial": "PDC DEL CARMEN"
+    },
+    {
+      "id": "art_h23cgaw",
+      "articulo": "122100410 DEL CARMEN_SN MANTEQUILLA UXC.: 16",
+      "socioComercial": "PDC DEL CARMEN"
+    },
+    {
+      "id": "art_99kt2hq",
+      "articulo": "122100490 DEL CARMEN SN AVELLANA UXC: 18 UXC.: 18",
+      "socioComercial": "PDC DEL CARMEN"
+    },
+    {
+      "id": "art_7co67r1",
+      "articulo": "102101670 GUANDY GUMMICULEBRITACE20*100G UXC.: 20",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_nz36tf2",
+      "articulo": "145700020 TRIUNFO TORTINI FRESA 65X90G UXC.: 65",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_ncvzx8n",
+      "articulo": "145800060 FORMIS RELLENA CH FRESA 48X86G UXC.: 48",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_5hnzz27",
+      "articulo": "145800050 FORMIS RELLENA CHOCOLAT 48X86G UXC.: 48",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_ynnvyxr",
+      "articulo": "145700010 TRIUNFO TORTINI CHOCO 65X90G UXC.: 65",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_06nozvh",
+      "articulo": "145900020 WAFER ARCOR FRESA 108G UXC.: 40",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_x2ktiph",
+      "articulo": "145800010 FORMIS RECH QUADCHOCO12X12X43G UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_qeyn0xc",
+      "articulo": "145800030 FORMIS RELL CUAD CHOCO 70X86G UXC.: 70",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_rcqspe1",
+      "articulo": "145800040 FORMIS RELL CUAD FRESA 70X86G UXC.: 70",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_56ap2by",
+      "articulo": "145900010 WAFER ARCOR CHOCOLATE 108G UXC.: 40",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_reocrk0",
+      "articulo": "145800020 FORMIS RECH FRESA12X12X43G UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_gs48znf",
+      "articulo": "139400200 EXHIBIDOR 12X4 X 110G UXC.: 48",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_9lw4if7",
+      "articulo": "170700070 SMILK VERDE BEB LACTEA 8KG UXC.: 1",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_3fat7uj",
+      "articulo": "105200910 INSECTICIDAS RAID MAX COC400ML UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_9smeigs",
+      "articulo": "105800870 LIMPIADOR MR MUSCULO TRG MULTI UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_4wt6n6l",
+      "articulo": "105800880 LIMPIADOR MR MUSCULO DP MULTI UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_8llickz",
+      "articulo": "139400250 AUSTRALIAN ENTERA 60G RIS UXC.: 18",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_2vwjy17",
+      "articulo": "139400260 AUSTRALIAN RISTRA 26G UXC.: 18",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_uwp3xrg",
+      "articulo": "105800910 LIMPIADOR MR MUSCULO TRGANT+DP UXC.: 6",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_8f6k27a",
+      "articulo": "105800900 LIMP MR MUSC TRGVID+DP 1000ML UXC.: 6",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_zrxbcuw",
+      "articulo": "105304500 AMBIENTAL GLADE_HC CONO PÉTALS UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_avzbv9p",
+      "articulo": "106402730 SABA DIARIOS LARGOS 24X50 UXC.: 24",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_51gb7yd",
+      "articulo": "105200950 REPELENTE RAID LAMINITASRP 24U UXC.: 24",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_baspski",
+      "articulo": "105200940 INSECTICIDAS RAID SAFE 400ML UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_49nsbal",
+      "articulo": "106402720 SABA DIARIOS REGULAR 24X50 UXC.: 24",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_q7d1f34",
+      "articulo": "106402750 PD SABA DIARIOTRADILAR24X16+4S UXC.: 24",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_4krgcpi",
+      "articulo": "220800400 CLORO CUBETA+TAPA 3L UXC.: 1",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_qzwt5t3",
+      "articulo": "122002330 HERSHEYS BOLSA CHOCO MNTU 30U UXC.: 30",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_jqwz32c",
+      "articulo": "122002360 HERSHEYS BOLSA REESES 30U UXC.: 30",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_91boq5n",
+      "articulo": "122002340 HERSHEYS BOLSA KISS MILK 50U UXC.: 30",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_3x8lxm3",
+      "articulo": "122002350 HERSHEYS BOLSA CHOCO NUGET 30U UXC.: 30",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_xs8uodi",
+      "articulo": "120801030 CLORO MAGIA BLANCA REG 450ML UXC.: 24",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_6dq32fr",
+      "articulo": "122002370 HERSHEYS BARRA CHOCO MILK 43G UXC.: 432",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_hefnh79",
+      "articulo": "121900100 HERSHEYS 6CT CHOCO CNCRM 162G UXC.: 14",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_z46tusu",
+      "articulo": "122002380 HERSHEYS 6CT CHOCO MILK 162G UXC.: 14",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_hisv4sx",
+      "articulo": "122100510 GALLETAS DEL CARMEN CHOCOLATE UXC.: 18",
+      "socioComercial": "PDC DEL CARMEN"
+    },
+    {
+      "id": "art_nmjkwk3",
+      "articulo": "106601210 TENA PANTS COMFORT M 6X10S+3S UXC.: 6",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_b1fzp8q",
+      "articulo": "106601220 TENA PANTS COMFORT G 6X10S+3S UXC.: 6",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_biwsma8",
+      "articulo": "122700370 AMBIENTAL GLADE_AUSP CITRUS AP UXC.: 6",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_94lgpxd",
+      "articulo": "122700380 AMBIENTAL GLADE_AUSP CITRUS RP UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_9ld7tqt",
+      "articulo": "106300150 DESINFECTANTE FAMILY GUARD FLR UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_07x34is",
+      "articulo": "106300110 DESINFECTANTE FAMILY GUARD DPF UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_ty15aao",
+      "articulo": "106300140 DESINFECTANTE FAMILY GUARD TRF UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_kq86uy1",
+      "articulo": "128200280 MB PEROX BLANCO BOT800ML UXC12 UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_98c1rop",
+      "articulo": "128200290 MB PEROX COLOR BOT450ML UXC12 UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_spmigiw",
+      "articulo": "128200270 MB PEROX COLOR BOT800ML UXC12 UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_zis0jtu",
+      "articulo": "106300170 DESINFECTANTE FAMILY GUARD FSM UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_adtqird",
+      "articulo": "105304580 AMBIENTAL GLADE_HC MINI GEL MO UXC.: 30",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_ojhzjc7",
+      "articulo": "105304610 AMBIENTAL GLADE_HC AE MORA RAD UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_yp0x405",
+      "articulo": "128200300 MB PEROX BLANCO BOT450ML UXC12 UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_sb96h6b",
+      "articulo": "105304630 AMBIENTAL GLADE_HC PG MORA AP UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_g50g8k0",
+      "articulo": "100801040 ACONCAGUA SPAGHETTI 5 200G UXC.: 24",
+      "socioComercial": "CAROZZI"
+    },
+    {
+      "id": "art_oe1dtva",
+      "articulo": "147600050 MB PCARE ESPUMA 500ML UXC12 UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_xxpmuge",
+      "articulo": "147600010 MB PCARE JABON ANT 1L UXC 12 UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_byyiqyd",
+      "articulo": "147600030 MB PCARE JABON ANT500ML UXC12 UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_fxol94e",
+      "articulo": "147600060 MB PCARE JABON ANT 220ML UXC12 UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_05r6l88",
+      "articulo": "147600040 MB ESPUMA CLINITY 75ML UXC 8 UXC.: 24",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_zf2quzz",
+      "articulo": "122100520 DEL CARMEN SN CHOCO MINI UXC 5 UXC.: 5",
+      "socioComercial": "PDC DEL CARMEN"
+    },
+    {
+      "id": "art_3gcoj1i",
+      "articulo": "148400030 JABON TOCSOLENTI RJVNCR 4U440G UXC.: 24",
+      "socioComercial": "ECISA"
+    },
+    {
+      "id": "art_tds6dn2",
+      "articulo": "138000270 CONTRASTE ESPONJA SUPER PO UXC.: 52",
+      "socioComercial": "INBRISA"
+    },
+    {
+      "id": "art_itfrm8g",
+      "articulo": "138000260 CONTRASTE ESPONJA DOBLE USO 1U UXC.: 65",
+      "socioComercial": "INBRISA"
+    },
+    {
+      "id": "art_w405ecw",
+      "articulo": "138000280 CONTRASTE ALAMBR XTRA FUERT 2U UXC.: 36",
+      "socioComercial": "INBRISA"
+    },
+    {
+      "id": "art_axqglos",
+      "articulo": "138000290 CONTRASTE FIBRA RESISTENTE 3U UXC.: 28",
+      "socioComercial": "INBRISA"
+    },
+    {
+      "id": "art_ui4fspc",
+      "articulo": "138000330 CONTRASTE ESPONJA DOBLE USO 2U UXC.: 34",
+      "socioComercial": "INBRISA"
+    },
+    {
+      "id": "art_4y24um6",
+      "articulo": "138000320 CONTRASTE ESPONJA BELA UXC.: 56",
+      "socioComercial": "INBRISA"
+    },
+    {
+      "id": "art_3y6vfpm",
+      "articulo": "102101770 GUANDY GOMITASGAJOS*12*500G*5G UXC.: 12",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_cb3a33i",
+      "articulo": "138000350 ESPON ANAT EVIT VERD 2PACK1X30 UXC.: 30",
+      "socioComercial": "INBRISA"
+    },
+    {
+      "id": "art_7kdqdoz",
+      "articulo": "138000340 ESP ANATO EVIT NARAN 2PACK1X30 UXC.: 30",
+      "socioComercial": "INBRISA"
+    },
+    {
+      "id": "art_a1tcenk",
+      "articulo": "105304680 GLDAEABVAI400ML+NTGRSDP250ML UXC.: 6",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_7ud6ysd",
+      "articulo": "105304710 GLDAEMANCAN400ML+NTGRSDP250ML UXC.: 6",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_pue8n8d",
+      "articulo": "105304690 GLDAELIMON400ML+NTGRSDP250ML UXC.: 6",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_vqoddkn",
+      "articulo": "105304700 GLDAEPARAIAZ400ML+NTGRSDP250ML UXC.: 6",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_d4soxf3",
+      "articulo": "105304720 GLDAEHAWIAN400ML+NTGRSDP250ML UXC.: 6",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_xv6yhd6",
+      "articulo": "105304730 GLDAELVND400ML+NTGRSDP250ML UXC.: 6",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_gm51p7e",
+      "articulo": "105304740 GLDAEFRTSRJ400ML+NTGRSDP250ML  UXC.: 6",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_sa6pbot",
+      "articulo": "105304820 AMBIENTAL GLADE_HC AE ENCFR275 UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_8d1wkob",
+      "articulo": "105304810 AMBIENTAL GLADE_HC AE PINOS275 UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_vvu3hgv",
+      "articulo": "105304830 AMBIENTAL GLADE_HC AE FANPINOS UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_b0r2igg",
+      "articulo": "106601250 TENA PANTS COMFORT M 12X8S UXC.: 12",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_z56zgah",
+      "articulo": "105304850 AMBIENTAL GLADE_HC AE ENC FRUT UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_to56tib",
+      "articulo": "106601260 TENA PANTS COMFORT G 12X8S UXC.: 12",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_8x87pxp",
+      "articulo": "102101790 BANDEJA CULEBRITAS XXL 540G UXC.: 12",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_zvpp6q8",
+      "articulo": "139400310 AUSTRALIAN DESCREMADA 720 GRS UXC.: 12",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_vmz2xj7",
+      "articulo": "145900030 PANETTONE GOTAS CHOCOLATE 400 UXC.: 18",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_439aclz",
+      "articulo": "145900040 PANETTONE FRUTAS 400GR. UXC.: 18",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_wry5ylu",
+      "articulo": "106402970 FP ULTDELGA SENSI-VNGHTWW10X10 UXC.: 10",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_alexdjl",
+      "articulo": "106402980 FP ULTRADELGA SENSI-V WW10X10S UXC.: 10",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_awenbgm",
+      "articulo": "106402990 PL SENSITIVI-V DIAR LONG24X40S UXC.: 24",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_rklshc0",
+      "articulo": "222000050 HERSHEYS PROMCHOCBARRA ALMONDS UXC.: 432",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_txqunpj",
+      "articulo": "102101800 GUANDY GUMMIESGOTITASCE20*100G UXC.: 20",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_morvvee",
+      "articulo": "139400330 AUSTRALIAN SEMIDESCREMA UHT 1L UXC.: 12",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_dfc6xcl",
+      "articulo": "139400320 AUSTRALIAN DESL DESCREM UHT 1L UXC.: 12",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_nhb08q3",
+      "articulo": "100400650 TÉ SUPREMO 8 HIERBAS UXC.: 48",
+      "socioComercial": "CAMBIASO"
+    },
+    {
+      "id": "art_czmtiln",
+      "articulo": "148400150 SOLENTI JABON TOC BELLEZA 110G UXC.: 96",
+      "socioComercial": "ECISA"
+    },
+    {
+      "id": "art_i9peycs",
+      "articulo": "148400140 SOLENTI JAB TOC REJUVENEC110G UXC.: 96",
+      "socioComercial": "ECISA"
+    },
+    {
+      "id": "art_bxwc3ay",
+      "articulo": "148400170 SOLENTI JABON TOC ORIGINAL110G UXC.: 96",
+      "socioComercial": "ECISA"
+    },
+    {
+      "id": "art_demjtzd",
+      "articulo": "106601280 TENA PANTS COMFORTG 12X8+3S(M) UXC.: 12",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_k3vosvx",
+      "articulo": "106601290 TENA PANTS COMFORTM 12X8+3S(M) UXC.: 12",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_07yllv8",
+      "articulo": "148400180 JABON TOC ANTIBACT110G UXC.: 96",
+      "socioComercial": "ECISA"
+    },
+    {
+      "id": "art_0nlas28",
+      "articulo": "139400410 AUSTRALIAN ECONOMILK 2200G UXC.: 6",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_4mw95x4",
+      "articulo": "139400430 AUSTRALIAN ECONOMILK 350G UXC.: 24",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_mbqu6lv",
+      "articulo": "9821321 AP - AUSTRALIAN POLVO UXC.:",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_gc03dcz",
+      "articulo": "100400680 2PACK SUPREMO JENGIBRE Y EUCAL UXC.: 24",
+      "socioComercial": "CAMBIASO"
+    },
+    {
+      "id": "art_7bejdpk",
+      "articulo": "120801060 CLORO MB CAMPOS MENTA 1LX12U UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_w7gwlxv",
+      "articulo": "120801070 CLORO MB CAMP MENTA 3.785L X4U UXC.: 4",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_ukfci4b",
+      "articulo": "125400610 MB DESINF PINO 900ML UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_slw8qn9",
+      "articulo": "105200960 REPELENTE RAID LAMINITASRP 16U UXC.: 24",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_vxweb37",
+      "articulo": "105900360 REPELENTE BAYGON PLAQUIT RP16U UXC.: 24",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_j3672oa",
+      "articulo": "139400480 AUSTRALIAN POLVO ENTERA 360G UXC.: 24",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_dciw8yo",
+      "articulo": "106403110 FP BUENA NOCHES WW8X12S+INVIS7 UXC.: 8",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_x3o5oub",
+      "articulo": "172500060 MERMELADA NARANJA 454 GRS UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_t2oci6s",
+      "articulo": "172500040 MERMELADA FRUTILLA 454 GRS UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_ua66hc1",
+      "articulo": "172500020 DURAZNO MITAD ARCOR 820 GR. UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_ajpq2v0",
+      "articulo": "172500080 MERMELADA DURAZNO 454 GRS UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_p111lba",
+      "articulo": "173200030 FOSFORO ZAZ 10X100 UXC.: 10",
+      "socioComercial": "GATO NEGRO"
+    },
+    {
+      "id": "art_k8aqf3v",
+      "articulo": "173500120 CONSOME CAMARON TIRA 20X10GR UXC.: 24",
+      "socioComercial": "RIKO"
+    },
+    {
+      "id": "art_2vj58up",
+      "articulo": "173500080 CAFE RIKO CAPPU MOCAC 12X20GR UXC.: 6",
+      "socioComercial": "RIKO"
+    },
+    {
+      "id": "art_94lq98c",
+      "articulo": "173500100 CONSOME POLLO TIRA 20X10GR UXC.: 24",
+      "socioComercial": "RIKO"
+    },
+    {
+      "id": "art_mcj365i",
+      "articulo": "173500160 CONSOME COSTILLA TIRA 20X10GR UXC.: 24",
+      "socioComercial": "RIKO"
+    },
+    {
+      "id": "art_05q6nud",
+      "articulo": "173500060 CAFE RIKO CAPPU VAINIL 12X20GR UXC.: 6",
+      "socioComercial": "RIKO"
+    },
+    {
+      "id": "art_k3xiyx6",
+      "articulo": "173500140 CONSOME GALLINA TIRA 20X10GR UXC.: 24",
+      "socioComercial": "RIKO"
+    },
+    {
+      "id": "art_0ads066",
+      "articulo": "173500040 CAFE RIKO CAPPU CLASIC 12X20GR UXC.: 6",
+      "socioComercial": "RIKO"
+    },
+    {
+      "id": "art_ki4no07",
+      "articulo": "172900040 FOSFORO GATO NEGRO 10X100 UXC.: 10",
+      "socioComercial": "GATO NEGRO"
+    },
+    {
+      "id": "art_63qrnsk",
+      "articulo": "173300120 ACT II EXTRA MANTEQUILLA 1 UN. UXC.: 32",
+      "socioComercial": "ACT II"
+    },
+    {
+      "id": "art_e4oik77",
+      "articulo": "172800080 L.AUSTRAL.PROTECC.2200GR.+PROM UXC.: 6",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_yvon5im",
+      "articulo": "172800120 L.AUSTRALIAN PROTECCION 800GR. UXC.: 12",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_h3sq9fo",
+      "articulo": "173300060 ACT II MANTEQUILLA EXTRA UXC.: 72",
+      "socioComercial": "ACT II"
+    },
+    {
+      "id": "art_2me04bx",
+      "articulo": "173300040 ACT II MANTEQUILLA UXC.: 72",
+      "socioComercial": "ACT II"
+    },
+    {
+      "id": "art_ry7ek5u",
+      "articulo": "173300140 TIRA ACT II EXTRA MANTEQ.6 UN UXC.: 30",
+      "socioComercial": "ACT II"
+    },
+    {
+      "id": "art_g6fyqhg",
+      "articulo": "173300020 ACT II NATURAL UXC.: 72",
+      "socioComercial": "ACT II"
+    },
+    {
+      "id": "art_ynug2le",
+      "articulo": "172800040 L.AUSTRALIAN PROTECC.1600GR UXC.: 6",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_s2vld74",
+      "articulo": "172800060 L.AUSTRALIAN PROTECC. 2200GR UXC.: 6",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_2r92qtb",
+      "articulo": "172800020 L.AUSTRALIAN PROTECC.12X30GR UXC.: 24",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_h95n6rx",
+      "articulo": "173300080 ACT II MANTEQUILLA LIGHT UXC.: 72",
+      "socioComercial": "ACT II"
+    },
+    {
+      "id": "art_1azyqb3",
+      "articulo": "172800100 L.AUSTRALIAN PROTECCION 360GR. UXC.: 24",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_95p6avs",
+      "articulo": "172300880 CARAMELO MENTA CRISTAL 810GR UXC.: 6",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_hx5d0ua",
+      "articulo": "172301570 MOGUL FRUTILLAS 150GR. UXC.: 24",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_dr9v1cf",
+      "articulo": "172301200 CARAMELO RELLENOS MIEL 540GR UXC.: 6",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_wpuas52",
+      "articulo": "172301720 MOGUL SANDIA EXTREME 10X50GR U UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_24885dg",
+      "articulo": "172301510 CHICLE PLUTON.SOCO GELO 180GR UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_o0baz4d",
+      "articulo": "172301220 PARTY MIX 1X2000GRAMOS UXC.: 6",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_8fsp5iz",
+      "articulo": "172301120 BUTT.TOFF.LECHE CONDES. 500GR. UXC.: 15",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_mblsydh",
+      "articulo": "172301760 ROLLO MOGUL ACIDO EXT.12X35GR. UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_xlrawoe",
+      "articulo": "172300160 ALFAJOR BLANCO 40 GRS. UXC.: 40",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_tjzmq5q",
+      "articulo": "172302630 TIRA MOGUL PIECITOS 12X30GR UXC.: 25",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_1zm0kzd",
+      "articulo": "172302070 CHOCOL.METEOR.ROCKLET 16X100GR UXC.: 4",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_x7z8wwr",
+      "articulo": "172301100 BUTTER TOFFEE MARACUYA 500GR. UXC.: 15",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_ed867o0",
+      "articulo": "172301450 CHICLE PLUTON.ACIDO.VERD.180GR UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_ysgheyp",
+      "articulo": "172302310 ROCKLETS CHOCOLATE 18X35GR UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_x5ivqd6",
+      "articulo": "172300370 BON O BON LECHE       15X15GR UXC.: 20",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_n4mc9tk",
+      "articulo": "172300820 STARLIGHT MINT 590GR UXC.: 24",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_ck1jxo2",
+      "articulo": "172300430 BON O BON FRESA 30UX15GX12 UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_efjky6n",
+      "articulo": "172300840 STRALIGHT MINTS 12X1008G UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_xtwvcjo",
+      "articulo": "172301780 SAPITO BOL.CACAHUATE  20X10 UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_2bowo4p",
+      "articulo": "172302180 TABLETA LECHE 20X52GR UXC.: 20",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_tpiioht",
+      "articulo": "172300330 BON O BON BLANCO 30UX15GX12 UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_8h4n0wm",
+      "articulo": "172301140 BUTT. TOFFEE DULCE LECHE 959GR UXC.: 6",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_3k2b6lq",
+      "articulo": "172301330 POOSH MORA AZUL     40X4GR UXC.: 18",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_x397knc",
+      "articulo": "172302450 BOTE BON O BON LECHE 60X15GR UXC.: 1",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_vevnq53",
+      "articulo": "172300630 MENTHOPLUS EUCALIPTOL 12X30.6G UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_jowt6sq",
+      "articulo": "172301370 POOSH MENTA 40X4GR UXC.: 18",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_40dahho",
+      "articulo": "172302580 TIRA SAPITO VARIEDAD  20UNID UXC.: 25",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_9jdfgf9",
+      "articulo": "172301800 SAPITO BSA CHISPA COL 20X10 UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_yjr4kxt",
+      "articulo": "172301700 MOGUL MORAS 150GR. UXC.: 24",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_04rh1xz",
+      "articulo": "172300470 BON O BON VITROLERO   14X15GR UXC.: 18",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_asxscny",
+      "articulo": "172301550 MOGUL FRUTALES 10X50GRS UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_r59n142",
+      "articulo": "172300570 MENTHOPLUS MENTA 12X30.6G UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_bcpz1y6",
+      "articulo": "172301740 MOGUL DIENTES 150GR UXC.: 24",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_9vfc0ha",
+      "articulo": "172300490 BON O BON COOKIES&C 30UX15GX12 UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_w1bg0qc",
+      "articulo": "172300200 BON O BON BLANCO 6X15GR UXC.: 24",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_0cb7oo7",
+      "articulo": "172300530 MENTHOPLUS MENTOL 12X30.6G UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_6ubyui6",
+      "articulo": "172301610 MOGUL PIECITOS 12X30GR UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_lynjwjc",
+      "articulo": "172300140 ALFAJOR LECHE 40GR UXC.: 40",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_bk81ngv",
+      "articulo": "172301080 CARAM.EUCALIPTOL 125GR UXC.: 36",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_ns7j6p2",
+      "articulo": "172302390 TIRA OBLEA LECHE 10UNI UXC.: 25",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_jdfgw6x",
+      "articulo": "172301390 POOSH SANDIA 40X4GR UXC.: 18",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_kwlqq4n",
+      "articulo": "172302700 TIRA ROCKLETS MANI UXC.: 25",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_ud158s8",
+      "articulo": "172301020 BUTTER TOFFEES CHOCOLA126GR UXC.: 36",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_c0vg862",
+      "articulo": "172300060 BLOW MARACUYA 24X16GR. UXC.: 15",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_4olws0u",
+      "articulo": "172301350 POOSH TUTTI 40X4GR UXC.: 18",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_mtstu30",
+      "articulo": "172300960 CAR.EUCALIPTOL VITROL 800GR UXC.: 8",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_wzouw9n",
+      "articulo": "172302430 EST TEMP BOB 15X15GR UXC.: 12 UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_hptlday",
+      "articulo": "172300230 BON O BON LECHE  6X15GR UXC.: 24",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_ektcw37",
+      "articulo": "172301680 MOGUL TIRA VIBORITAS  12X30GR UXC.: 25",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_6g2zgnf",
+      "articulo": "172300350 BON O BON BLANCO      15X15GR UXC.: 20",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_07zhjwk",
+      "articulo": "172300610 MASTICABLE FRUTA  242X800GR UXC.: 10",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_ofyxguz",
+      "articulo": "172301470 CHICLE PLUTON.EXTRALAN. 180GR UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_dkitphr",
+      "articulo": "172301530 MOGUL BARRA FRUTALES  12X35GR UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_j1l4xm0",
+      "articulo": "172300080 BLOW CEREZA 24X16GR UXC.: 15",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_42dghzj",
+      "articulo": "172300040 BLOW MANDARINA 24X16GR. UXC.: 15",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_ivpwb8l",
+      "articulo": "172300250 BON O BON CAJETA 18UNI UXC: 12 UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_s54rjba",
+      "articulo": "172300270 BON O BON LECHE 30UX15GX12 UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_0pvdzfv",
+      "articulo": "172300940 EUCALIPTOL 540GR UXC.: 6",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_6dgpmns",
+      "articulo": "172301630 MOGUL OSITOS 12X30GR UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_08ph5bf",
+      "articulo": "172301250 BOTE POSH SURTIDO 150X4GR UXC.: 8",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_r5q20dp",
+      "articulo": "172300590 MENTHOPLUS EXTR STRON 12X30.6G UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_5nrb3to",
+      "articulo": "172301840 SAPITO BOL CAJETA     20X10G UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_49j86dd",
+      "articulo": "172300920 SAQUITO FRUTA 540GR UXC.: 6",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_vyfrpm7",
+      "articulo": "172302650 MOGUL TIRA ANIMALES   12X30GR UXC.: 25",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_ifdg6at",
+      "articulo": "172301040 BUTTER TOFFEE 957GR UXC.: 6",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_7orkgr1",
+      "articulo": "172300800 RELLENO MIEL 125GR UXC.: 36",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_8xo0ifh",
+      "articulo": "172300020 BOB BARRA 24X24GR UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_hia2lfa",
+      "articulo": "172302610 TIRA SURT.MENTHOPLUS PROMO12+1 UXC.: 30",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_lm47zrn",
+      "articulo": "172302600 TIRA GOLPE 12X27GR UXC.: 25",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_mr0nanf",
+      "articulo": "172300100 BOB BARRA 12X48GR UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_1sr96bl",
+      "articulo": "172301490 CHICLE PLUTON.BABA BRUXA 200GR UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_r4ry6r3",
+      "articulo": "172301310 POOSH PLUTONITA 40X4GR UXC.: 18",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_m0ywj36",
+      "articulo": "172301160 BUTTER TOFFEE LECHE COCO 500GR UXC.: 15",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_kv2xc3m",
+      "articulo": "172301650 MOGUL TIBURONCITOS    12X30GR UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_ugkb1ez",
+      "articulo": "172300510 MENTHOPLUS CHERRY 12X30.6G UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_j57h501",
+      "articulo": "172300980 MENTA CHOCOLATE 540GR UXC.: 6",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_vsemug7",
+      "articulo": "172301590 MOGUL OSO EXTREME 10X50GR. UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_2cymkjs",
+      "articulo": "172300660 MENTHOPLUS MIEL 12X30.6G UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_vvojgn3",
+      "articulo": "172302460 BOTE BON O BON MIXTO 60X15GR UXC.: 1",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_pv87w6w",
+      "articulo": "172300550 MENTHOPLUS PLUS STRON 12X30.6G UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_54av2zj",
+      "articulo": "172301000 BUTTER TOFFEES LECHE  127GR UXC.: 36",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_xyr68sq",
+      "articulo": "172301430 CHICLE PLUTON.CABABOBORA1X180G UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_948eeq1",
+      "articulo": "172300410 BON O BON DARK 30UX15GX12 UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_rduvmrr",
+      "articulo": "172301290 POOSH FRESA 40X4GR UXC.: 18",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_f9m9tld",
+      "articulo": "172301180 BUTTER TOFFEE CHOCO MINT 500GR UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_11nqmmm",
+      "articulo": "172301060 BUTTER TOFFEE CHOCOLAT 959GR UXC.: 6",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_iudoxb4",
+      "articulo": "172300450 BON O BON CHOCOFRESA 30X15X12 UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_nithsy7",
+      "articulo": "172300860 STARLIGHT MINTS W CENTER 6LBS UXC.: 6",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_u5r6hlb",
+      "articulo": "172300310 BON O BON CORAZON     6X17GR UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_4y6zh6h",
+      "articulo": "172301900 GOLPE 20X27GR UXC.: 4",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_yrnvd0o",
+      "articulo": "172302210 TABLETA BON O BON MANI 20X45GR UXC.: 20",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_uv12ro6",
+      "articulo": "172300900 CARAMELO SAQUITO FRUTA 125GR UXC.: 36",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_2gsgeo6",
+      "articulo": "172300180 ALFAJOR 6X40GR        DISPLAY UXC.: 16",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_uhx03lb",
+      "articulo": "139400520 LECHE AUSTRALIAN TIRA 12X26GR UXC.: 24",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_qgouzdi",
+      "articulo": "139400670 L.AUSTRAL. DESCREMADA 6X1500GR UXC.: 6",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_o3k2b4s",
+      "articulo": "139400610 L.AUSTRALIAN 24X350GR UXC.: 24",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_w82ri12",
+      "articulo": "139400700 L.AUSTRALIAN 12X800GR UXC.: 12",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_ctohfi3",
+      "articulo": "139700060 TIRA L.ECONOMILK 24X12PACK 26G UXC.: 24",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_94vwmod",
+      "articulo": "139400720 L.AUSTRALIAN 6X1500GR UXC.: 6 UXC.: 6",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_zeo7wx2",
+      "articulo": "139400740 L.AUSTRALIAN 6X2200GR UXC.: 6",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_aj6ttix",
+      "articulo": "139400660 L.AUSTRALIAN 3PACK 350GRS.+BOB UXC.: 8",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_r4ly2bk",
+      "articulo": "139400750 L.AUSTRALIAN 6X2200GR +PROMO UXC.: 6",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_89hs35k",
+      "articulo": "139400530 LECHE AUSTRALIAN RISTRA12X26GR UXC.: 24",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_uoueday",
+      "articulo": "139400580 L. AUSTRALIAN 110GR UXC.:48 UXC.: 48",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_npe2adp",
+      "articulo": "139700120 L.AUSTRALIAN ECONOMILK6X120GR UXC.: 8",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_hp2b0em",
+      "articulo": "139700180 AUST. ECONOMILK 12X1000GR UXC.: 12",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_j59gp5c",
+      "articulo": "139700100 L.AUSTRALIAN ECONOMILK120GR UXC.: 48",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_zsy1u6o",
+      "articulo": "170700100 L. SMILK 350 GRAMOS UXC.: 24",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_k8lekmy",
+      "articulo": "139400840 LECHE EVAPORADA 6PACK PRICESMA UXC.: 8",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_ty1mfjn",
+      "articulo": "139700080 L. AUST.ECONOMILK TIRA12X26GR UXC.: 24",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_1b4iaoc",
+      "articulo": "139400650 L.AUSTRALIAN TWO PACK 350GRMAY UXC.: 12",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_30elwmy",
+      "articulo": "139400600 L. AUSTRALIAN 6X110GR UXC.: 8 UXC.: 8",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_qp1416d",
+      "articulo": "170700160 L.SMILK 1000GR UXC.: 12",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_xc3jf4v",
+      "articulo": "139400780 L.CONDENSADA TWO PACK 397GR UXC.: 24",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_004yvuk",
+      "articulo": "170700140 SMILK TWOPACK 350GR MAYOREO UXC.: 12",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_276w5c3",
+      "articulo": "139400810 6PACK CONDENSADA   PRICESMART UXC.: 8",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_edcjgbc",
+      "articulo": "106403170 ULTRA DEL NOCT C/A 12X10S+6S(B UXC.: 12",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_aueicn2",
+      "articulo": "106403160 TF ULTRA DEL NOCT 12X6S+4S(B) UXC.: 12",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_zpn81e0",
+      "articulo": "172302730 HUEVITO BON DISP.1X60X7.8GR UXC.: 8",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_91rmozz",
+      "articulo": "172302720 HUEVITO BON O BON 1X20X7.8GR UXC.: 27",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_vrmrvt1",
+      "articulo": "139400850 L.AUST.TIRA 12X26GR+1UN.26GR UXC.: 24",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_b6d5tlg",
+      "articulo": "102101820 GUANDY TIRA MINI ANGELITO 40G UXC.: 12",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_abwdtba",
+      "articulo": "110700210 SP CLORO REG 220ML DOCE UXC.72 UXC.: 72",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_4blwdor",
+      "articulo": "122002580 HERSHEY'S  GIANT ALMOND 7.37OZ UXC.: 12",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_trggzxs",
+      "articulo": "122002570 HERSHEY'S  GIANT MILK 7.56OZ UXC.: 12",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_uax38nc",
+      "articulo": "172302760 BON O BON CHOCOLATE 30UX15GX12 UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_zcdae1b",
+      "articulo": "172302780 PRIVILEGIO XL 1000G UXC.: 6",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_2es7sme",
+      "articulo": "172500130 COCTEL DE FRUTAS ARCOR UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_8v3r4vb",
+      "articulo": "172302770 MENTHOPLUS JAMAICA UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_z3zxrgz",
+      "articulo": "172302790 TABLETA LECHE 20X52GR UXC.: 4",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_9v2236j",
+      "articulo": "172302800 TABLETA BON O BON MANI 20X45GR UXC.: 4",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_zywigae",
+      "articulo": "172302810 TABLETA ROCKLETS 4X20X53GR UXC.: 4",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_9qtv2rq",
+      "articulo": "172400230 FORMIS RELLENA CHOCO CHOCO 86G UXC.: 48",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_ick1t1p",
+      "articulo": "122002590 HERSHEY'S  GIANT C&C 6.5OZ UXC.: 12",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_19sjeh0",
+      "articulo": "172302820 BON O BON LECHE CHL 30X12X15G UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_8z8koby",
+      "articulo": "120801410 CLORO MB LIM GAL + PROMO UXC.: 4",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_dxjm9jq",
+      "articulo": "120801420 CLORO MB LAV GAL + PALANGANA UXC.: 4",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_3m3c0xp",
+      "articulo": "120801430 CLORO MB FLO GAL + PALANGANA UXC.: 4",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_fnjtinx",
+      "articulo": "172500230 TORTINI FRESA 65X90G UXC.: 65",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_wx2evq9",
+      "articulo": "172500140 PANETON DULCE DE LECHE 18X530 UXC.: 18",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_kfy2msp",
+      "articulo": "172500200 FORMIS WAFFER CHOCOLATE 48X85G UXC.: 48",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_v00lter",
+      "articulo": "172500170 ARCOR PANETON RELLE CHOCO 530G UXC.: 18",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_ofuur4f",
+      "articulo": "172500220 TORTINI CHOCOLATE 65X90G UXC.: 65",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_6ge7m4s",
+      "articulo": "172500150 FORMIS PANETON RELL CHOCO 530G UXC.: 18",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_s0io519",
+      "articulo": "172500190 PANETON FLW FRUTAS 12X500G UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_fkxwg90",
+      "articulo": "172500160 PANETON DSP VAINILLA 18X400G UXC.: 18",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_hjym5c3",
+      "articulo": "172500210 FORMIS WAFFER FRUTILLA 48X85G UXC.: 48",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_l8yub2z",
+      "articulo": "172500180 PANETON FLW CHOCOCHIPS 12X500G UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_01iuljg",
+      "articulo": "105305000 AMBIENTAL GLADE_HC CUBO HAWIAN UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_qwdn2iz",
+      "articulo": "105304990 AMBIENTAL GLADE_HC CUBO MANZ C UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_eejma3b",
+      "articulo": "105305030 AMBIENTAL GLADE_HC CUBO LAVAND UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_33ofd5l",
+      "articulo": "105305020 AMBIENTAL GLADE_HC CUBO MORA R UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_19bqr00",
+      "articulo": "102101830 GUAN MARSHMALLOW CHCO 300G UXC.: 20",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_c9xxxwx",
+      "articulo": "102101840 GN MRSHMLLW TRPCL JMB MD 300G UXC.: 20",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_tuel7n5",
+      "articulo": "102101850 GN MRSHMLLW TRPCL JMB GD 300G UXC.: 20",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_r19nc61",
+      "articulo": "125300040 MGBL CLORO GEL 1.5L UXC.: 8",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_b06unon",
+      "articulo": "125300030 MGBL CLORO GEL 3.79L UXC.: 4",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_09b51qo",
+      "articulo": "106403250 SABA BUENA NOCH C/A14X8+2PAQ(B UXC.: 16",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_zt8w9i2",
+      "articulo": "105900370 2 PK BAYGON ULTRA VERDE 285 ML UXC.: 6",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_sbjtfqc",
+      "articulo": "105200980 RAID A TOTAL400ML+RAIDM285 ML UXC.: 6",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_gqq2s7g",
+      "articulo": "105200970 RAID C JARDIN285ML+RAID M285ML UXC.: 6",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_yipn54g",
+      "articulo": "110600300 CARMEN GRANOLA BOL FRRJ UXC.: 18",
+      "socioComercial": "NO APLICA"
+    },
+    {
+      "id": "art_owor7f4",
+      "articulo": "110600260 DLCR GRANOLA BAR ARAN 153G UXC.: 18",
+      "socioComercial": "PDC DEL CARMEN"
+    },
+    {
+      "id": "art_b5agk10",
+      "articulo": "110600280 DEL CARMEN CAJ BAR CHOCO CHIPS UXC.: 14",
+      "socioComercial": "PDC DEL CARMEN"
+    },
+    {
+      "id": "art_9hukuvd",
+      "articulo": "110600270 CARMEN GRANOLA BOL CCPS UXC.: 18",
+      "socioComercial": "NO APLICA"
+    },
+    {
+      "id": "art_3hjzega",
+      "articulo": "110600290 DLCR NUT BAR CAJ NCSL UXC.: 14",
+      "socioComercial": "PDC DEL CARMEN"
+    },
+    {
+      "id": "art_q6eyw3j",
+      "articulo": "110600320 DLCR GRANOLA MNZN VRD, QN MRNT UXC.: 18",
+      "socioComercial": "PDC DEL CARMEN"
+    },
+    {
+      "id": "art_8qewknt",
+      "articulo": "110600310 DLCR NUT BAR BOL NCAN UXC.: 18",
+      "socioComercial": "PDC DEL CARMEN"
+    },
+    {
+      "id": "art_bh2udyg",
+      "articulo": "110600350 DLCR BRRS GRNL BL CHCCHPS 138G UXC.: 18",
+      "socioComercial": "PDC DEL CARMEN"
+    },
+    {
+      "id": "art_0n2gn32",
+      "articulo": "110600340 DEL CARMEN CAJ BAR ARANDANOS UXC.: 14",
+      "socioComercial": "PDC DEL CARMEN"
+    },
+    {
+      "id": "art_tv5tj6j",
+      "articulo": "110600360 DLCR NUT BAR CAJ NCAN UXC.: 14",
+      "socioComercial": "PDC DEL CARMEN"
+    },
+    {
+      "id": "art_lu3fmzh",
+      "articulo": "110600330 DLCR NUT BAR BOL NCSL UXC.: 18",
+      "socioComercial": "PDC DEL CARMEN"
+    },
+    {
+      "id": "art_43kcejw",
+      "articulo": "102101880 GUAN TIRA BNAN 20G UXC.: 12",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_jhioifr",
+      "articulo": "102101870 GUAN TIRA CORAZÓN 20G UXC.: 12",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_qbhzbsm",
+      "articulo": "139400920 AUST UHT EGG NOG UXC.: 12",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_q3qpyri",
+      "articulo": "139400910 AUSTRALIAN AUS COCOA DRINK UXC.: 12",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_shiqxp4",
+      "articulo": "105305050 AMBIENTAL GLADE_HC AE DELEIMNZ UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_uvtgxyf",
+      "articulo": "105305040 AMBIENTAL GLADE_HC AE INV FRTL UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_ipepxps",
+      "articulo": "105305100 AMBIENTAL GLADE_HC AE BUR CELB UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_z81nby2",
+      "articulo": "132000190 GREZON HUEV DISP8 BEBES LLORO UXC.: 48",
+      "socioComercial": "GREZON"
+    },
+    {
+      "id": "art_g1u9xdi",
+      "articulo": "120801450 SUPER PRO BLEACH 220MLX72IT UXC.: 72",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_fqw1d4w",
+      "articulo": "102101890 GUAN MARSHMALLOW 135G UXC.: 55",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_c7d5il4",
+      "articulo": "106403320 INVISIBLE THN WW16X10S+3PCS(B) UXC.: 16",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_13nw1hm",
+      "articulo": "105600350 LIMPIADOR PLEDGE AE LAVND275ML UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_5bip0pb",
+      "articulo": "9821374 Australian Polvo UXC.:",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_8ywgi9l",
+      "articulo": "172303010 NIKOLO CACAHUATE 21G UXC.: 16",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_8zyp8yp",
+      "articulo": "172303000 NIKOLO COOKIES & CREAM 21G UXC.: 16",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_fpgrevj",
+      "articulo": "172400240 ARCOR WAFFER FRUTILLA 48X105G UXC.: 48",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_og780eu",
+      "articulo": "102101900 GUANDY TIRA OSITOS 20G UXC.: 12",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_l40yxj3",
+      "articulo": "172400250 ARCOR WAFFER CHOCO 48X105G UXC.: 48",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_wgkfeq4",
+      "articulo": "100801060 ESPIRALES BOLOGNESA VASO 70G UXC.: 16",
+      "socioComercial": "CAROZZI"
+    },
+    {
+      "id": "art_7km30qq",
+      "articulo": "132600380 LA COSTEÑA GARBANZOS 420 G UXC.: 24",
+      "socioComercial": "COSTEÑA"
+    },
+    {
+      "id": "art_yro7n5s",
+      "articulo": "132600440 COSTEÑA VINAGRE BLANCO 3700ML UXC.: 4",
+      "socioComercial": "COSTEÑA"
+    },
+    {
+      "id": "art_yes4twg",
+      "articulo": "132600450 COSTEÑA VINAGRE MANZANA 535ML UXC.: 24",
+      "socioComercial": "COSTEÑA"
+    },
+    {
+      "id": "art_qql8831",
+      "articulo": "132600430 COSTEÑA VINAGRE MANZANA 1050ML UXC.: 12",
+      "socioComercial": "COSTEÑA"
+    },
+    {
+      "id": "art_fwpl1ag",
+      "articulo": "132600480 COSTEÑA VINAGRE MANZANA 3700ML UXC.: 4",
+      "socioComercial": "COSTEÑA"
+    },
+    {
+      "id": "art_l9t2bhi",
+      "articulo": "132600460 COSTEÑA VINAGRE BLANCO 1050ML UXC.: 12",
+      "socioComercial": "COSTEÑA"
+    },
+    {
+      "id": "art_tyenfp5",
+      "articulo": "100801070 CARACOQUESOS VASO 70G UXC.: 16",
+      "socioComercial": "CAROZZI"
+    },
+    {
+      "id": "art_4tus7ak",
+      "articulo": "172303020 MOGUL OSITOS 24X80G. UXC.: 24",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_t9wzv0q",
+      "articulo": "172303040 MOGUL FRUTALES 24X80 G UXC.: 24",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_29r421r",
+      "articulo": "172303030 MOGUL TIBURONCITOS 24X80G UXC.: 24",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_w1t15bz",
+      "articulo": "132000240 GREZON BOB ESPONJA UXC.: 32",
+      "socioComercial": "GREZON"
+    },
+    {
+      "id": "art_hda6xoh",
+      "articulo": "172400350 ARCOR WAFFER BON O BON 48X105G UXC.: 48",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_koqsxc3",
+      "articulo": "172303050 MOGUL DIENTES 24X80G UXC.: 24",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_x0dun12",
+      "articulo": "139400960 AUSTRALIAN LECHE ENTER UHT 4P UXC.: 3",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_ezdwv2w",
+      "articulo": "139400970 AUSTRALIAN DSL SEMI UHT 4P UXC.: 3",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_ps8zwy5",
+      "articulo": "105305160 AMBIENTAL GLADE_HC AE SANDÍA UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_6k9x6ps",
+      "articulo": "105305170 AMBIENTAL GLADE_HC AE CIELO&BR UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_jlqfclo",
+      "articulo": "148800040 BOTELLA  2000 ML UXC.: 6",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_fth4g0x",
+      "articulo": "172303060 CHOCOFRESA VENTANA 12X18X15G   UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_4inx3or",
+      "articulo": "148800050 MB DETERGENTE LIQUIDO BOT 5L UXC.: 2",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_axz2yn9",
+      "articulo": "148800070 MB DETERGENTE LIQ DP 450ML POL UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_wadgk3x",
+      "articulo": "148800060 DOYPACK 1000ML POLISACO UXC.: 8",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_3zhwdp0",
+      "articulo": "148900010 MB SERENIA SUAVIZANTE 850ML UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_rjf1hla",
+      "articulo": "148900030 MB SUAVIZANTE POLISACO 720ML UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_jvny3v9",
+      "articulo": "148900060 MGBL SUAVIZANTE POLISACO 80ML UXC.: 72",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_90569p2",
+      "articulo": "148900040 MB SUAVIZANTE DYP 700ML UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_p8mpdgl",
+      "articulo": "148900020 MGBL SUAVIZANTE 1.9L UXC.: 6",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_qxzgv62",
+      "articulo": "148900070 MGBL SUAVIZANTE BOT 2.8L UXC.: 4",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_11x776r",
+      "articulo": "102101950 GUANDY OSITO 20G MAQ UXC.: 12",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_42xjtqn",
+      "articulo": "102101940 GUANDY BANANA 20G MAQ UXC.: 12",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_wn63lbg",
+      "articulo": "102101920 GUAN CRAZY KONG UVA 20G UXC.: 24",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_j9q04uq",
+      "articulo": "102101910 GUANDY CRAZYKONGFRE MAQ UXC.: 24",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_77u1apb",
+      "articulo": "102101930 GUAN CORAZÓN 20G UXC.: 12",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_5q86vg4",
+      "articulo": "102101960 GUAN TIRA MINI 40G UXC.: 12",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_9d77xcw",
+      "articulo": "102101970 GUANDY CULEBRITA 20G MAQ UXC.: 12",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_ytv0doj",
+      "articulo": "104000900 LA SIRENA SARDINA PICAPOCO UXC.: 48",
+      "socioComercial": "OTIS"
+    },
+    {
+      "id": "art_mkfjw9o",
+      "articulo": "128200530 MB PEROX COLOR 450G UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_jc3ham8",
+      "articulo": "128200540 MGBL PEROXIDO BLANCO 450G UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_4sa6g5p",
+      "articulo": "128200560 MGBL PEROXIDO COLOR 900G UXC.: 6",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_n52rmx3",
+      "articulo": "128200550 MGBL PEROXIDO BLANCO 900G UXC.: 6",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_nyq9ztl",
+      "articulo": "172303070 CARAMELO FRUTAL SANDIA 6X540G UXC.: 6",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_g8nlsr1",
+      "articulo": "172303100 TABLETA LECHE ARCOR 6X12X80G UXC.: 72",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_6utug64",
+      "articulo": "172303090 TABLT CHOCO AMARG 53 6X12X80G UXC.: 72",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_ntzfl6x",
+      "articulo": "172303110 TABLT ROCKLETS BLANC 6X12X80G UXC.: 72",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_qao9nuo",
+      "articulo": "106403530 BUENAS NOCHES WW 24X8S+3S(B) UXC.: 24",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_akcfy1d",
+      "articulo": "125401200 MGBL DESINFECTANTE EPL LAVD 5L UXC.: 4",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_n8ka5sc",
+      "articulo": "145900050 TAB CH/MANI COF BLOCK 64X170G UXC.: 64",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_8onmkjo",
+      "articulo": "210700040 PROMO CLORO SUPERPRO REGULAR1L UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_wuxugki",
+      "articulo": "172800180 ASTP BOL 3+ 1500G UXC.: 6",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_xk77xvh",
+      "articulo": "172800150 ASTP BOL 1+ 1500G UXC.: 6",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_ep4bm9e",
+      "articulo": "172800190 ASTP BOL 5+ 1500G UXC.: 6",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_tw65tdj",
+      "articulo": "172800130 ASTP BOL 5+ 720G UXC.: 12",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_cv2smeu",
+      "articulo": "172800170 ASTP BOL 3+ 720G UXC.: 12",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_r9prc70",
+      "articulo": "172800160 ASTP BOL 1+ 1900G UXC.: 6",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_jxmpbdz",
+      "articulo": "172800140 ASTP BOL 1+ 720G UXC.: 12",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_hlk2joy",
+      "articulo": "172800200 ASTP BOL 1+ 350G UXC.: 18",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_3exkdmf",
+      "articulo": "105200990 INSECTICIDAS RAID MAX NAR400ML UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_xqc1m99",
+      "articulo": "105800940 LIMPIADOR MRM PLATINIUM BAÑTRG UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_akx0dvf",
+      "articulo": "105201000 INSECTICIDAS RAID C&JNARJ400ML UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_bbi5osp",
+      "articulo": "125401210 MGBL DESINFECTANTE PL CTRNL 5L UXC.: 4",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_ycx5l86",
+      "articulo": "122100660 DLCR GALLETA NAV CHOCOMANI UXC.: 16",
+      "socioComercial": "PDC DEL CARMEN"
+    },
+    {
+      "id": "art_gud4rxi",
+      "articulo": "105305340 AMBIENTAL GLADE_HC AE DSTENAVI UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_rxlu0nz",
+      "articulo": "105305320 AMBIENTAL GLADE_HC AE DELEIMNZ UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_ikpn68j",
+      "articulo": "106200300 REPELENTE OFF EXTRA DURAC177ML UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_9jxzl3l",
+      "articulo": "105305400 AMBIENTAL GLADE_HC AE DULC VAI UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_ahn4nqh",
+      "articulo": "105600370 LIMPIADOR PLEDGE AE MADER275ML UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_xcwilcp",
+      "articulo": "148400200 JABON TCSOLENTI RELAJACION110G UXC.: 96",
+      "socioComercial": "ECISA"
+    },
+    {
+      "id": "art_erl522r",
+      "articulo": "148400210 JABON TCSOLENTIHIDRATACION110G UXC.: 96",
+      "socioComercial": "ECISA"
+    },
+    {
+      "id": "art_hmoj0mv",
+      "articulo": "145900060 BOB BLANCO BOLSA 5U 24X5X15G UXC.: 24",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_60u10dl",
+      "articulo": "145900070 BOB LECHE BOLSA 5U 24X5X15G UXC.: 24",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_3uj2q42",
+      "articulo": "148800110 MB DETERGENTE LIQUIDO PLSC 1L UXC.: 8",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_q87k2i3",
+      "articulo": "148800090 MB DETERGENTE LQD PLSC 450ML UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_s8u8wf0",
+      "articulo": "148800100 MB DETERGENTE LIQUIDO CRRGD 1L UXC.: 8",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_n1m6bff",
+      "articulo": "148800120 MB DETERGENTE LIQUIDO BOT 2L UXC.: 6",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_to3ic41",
+      "articulo": "148800130 MB DETERGENTE LQD CRRGD 450ML UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_go00f2s",
+      "articulo": "105600380 LIMPIADOR PLEDGE AE SACUD378ML UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_h7hqytw",
+      "articulo": "172303150 TABLET ROCKLETS BLANC 6X12X80 UXC.: 6",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_x6o4f92",
+      "articulo": "172303130 TABLETA LECHE ARCOR 6X12X80G UXC.: 6",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_9bnbnza",
+      "articulo": "172303160 TABLT CHOC AMRGO ARCOR 6X12X80 UXC.: 6",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_5wseob7",
+      "articulo": "205300440 PROMO JABON BELLEZA UXC.: 96",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_lg39izt",
+      "articulo": "205300430 PROMO JABONANTIBACTERIAL GLADE UXC.: 96",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_8b5qpxh",
+      "articulo": "138100070 ALABRILL FIBRA RESISTENTE 6PAK UXC.: 24",
+      "socioComercial": "INBRISA"
+    },
+    {
+      "id": "art_gpa6d2t",
+      "articulo": "102102000 GUAN MARSHMALLOW TIENDA 135G UXC.: 50",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_bl8y7kr",
+      "articulo": "138100080 ALABRILL ESPON DOBLE USO 6PACK UXC.: 24",
+      "socioComercial": "INBRISA"
+    },
+    {
+      "id": "art_43rl1az",
+      "articulo": "105305450 AMBIENTAL GLADE_HC CUBO CHERRY UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_0g5xhde",
+      "articulo": "105305460 AMBIENTAL GLADE_HC CUBO FLORES UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_mi6fkhc",
+      "articulo": "100400710 SPRM TÉ NGRO 10BOL UXC.: 48",
+      "socioComercial": "CAMBIASO"
+    },
+    {
+      "id": "art_uayj5h8",
+      "articulo": "105400540 LIMPIADOR PATO TIRAS SUNNY SUM UXC.: 24",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_qnk24um",
+      "articulo": "105305480 AMBIENTAL GLADE_HC AUT MANZCAP UXC.: 4",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_2z6wlyo",
+      "articulo": "105305490 AMBIENTAL GLADE_HC AUT ABVAIAP UXC.: 4",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_fqufqgn",
+      "articulo": "105305500 AMBIENTAL GLADE_HC AUT PARAIAP UXC.: 4",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_qbahw5z",
+      "articulo": "106403620 SABA BUENA NOCH C/A14X8+2PAQ UXC.: 16",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_zlkfsk3",
+      "articulo": "106403630 SABA CLASICA C/A 24X10S+2S UXC.: 24",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_6jlraaj",
+      "articulo": "106403660 ULTRA DELG NOCT C/A12X10S+3S UXC.: 12",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_vhvisgs",
+      "articulo": "105900380 INSECTICIDAS BAYGON TOTAL400ML UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_7m8v7jx",
+      "articulo": "105305570 AMBIENTAL GLADE_HC AE BLOOM UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_ov2v98j",
+      "articulo": "105305590 AMBIENTAL GLADE_HC AE MANGO UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_6t4518l",
+      "articulo": "145900090 ARCOR CARAMELO MIEL 12X400G UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_0v9l8q2",
+      "articulo": "145900100 CARAMELOS FRUTALES 12X400G UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_1qopfi1",
+      "articulo": "145900080 CARAMELO MENTA CHOCO 12X400G UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_pvpoo2f",
+      "articulo": "172303170 CARAMELO EUCALIPTOL 12X400G UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_o2uzpcu",
+      "articulo": "154200090 CHULA FRIJOL ENTERO ROJO 800 G UXC.: 12",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_qckdw4z",
+      "articulo": "154200060 CHULA FRIJOL VOLT ROJO PICANTE UXC.: 24",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_4rx1jzi",
+      "articulo": "154200010 CHULA FRIJOL VOLT ROJ CRI 28OZ UXC.: 12",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_6273ai4",
+      "articulo": "154200030 CHULA FRIJOL VOLT ROJO 6 LB UXC.: 5",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_9zs7u9j",
+      "articulo": "154200040 CHULA FRIJOL VOLT NEGRO 20 OZ UXC.: 24",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_k7pt6sm",
+      "articulo": "154200020 CHULA FRIJOL VOLT ROJO 35 OZ UXC.: 12",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_m34nibh",
+      "articulo": "154200080 CHULA FRIJOL VOLT ROJO 30 OZ UXC.: 12",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_if8qsty",
+      "articulo": "154200070 CHULA FRIJOL VOLT ROJO 14 OZ UXC.: 24",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_nsomwkm",
+      "articulo": "154200100 CHULA FRIJOL ENTERO ROJO 4 LB UXC.: 6",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_8e582yt",
+      "articulo": "154200130 CHULA FRIJOL VOLT NEGRO 48 OZ UXC.: 10",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_9xlv73s",
+      "articulo": "154200120 CHULA FRIJOL VOLT NEG CRI 6OZ UXC.: 100",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_engm6o1",
+      "articulo": "154200140 CHULA FRIJOL VOLT NEGRO 40 OZ UXC.: 12",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_gc8j2rw",
+      "articulo": "154200110 CHULA FRIJOL VOLT NEGRO 8 OZ UXC.: 48",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_6gpinbe",
+      "articulo": "154200220 LC 3P FR NG VLT 8OZ UXC.: 16",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_1xctn4l",
+      "articulo": "154200210 CHULA FRIJOL ENTERO NEGRO 4 LB UXC.: 6",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_altdhbp",
+      "articulo": "154200170 CHULA FRIJOL VOLT NEGRO 30 OZ UXC.: 12",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_jxhn2fi",
+      "articulo": "154200200 CHULA FRIJOL ENTERO NEGRO 800G UXC.: 12",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_j9box20",
+      "articulo": "154200180 CHULA FRIJOL VOLT NEGRO 28 OZ UXC.: 12",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_ejtwfvl",
+      "articulo": "154200190 CHULA FRIJOL VOLT NEGRO 14 OZ UXC.: 24",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_eyugl31",
+      "articulo": "154200250 CHULA FRIJOL VOLT NEG CRI 28OZ UXC.: 12",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_5wu2ogv",
+      "articulo": "154200260 CHULA SALSITA PICOSITA 98 G UXC.: 96",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_dq559ej",
+      "articulo": "154200230 CHULA PCK FRIJOL VOLT NEG 35+5 UXC.: 12",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_bt551h6",
+      "articulo": "154200240 CHULA PCK FRIJOL VOLT NEG 28+5 UXC.: 12",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_lb6a3va",
+      "articulo": "154200280 CHULA SALSITA RANCHERA 380 G UXC.: 24",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_7sekqrv",
+      "articulo": "154200290 CHULA SALSITA RANCHERA 150 G UXC.: 96",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_j75jm1w",
+      "articulo": "154200270 CHULA SALSITA RANCHERA 98 G UXC.: 96",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_wx0ncv3",
+      "articulo": "154200300 CHULA SALSITA QUESO 98 G UXC.: 96",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_1p3pp2t",
+      "articulo": "122002710 HERSHEY´S REESES PIECES 1.53OZ UXC.: 324",
+      "socioComercial": "HERSHEY'S"
+    },
+    {
+      "id": "art_a593hce",
+      "articulo": "154200350 CHULA FRIJOL VOLT NEGRO 4 OZ UXC.: 100",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_e76p214",
+      "articulo": "154200340 CHULA SALSITA QUESO 380 G UXC.: 24",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_0w8qfoy",
+      "articulo": "154200360 CHULA FRIJOL VOLT NEGRO 5 LB UXC.: 6",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_jpxey7t",
+      "articulo": "154200310 LC SAL CHK 307G UXC.: 24",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_0y67qhu",
+      "articulo": "154200370 CHULA FRIJOL VOLT NEGRO 5 OZ UXC.: 100",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_c7kv5no",
+      "articulo": "154200390 CHULA FRIJOL VOLT NEGRO 6 LB UXC.: 5",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_r22b41w",
+      "articulo": "154200410 CHULA SALSITA QUESO 150 G UXC.: 96",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_cfff9az",
+      "articulo": "154200420 CHULA SALSITA CARNE 150 G UXC.: 96",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_wzhznaa",
+      "articulo": "104000910 2PACK ATUN LA SIRENA AGUA 160G UXC.: 24",
+      "socioComercial": "OTIS"
+    },
+    {
+      "id": "art_iot00u7",
+      "articulo": "104000920 2PACK ATUN LA SIRENA VEGE 160G UXC.: 24",
+      "socioComercial": "OTIS"
+    },
+    {
+      "id": "art_boqh41h",
+      "articulo": "125401230 MGBL DESINFECTANTE SAND 900ML UXC.: 12",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_cx57k8c",
+      "articulo": "125401240 MGBL DESINFECTANTE SAND 3785ML UXC.: 4",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_kpg4zpx",
+      "articulo": "148400240 JABON TOC SOLENTI HDRT 4U 440G UXC.: 24",
+      "socioComercial": "ECISA"
+    },
+    {
+      "id": "art_dzvtam3",
+      "articulo": "148400250 JABON TOC SOLENTI RELAJ 4U440G UXC.: 24",
+      "socioComercial": "ECISA"
+    },
+    {
+      "id": "art_29lcs1s",
+      "articulo": "172303180 CARAMEL MENTHO MENTOL 100X3.7G UXC.: 20",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_s3n1vdx",
+      "articulo": "172303200 CARAMELO MENTHO UVA 100X3.7G UXC.: 20",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_5sgio9s",
+      "articulo": "172303190 CARAMEL MENTHO STRONG 100.3.7G UXC.: 20",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_zjq0u9h",
+      "articulo": "254200010 LA CHULA PACK 35+5ONZ UXC 12 UXC.: 12",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_0a2ztez",
+      "articulo": "106200330 REPELENTE OFF AE ACTIVE 170GR UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_p3ks0vg",
+      "articulo": "106200340 REPELENTE OFF AE DEEP WOODS UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_7d2e9t3",
+      "articulo": "172303230 TABLETA MANI ARCOR 6X12X80G UXC.: 6",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_t4azkmc",
+      "articulo": "172303210 DISPLAY BOB MIXTO 30X165G UXC.: 30",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_n5j689l",
+      "articulo": "172303220 TABLETA BRIGADE ARCOR 6X12X80G UXC.: 6",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_uujw1dm",
+      "articulo": "105900410 INSECTICIDA BAYGON OKO 285ML UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_az72exs",
+      "articulo": "105900420 INSECTICIDA BAYGON OKO 400ML UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_0f582zu",
+      "articulo": "148400270 JABON TOC SOLENTI NTR 110GR UXC.: 96",
+      "socioComercial": "ECISA"
+    },
+    {
+      "id": "art_zup4vum",
+      "articulo": "105305650 AMBIENTAL GLADE_HC AE PERA 275 UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_bufvj4k",
+      "articulo": "105305630 AMBIENTAL GLADE_HC AE MERRY275 UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_fyxunhq",
+      "articulo": "105305640 AMBIENTAL GLADE_HC AE WINTER N UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_2brjecj",
+      "articulo": "105305620 AMBIENTAL GLADE_HC AE MERRY BE UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_wtgaoo7",
+      "articulo": "105305720 AMBIENTAL GLADE_HC AE PERA UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_zyg2y3z",
+      "articulo": "106601820 TENA SLIP COMFORT G 8U UXC.: 12",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_gy0p8mo",
+      "articulo": "106601810 TENA SLIP COMFORT M 8U UXC.: 12",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_fpure04",
+      "articulo": "102102170 CHOCALE PAJILLA CHOCOLATE 500G UXC.: 12",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_6iw9z38",
+      "articulo": "102102140 CHOCALE BALLS CHOCOLATE 40G UXC.: 12",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_27gg5yn",
+      "articulo": "102102160 CHOCALE REFA CHOCOLATE 600G UXC.: 8",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_s2bzpj2",
+      "articulo": "102102150 CHOCALE BUBBLES CHOCOLATE 64G UXC.: 6",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_jtyeu8f",
+      "articulo": "125401280 PACK DESF 900ML PINO + CANELA UXC.: 6",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_5jo8pbv",
+      "articulo": "239400580 ENTERA 110G PROMO EXHIBIDOR UXC.: 48",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_i5idkgd",
+      "articulo": "104000970 ATÚN CON JALAPEÑO 24/142 G UXC.: 24",
+      "socioComercial": "OTIS"
+    },
+    {
+      "id": "art_5efsuwf",
+      "articulo": "104000940 ATÚN EN ACEITE 48/142 G UXC.: 48",
+      "socioComercial": "OTIS"
+    },
+    {
+      "id": "art_9g6ugi0",
+      "articulo": "104000950 ATÚN VEGETALES 48/142 G UXC.: 48",
+      "socioComercial": "OTIS"
+    },
+    {
+      "id": "art_e7skvte",
+      "articulo": "104000960 ATÚN CON MAÍZ 24/142 G UXC.: 24",
+      "socioComercial": "OTIS"
+    },
+    {
+      "id": "art_5s369i3",
+      "articulo": "104000930 ATÚN AGUA LIGHT 48/142 G UXC.: 48",
+      "socioComercial": "OTIS"
+    },
+    {
+      "id": "art_smpw0kj",
+      "articulo": "122100670 GALLETA SALADA DEL CARMEN UXC. UXC.: 26",
+      "socioComercial": "PDC DEL CARMEN"
+    },
+    {
+      "id": "art_6soictz",
+      "articulo": "122100680 GALLETA CRACKER LINAZA QUINOA UXC.: 26",
+      "socioComercial": "PDC DEL CARMEN"
+    },
+    {
+      "id": "art_chf3xch",
+      "articulo": "172303300 ROCKLETS CHOCOLATE 12X12X40G UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_nrljgja",
+      "articulo": "122100690 GALLETA CRACKER INTEGRAL UXC.: 26",
+      "socioComercial": "PDC DEL CARMEN"
+    },
+    {
+      "id": "art_but3q1e",
+      "articulo": "172400410 GALLETA BOB LECHE 36X95G COMEX UXC.: 36",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_rbizzfn",
+      "articulo": "172400400 GALLETA BOB BLANCO 36X95G COME UXC.: 36",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_pvajylc",
+      "articulo": "132000270 DULCE CREMOSO SONIC 18 GRS UXC.: 32",
+      "socioComercial": "GREZON"
+    },
+    {
+      "id": "art_lq2t7s4",
+      "articulo": "132000290 DULCE CREMOSO HOT WHEELS 18 G UXC.: 32",
+      "socioComercial": "GREZON"
+    },
+    {
+      "id": "art_br5nqib",
+      "articulo": "105305860 AMBIENTAL GLADE_HC AE COCO275 UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_drwmu3t",
+      "articulo": "105305820 AMBIENTAL GLADE_HC AE COCO UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_t9uhxtm",
+      "articulo": "105305920 AMBIENTAL GLADE_HC AUT COCO RP UXC.: 6",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_neosh5l",
+      "articulo": "104001020 2 PACK ATUN VEGETALES 142G UXC.: 24",
+      "socioComercial": "OTIS"
+    },
+    {
+      "id": "art_ccehe16",
+      "articulo": "104001010 2 PACK ATUN EN AGUA 142G UXC.: 24",
+      "socioComercial": "OTIS"
+    },
+    {
+      "id": "art_5q0qvd4",
+      "articulo": "145900190 LADRILLOS EXT. FLLA. 24X150G UXC.: 24",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_s0bpzab",
+      "articulo": "125401340 MGBL DSNFCTNT + PRM LVD 3785ML UXC.: 4",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_hu1jnc7",
+      "articulo": "125401320 MGBL DSNFCTNT + PRM CNL 3785ML UXC.: 4",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_bc969o7",
+      "articulo": "125401350 MGBL DSNFCTNT + PRM MNZN 3785M UXC.: 4",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_jqwlglk",
+      "articulo": "148800170 MB DETERGENTE LQD BT +PRM 5L UXC.: 2",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_u1tzkes",
+      "articulo": "125401330 MGBL DSNFCTNT + PRM FLRL 3785M UXC.: 4",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_t0w2fcr",
+      "articulo": "125401360 MGBL DSNFCTNT + PRM CTRNL 3785 UXC.: 4",
+      "socioComercial": "MAGIA BLANCA"
+    },
+    {
+      "id": "art_4hfu5af",
+      "articulo": "106404010 SABA BUENASNOCHES 24X8S+4S UXC.: 24",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_60pbzth",
+      "articulo": "105305940 AMBIENTAL GLADE_HC PG MANZ 1RF UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_dcesdw2",
+      "articulo": "145900200 MP MINI MENTOL 5DX400GX20U UXC.: 5",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_j3src4r",
+      "articulo": "145900210 MP MINI MENTA 5DX400GX20U UXC.: 5",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_fsqgi15",
+      "articulo": "145900220 MP MINI LIMÓN 5DX400GX20U UXC.: 5",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_83xqf85",
+      "articulo": "145900260 MP DUO MANZANA 12X12X28G UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_ne1qb73",
+      "articulo": "145900240 MP DUO CAFE LATTE 12X12X28G UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_xs53ypn",
+      "articulo": "145900250 MP DUO CEREZA 12X12X27.2G UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_yjqj3fc",
+      "articulo": "145900270 MP DUO NARANJA 12X12X27.2G UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_hsg1abs",
+      "articulo": "139700190 LECHE CONDENSADA ECONOMILK UXC.: 48",
+      "socioComercial": "AUSTRALIAN"
+    },
+    {
+      "id": "art_39iztmy",
+      "articulo": "106404030 PD SABA AMOREDIARIOS REG 72X12 UXC.: 72",
+      "socioComercial": "ESSITY"
+    },
+    {
+      "id": "art_rebrw2t",
+      "articulo": "145900290 BOB FRUTILLA 24X5X15G UXC.: 24",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_03sdkbg",
+      "articulo": "148400290 JABON TOCADOR  REVITALIZA UXC.: 96",
+      "socioComercial": "ECISA"
+    },
+    {
+      "id": "art_hxh1g6q",
+      "articulo": "102102230 TIRA CHOCALE FRESA *8*10*35G UXC.: 8",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_d3np0fu",
+      "articulo": "102102240 TIRA CHOCALE CHOCOLATE 8*10*35 UXC.: 8",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_f8ofm98",
+      "articulo": "154200540 CHULA PASTA TOMATE  IP 98 G UXC.: 96",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_6b9bq4g",
+      "articulo": "154200530 CHULA SALSITA CARNE IP 98G UXC.: 96",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_qy0t7s4",
+      "articulo": "154200550 CHULA SALSITA HONGOS IP 98 G UXC.: 96",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_ehwk9mg",
+      "articulo": "154200500 CHULA SALSITA IP RANCHERA 98G UXC.: 96",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_23hnqb5",
+      "articulo": "154200520 CHULA SALSITA PICOSITA IP 98G UXC.: 96",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_3uv3lhb",
+      "articulo": "154200510 CHULA SALSITA QUESO IP 98G UXC.: 96",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_chevdkn",
+      "articulo": "154200570 CHULA FRIJOL VOLT NEGRO IP 5OZ UXC.: 48",
+      "socioComercial": "LA CHULA"
+    },
+    {
+      "id": "art_cj3pt3m",
+      "articulo": "104301560 PRINGLES BBQ 40GR UXC.: 12",
+      "socioComercial": "PRINGLES KELLOGG'S"
+    },
+    {
+      "id": "art_erk6t9t",
+      "articulo": "104301550 PRINGLES BBQ 21GR UXC.: 60",
+      "socioComercial": "PRINGLES KELLOGG'S"
+    },
+    {
+      "id": "art_61cm9q8",
+      "articulo": "104301540 PRINGLES BBQ 158GR UXC.: 14",
+      "socioComercial": "PRINGLES KELLOGG'S"
+    },
+    {
+      "id": "art_v7rcj9i",
+      "articulo": "145900340 LADRILLOS EXT. FLLA. 24X100G UXC.: 24",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_muh0ty3",
+      "articulo": "145900350 MOGUL BANANITAS 24X80G UXC.: 24",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_a8ahd13",
+      "articulo": "145900400 MOGUL ANILLOS 46X80G UXC.: 46",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_neaqilm",
+      "articulo": "145900410 MOGUL OSO EXTREME 46X80G UXC.: 46",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_hy5rjhs",
+      "articulo": "145900370 MOGUL BANANITAS 12X12X30G UXC.: 12",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_ba69626",
+      "articulo": "145900360 MOGUL JELLY BEANS 46X80G UXC.: 46",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_19x3ieb",
+      "articulo": "145900390 MOGUL SANDIA EXTREME 24X80G UXC.: 24",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_e3shujl",
+      "articulo": "145900420 MOGUL MORAS 46X80G UXC.: 46",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_dohge7g",
+      "articulo": "145900430 PARTY MIX 8X3LB UXC.: 8",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_0j4zzw9",
+      "articulo": "105306130 AMBIENTAL GLADE_HC AE ELIXIR UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_224790o",
+      "articulo": "105306160 AMBIENTAL GLADE_HC AUTOM ELXAP UXC.: 4",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_npr2m1t",
+      "articulo": "105306140 AMBIENTAL GLADE_HC AUT ELXR RP UXC.: 6",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_f4rdydj",
+      "articulo": "105306180 AMBIENTAL GLADE_HC AE NECTA275 UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_hs2f0nw",
+      "articulo": "105306170 AMBIENTAL GLADE_HC AE NECTARIN UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_rezxrk8",
+      "articulo": "105306250 AMBIENTAL GLADE_HC AE ELIXR275 UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_73of0te",
+      "articulo": "105306260 AMBIENTAL GLADE_HC PG ELXR3PRF UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_dplpk28",
+      "articulo": "105201060 REPELENTE AUTAN FAMILYSPRAY177 UXC.: 12",
+      "socioComercial": "SCJ"
+    },
+    {
+      "id": "art_0auv42z",
+      "articulo": "154900010 AC GLICERINA C. CORP 1L UXC.: 20",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_eo01c4s",
+      "articulo": "154600080 AC FACIAL TONER 150ML UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_dne5k6b",
+      "articulo": "154600090 AC SERUM 6N1 ANTARU 30G UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_iirkau6",
+      "articulo": "154600070 AC SERUM 6N1 FACIAL 30G UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_rr1pv2t",
+      "articulo": "154900130 AC SPF50 SUN ROSTRO UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_esk8qck",
+      "articulo": "154900150 AC MICELAR F 3N1 150ML UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_9hkbxn1",
+      "articulo": "154900200 AC CREM COLD HIDRA 100G UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_2y9fx59",
+      "articulo": "154900120 AC GEL EXFOLIA 3N1 100G UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_de0pamd",
+      "articulo": "154900180 AC CREM ACLARA NOC 100G UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_brufw30",
+      "articulo": "154900190 AC CREM ANTIARRUGA 100G UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_ir6m0wm",
+      "articulo": "154900170 AC FW CONT OLORES 100ML UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_h83ms67",
+      "articulo": "154900140 AC CREM ANTIARRUGA 400G UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_jj2md6b",
+      "articulo": "154900260 AC MEN BAL DSP AF 100ML UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_w0oucbj",
+      "articulo": "154900220 ACDERM CC+FIRMEZA 350ML UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_1lovg0t",
+      "articulo": "154900270 AC DEO NEUTRO 3N1 48ML UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_0msy7zx",
+      "articulo": "154600150 AC DERM CC TONO U 350ML UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_fb04y70",
+      "articulo": "154600130 ACDERM CC HIDRATA 350ML UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_uckvtdd",
+      "articulo": "154900230 AC COCO CREMA MANOS 75G UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_p9ezc7f",
+      "articulo": "154600180 AC ALMEND C. CORP 350ML UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_jbfnwbo",
+      "articulo": "154900250 AC GLICE CREM MANOS 75G UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_onptzb7",
+      "articulo": "154600170 AC VANILLA C. CORP 350M UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_ybmhiyg",
+      "articulo": "154900240 AVON 100G UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_4gdvplu",
+      "articulo": "154600210 AC SH AGUACATE 750ML UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_0wxshjh",
+      "articulo": "154600200 AC MEN SH 3N1 350ML UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_98xjnfc",
+      "articulo": "155000030 AC INT. ACTIVE HF 250ML UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_j5ilwne",
+      "articulo": "154600250 AC AVENA&VAIN C CORP 1L UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_8djn1ps",
+      "articulo": "154900410 OD CARE DEO ACLARA 50ML UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_4l2xugy",
+      "articulo": "154900300 AC VANILLA MANOS 75G UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_a1tupbw",
+      "articulo": "154900340 AC ALMENDRA MANOS 75G UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_vjgnp46",
+      "articulo": "154900390 AC ALMENDRA C. CORP 1L UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_k10l9tn",
+      "articulo": "154900360 AC FW EXFOLIANT PIE 80G UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_h9zlr4a",
+      "articulo": "154600230 AC MASK PO AL&PEP 75ML UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_5wk9mpl",
+      "articulo": "154600270 AC INT. GENTLE HF 250ML UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_k92dk8n",
+      "articulo": "155000070 OD CARE DEO MINI 50ML UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_wz3xbuh",
+      "articulo": "154900460 AC FW C PIES AGRIET 80G UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_6jyy3uc",
+      "articulo": "154900480 AC SUN 2N1 FPS 50 120G UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_riig3x5",
+      "articulo": "154900500 AC INT. GENTLE HF 125ML UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_6eyk9vi",
+      "articulo": "154900470 AC INT. ACTIVE HF 125ML UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_e4z4xsl",
+      "articulo": "154900510 AC FW CALLOS 3N1 80G UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_vmf3bh0",
+      "articulo": "154600300 AC GLICE C. CORP 350ML UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_r79rj0p",
+      "articulo": "155000090 ACMEN GEL AFEITAR 150ML UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_3o0e9rd",
+      "articulo": "154600320 AC CREM ACLARA DIA 100G UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_uhmsmwp",
+      "articulo": "154600330 AC CREM ACLARA DIA 400G UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_9s1yr7s",
+      "articulo": "102102260 FRESH PILLS SABORES 16G UXC.: 24",
+      "socioComercial": "GUANDY"
+    },
+    {
+      "id": "art_ick1adu",
+      "articulo": "155000100 AC DEO HUMECTA 3N1 48ML UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_hjbtrlr",
+      "articulo": "145900550 EST BON O BON CORAZON 6X17GR UXC.: 6",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_9ucpas7",
+      "articulo": "155000120 AC SH MACADAMIA 750ML UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_grhx9y4",
+      "articulo": "154900540 AC GLICERINA C. CORP 1L UXC.: 12",
+      "socioComercial": "AVON"
+    },
+    {
+      "id": "art_h5znckp",
+      "articulo": "145900560 MOGUL OSO EXTREME 24X80G UXC.: 24",
+      "socioComercial": "ARCOR"
+    },
+    {
+      "id": "art_domg69g",
+      "articulo": "106404310 BUENAS NOCHES C/A 24X8S PE UXC.: 24",
+      "socioComercial": "ESSITY"
+    }
+  ],
+  "usuarios": [
+    {
+      "usuario": "dmontoya",
+      "password": "vikingo2026",
+      "nombre": "David Montoya",
+      "admin": true
+    },
+    {
+      "usuario": "jperez",
+      "password": "jperez1503",
+      "nombre": "Juan Pérez",
+      "admin": false
+    }
+  ]
+}
