@@ -293,6 +293,7 @@
     loginError: "",
     buscarCliente: "",
     buscarArticulo: "",
+    filtroSocio: "",
     adminTab: "clientes",
     lastCaptura: null
   };
@@ -369,7 +370,10 @@
 
   function viewCaptura(){
     const q = normalize(state.buscarArticulo);
-    const lista = (q ? db.articulos.filter(a => normalize(displayItem("articulo",a)).includes(q)) : db.articulos);
+    const sociosDisponibles = Array.from(new Set(db.articulos.map(a => a.socioComercial).filter(Boolean))).sort();
+    let lista = db.articulos;
+    if(state.filtroSocio) lista = lista.filter(a => a.socioComercial === state.filtroSocio);
+    if(q) lista = lista.filter(a => normalize(displayItem("articulo",a)).includes(q));
     const totalCajas = state.cart.reduce((s,i)=> s + Number(i.cajas||0), 0);
     return `
       <div class="topbar">
@@ -382,6 +386,13 @@
           <button class="btn-ghost" id="btn-cambiar-cliente" style="width:auto;">Cambiar</button>
         </div>
 
+        <label for="in-filtro-socio">Filtrar por socio comercial (opcional)</label>
+        <select id="in-filtro-socio">
+          <option value="">Todos los socios</option>
+          ${sociosDisponibles.map(s => `<option value="${escapeHtml(s)}" ${state.filtroSocio===s?"selected":""}>${escapeHtml(s)}</option>`).join("")}
+        </select>
+
+        <label for="in-buscar-articulo" style="margin-top:16px;">Buscar artículo</label>
         <input id="in-buscar-articulo" type="text" placeholder="Buscar artículo..." value="${escapeHtml(state.buscarArticulo)}">
         <div style="margin-top:4px;">
           ${lista.length ? lista.map(a => `
@@ -722,7 +733,7 @@
         if(!confirm("Tenés un sugerido sin enviar. ¿Cerrar sesión de todas formas? Se perderá lo que agregaste.")) return;
       }
       state.session = null; state.clienteSeleccionado = null; state.cart = [];
-      state.buscarCliente = ""; state.buscarArticulo = "";
+      state.buscarCliente = ""; state.buscarArticulo = ""; state.filtroSocio = "";
       state.view = "login"; render();
     }
     const btnLogout = document.getElementById("btn-logout");
@@ -741,6 +752,7 @@
         state.clienteSeleccionado = c;
         state.cart = [];
         state.buscarArticulo = "";
+        state.filtroSocio = "";
         state.view = "captura";
         render();
       };
@@ -751,7 +763,7 @@
       if(state.cart.length){
         if(!confirm("Tenés un sugerido sin enviar. ¿Volver de todas formas? Se perderá lo que agregaste.")) return;
       }
-      state.clienteSeleccionado = null; state.cart = []; state.buscarCliente = "";
+      state.clienteSeleccionado = null; state.cart = []; state.buscarCliente = ""; state.filtroSocio = "";
       state.view = "seleccionarCliente"; render();
     }
     const btnCambiarCliente = document.getElementById("btn-cambiar-cliente");
@@ -762,6 +774,11 @@
     const inBuscarArticulo = document.getElementById("in-buscar-articulo");
     if(inBuscarArticulo){
       inBuscarArticulo.oninput = (e) => { state.buscarArticulo = e.target.value; render(); restoreFocus("in-buscar-articulo"); };
+    }
+
+    const inFiltroSocio = document.getElementById("in-filtro-socio");
+    if(inFiltroSocio){
+      inFiltroSocio.onchange = (e) => { state.filtroSocio = e.target.value; render(); };
     }
 
     document.querySelectorAll("[data-agregar]").forEach(btn => {
