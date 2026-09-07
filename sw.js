@@ -1,4 +1,4 @@
-const CACHE = "vikingo-colocacion-v2";
+const CACHE = "vikingo-colocacion-v3";
 const ASSETS = ["./", "./index.html", "./manifest.json", "./Favicon%20verde.png"];
 
 self.addEventListener("install", (e) => {
