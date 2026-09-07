@@ -1,5 +1,5 @@
 {
-  "generadoEn": "2026-09-07T17:41:26.456Z",
+  "generadoEn": "2026-09-07T21:14:55.996Z",
   "clientes": [
     {
       "id": "cli_5upyhxq",
@@ -5711,16 +5711,28 @@
   ],
   "usuarios": [
     {
+      "nombre": "David Montoya",
       "usuario": "dmontoya",
       "password": "vikingo2026",
-      "nombre": "David Montoya",
       "admin": true
     },
     {
-      "usuario": "jperez",
-      "password": "jperez1503",
       "nombre": "Juan Pérez",
+      "usuario": "jperez",
+      "password": "jperez2026",
       "admin": false
+    },
+    {
+      "nombre": "Geovanni Villagrán",
+      "usuario": "rgvillagran",
+      "password": "vikingo2026",
+      "admin": false
+    },
+    {
+      "nombre": "Anibal Cruz",
+      "usuario": "aacruz",
+      "password": "vikingo2026",
+      "admin": true
     }
   ]
 }
