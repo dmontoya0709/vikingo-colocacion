@@ -1,5 +1,5 @@
-const CACHE = "vikingo-colocacion-v1";
-const ASSETS = ["./", "./index.html", "./manifest.json", "./icon-192.png", "./icon-512.png"];
+const CACHE = "vikingo-colocacion-v2";
+const ASSETS = ["./", "./index.html", "./manifest.json", "./Favicon%20verde.png"];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(ASSETS)));
