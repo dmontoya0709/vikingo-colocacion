@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Vikingo Colocación</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#041046">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Colocación">
+<style>
+  :root{
+    --azul: #071E69;
+    --azul-profundo: #041046;
+    --verde: #75B580;
+    --verde-oscuro: #5A9868;
+    --cielo: #6FBDE3;
+    --gris: #85898E;
+    --tinta: #0A0A0A;
+    --papel: #F6F7FA;
+    --linea: #DADFE6;
+    --rojo: #B3402E;
+  }
+  *{ box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html,body{ height:100%; }
+  body{
+    margin:0;
+    font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: var(--papel);
+    color: var(--tinta);
+    font-variant-numeric: tabular-nums;
+  }
+  #app{ max-width: 480px; margin: 0 auto; min-height: 100vh; display:flex; flex-direction:column; background: #fff; box-shadow: 0 0 24px rgba(4,16,70,0.08); }
+
+  /* ---- Header ---- */
+  .topbar{
+    background: var(--azul-profundo);
+    color: #fff;
+    padding: 14px 18px;
+    display:flex; align-items:center; justify-content:space-between;
+    gap: 10px;
+  }
+  .topbar .wordmark{ font-size: 13px; letter-spacing: 0.06em; color: var(--cielo); font-weight:600; }
+  .topbar h1{ font-size: 19px; margin: 2px 0 0; font-weight: 700; letter-spacing: -0.01em; }
+  .topbar .sub{ font-size: 12.5px; color: #C7CFE8; margin-top: 2px; }
+  .topbar-actions{ display:flex; align-items:center; gap:8px; }
+  .icon-btn{
+    background: rgba(255,255,255,0.12); border:none; color:#fff; width:38px; height:38px;
+    border-radius: 8px; font-size:17px; display:flex; align-items:center; justify-content:center; cursor:pointer;
+  }
+  .icon-btn:active{ background: rgba(255,255,255,0.24); }
+
+  /* ---- Content ---- */
+  .content{ flex:1; padding: 20px 18px 90px; overflow-y:auto; }
+  .content.no-pad-bottom{ padding-bottom: 20px; }
+
+  h2.screen-title{ font-size: 21px; margin: 4px 0 4px; font-weight:700; letter-spacing:-0.01em; }
+  p.screen-hint{ color: var(--gris); font-size: 14px; margin: 0 0 22px; line-height:1.45; }
+
+  label{ display:block; font-size: 13px; color: var(--gris); margin: 16px 0 6px; }
+  label:first-of-type{ margin-top:0; }
+  input[type=text], input[type=password], input[type=number]{
+    width:100%; padding: 13px 14px; border: 1.5px solid var(--linea); border-radius: 9px;
+    font-size: 16px; color: var(--tinta); background:#fff;
+  }
+  input:focus{ outline: none; border-color: var(--azul); }
+
+  .btn{
+    display:inline-flex; align-items:center; justify-content:center; gap:8px;
+    padding: 13px 20px; border-radius: 9px; border:none; font-size: 15.5px; font-weight:600;
+    cursor:pointer; width:100%; text-align:center;
+  }
+  .btn-primary{ background: var(--azul); color:#fff; }
+  .btn-primary:active{ background: var(--azul-profundo); }
+  .btn-verde{ background: var(--verde); color: #072D0F; }
+  .btn-verde:active{ background: var(--verde-oscuro); }
+  .btn-outline{ background:#fff; color: var(--azul); border: 1.5px solid var(--azul); }
+  .btn-ghost{ background:transparent; color: var(--azul); font-weight:600; padding: 8px 4px; width:auto; }
+  .btn-salir{ color: var(--rojo) !important; font-weight:700; display:flex; align-items:center; gap:6px; justify-content:center; }
+  .icon-btn.salir{ background: rgba(179,64,46,0.16); color: var(--rojo); }
+  .icon-btn.salir:active{ background: rgba(179,64,46,0.3); }
+  .btn-danger-ghost{ background:transparent; color: var(--rojo); font-weight:600; padding:8px 4px; width:auto; font-size:13.5px; }
+  .btn[disabled]{ opacity:0.4; cursor:not-allowed; }
+
+  .error-box{ background:#FBEAE6; color:#8B2E1E; border:1px solid #EFC5BB; border-radius:8px; padding:10px 12px; font-size:13.5px; margin-top:14px; }
+
+  /* ---- Lists ---- */
+  .search-wrap{ position:relative; margin-bottom: 4px; }
+  .list-row{
+    display:flex; align-items:center; justify-content:space-between; gap:10px;
+    padding: 14px 2px; border-bottom: 1px solid var(--linea); cursor:pointer;
+  }
+  .list-row:active{ background: #F2F4F8; }
+  .list-row .name{ font-size: 15.5px; font-weight:600; }
+  .list-row .meta{ font-size: 12.5px; color: var(--gris); margin-top:2px; }
+  .chevron{ color: var(--gris); font-size:18px; }
+
+  .empty-note{ color: var(--gris); font-size: 13.5px; text-align:center; padding: 30px 10px; }
+
+  /* ---- Captura ---- */
+  .cliente-banner{
+    background: #EEF1FB; border: 1px solid #D7DDF3; border-radius:10px; padding: 12px 14px;
+    display:flex; align-items:center; justify-content:space-between; margin-bottom:18px;
+  }
+  .cliente-banner .label{ font-size:11.5px; color: var(--azul); font-weight:600; }
+  .cliente-banner .nombre{ font-size:16px; font-weight:700; margin-top:1px; }
+
+  .art-row{
+    border-bottom: 1px solid var(--linea); padding: 12px 2px;
+  }
+  .art-row .name{ font-size: 15px; font-weight:600; margin-bottom:8px; }
+  .art-row .add-line{ display:flex; gap:8px; }
+  .art-row .add-line input{ flex:1; }
+  .art-row .add-line button{ width:auto; padding: 12px 16px; white-space:nowrap; }
+
+  .cart-section{ margin-top: 26px; }
+  .cart-section h3{ font-size: 13px; text-transform: none; color: var(--gris); font-weight:600; margin-bottom:10px; }
+  .cart-item{
+    display:flex; align-items:center; justify-content:space-between; gap:10px;
+    padding: 11px 12px; background: var(--papel); border-radius: 8px; margin-bottom:8px;
+  }
+  .cart-item .name{ font-size:14.5px; font-weight:600; }
+  .cart-item .qty{ font-size:14px; color: var(--gris); }
+  .cart-item .remove{ background:none; border:none; color: var(--rojo); font-size:19px; cursor:pointer; padding:2px 6px; }
+
+  .footer-bar{
+    position: sticky; bottom:0; background:#fff; border-top:1px solid var(--linea);
+    padding: 14px 18px; display:flex; align-items:center; gap:14px;
+    max-width:480px; margin: 0 auto; width:100%;
+  }
+  .footer-bar .total{ font-size:13px; color: var(--gris); white-space:nowrap; }
+  .footer-bar .total b{ color: var(--tinta); font-size:16px; display:block; }
+
+  /* ---- Confirmacion ---- */
+  .confirm-wrap{ text-align:center; padding-top: 30px; }
+  .confirm-badge{
+    width:64px; height:64px; border-radius:50%; background: var(--verde); color:#072D0F;
+    display:flex; align-items:center; justify-content:center; font-size:30px; margin: 0 auto 18px;
+  }
+  .confirm-summary{ background: var(--papel); border-radius:10px; padding:16px; text-align:left; margin: 22px 0; }
+  .confirm-summary .row{ display:flex; justify-content:space-between; padding:6px 0; font-size:14px; }
+  .confirm-summary .row span:first-child{ color:var(--gris); }
+  .confirm-summary .row span:last-child{ font-weight:600; }
+
+  /* ---- Admin ---- */
+  .tabs{ display:flex; gap:6px; margin-bottom: 20px; border-bottom: 1px solid var(--linea); }
+  .tab{
+    flex:1; text-align:center; padding: 10px 4px; font-size:13px; font-weight:600; color: var(--gris);
+    border-bottom: 2px solid transparent; cursor:pointer;
+  }
+  .tab.active{ color: var(--azul); border-bottom-color: var(--azul); }
+
+  .admin-row{
+    display:flex; align-items:center; justify-content:space-between; padding: 11px 2px; border-bottom:1px solid var(--linea);
+  }
+  .admin-row .name{ font-size:14.5px; font-weight:600; }
+  .admin-row .meta{ font-size:12px; color: var(--gris); }
+  .badge-admin{ display:inline-block; background: var(--cielo); color:#04324A; font-size:10.5px; font-weight:700; padding:2px 6px; border-radius:5px; margin-left:6px; }
+
+  .admin-form{ background: var(--papel); border-radius:10px; padding:16px; margin-top:18px; }
+  .admin-form h4{ font-size:13.5px; margin:0 0 4px; color: var(--azul); }
+
+  .csv-upload{ background:#EEF1FB; border:1px solid #D7DDF3; border-radius:10px; padding:16px; margin-bottom:18px; }
+  .csv-upload h4{ font-size:13.5px; margin:0 0 6px; color: var(--azul); }
+  .csv-upload p{ font-size:12.5px; color: var(--gris); margin:0 0 12px; line-height:1.5; }
+  .csv-upload input[type=file]{ font-size:13px; width:100%; }
+  .csv-msg{ font-size:12.5px; margin-top:10px; padding:8px 10px; border-radius:6px; }
+  .csv-msg.ok{ background:#E7F3EA; color:#1E6B32; }
+  .csv-msg.error{ background:#FBEAE6; color:#8B2E1E; }
+
+  .detalle-items{ background: var(--papel); border-radius:10px; padding:14px; text-align:left; margin-top:18px; }
+  .detalle-items .item-row{ display:flex; justify-content:space-between; font-size:13.5px; padding:6px 0; border-bottom:1px solid var(--linea); }
+  .detalle-items .item-row:last-child{ border-bottom:none; }
+  .checkbox-line{ display:flex; align-items:center; gap:8px; margin-top:14px; }
+  .checkbox-line input{ width:auto; }
+  .checkbox-line label{ margin:0; font-size:14px; color: var(--tinta); }
+
+  .storage-note{
+    font-size: 11.5px; color: var(--gris); text-align:center; margin-top: 24px; line-height:1.5;
+  }
+
+  .link-row{ margin-top: 4px; margin-bottom: 18px; }
+</style>
+</head>
+<body>
+<div id="app"></div>
+<script type="application/json" id="seed-data">{}</script>
+
+<script>
+(function(){
+  "use strict";
+  const STORAGE_KEY = "vikingo_colocacion_v1";
+
+  function uid(prefix){ return prefix + "_" + Math.random().toString(36).slice(2,9); }
+  function normalize(s){ return (s||"").toString().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,""); }
+  function pad(n){ return n<10 ? "0"+n : ""+n; }
+  function fechaHoraActual(){
+    const d = new Date();
+    return { fecha: `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`, hora: `${pad(d.getHours())}:${pad(d.getMinutes())}` };
+  }
+  function escapeHtml(s){
+    return (s===undefined||s===null) ? "" : s.toString()
+      .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+  }
+
+  const CAMPOS_CATALOGO = {
+    cliente: { campos: ["cliente","pais"], etiquetas: ["Cliente","País"] },
+    articulo: { campos: ["articulo","socioComercial"], etiquetas: ["Artículo","Socio Comercial"] }
+  };
+
+  function displayItem(tipo, item){
+    if(!item) return "";
+    if(tipo === "cliente") return item.pais ? `${item.cliente} — ${item.pais}` : (item.cliente||"");
+    if(tipo === "articulo") return item.socioComercial ? `${item.articulo} — ${item.socioComercial}` : (item.articulo||"");
+    return "";
+  }
+
+  const ALT_HEADERS = {
+    cliente: ["cliente","nombre"],
+    pais: ["pais","país"],
+    articulo: ["articulo","nombre"],
+    socioComercial: ["socio comercial","sociocomercial","socio_comercial","socio"]
+  };
+
+  function buscarCampo(fila, alternativas){
+    for(const alt of alternativas){
+      const key = normalize(alt);
+      if(fila[key] !== undefined && fila[key] !== "") return fila[key];
+    }
+    for(const alt of alternativas){
+      const keyNoSpace = normalize(alt).replace(/[\s_]+/g,"");
+      for(const k in fila){
+        if(k.replace(/[\s_]+/g,"") === keyNoSpace && fila[k] !== "") return fila[k];
+      }
+    }
+    return "";
+  }
+
+  function seedDB(){
+    return {
+      usuarios: [
+        { usuario: "dmontoya", password: "vikingo2026", nombre: "David Montoya", admin: true },
+        { usuario: "jperez", password: "jperez1503", nombre: "Juan Pérez", admin: false }
+      ],
+      clientes: [
+        { id: uid("cli"), cliente: "Cliente ejemplo 1 — editar en Administrar", pais: "Guatemala" },
+        { id: uid("cli"), cliente: "Cliente ejemplo 2 — editar en Administrar", pais: "El Salvador" }
+      ],
+      articulos: [
+        { id: uid("art"), articulo: "Magia Blanca Cloro 200ml", socioComercial: "SC Johnson" },
+        { id: uid("art"), articulo: "Hershey's Kisses 150g", socioComercial: "Hershey's" },
+        { id: uid("art"), articulo: "Artículo ejemplo — editar en Administrar", socioComercial: "Socio ejemplo" }
+      ],
+      capturas: []
+    };
+  }
+
+  function loadDB(){
+    try{
+      const raw = localStorage.getItem(STORAGE_KEY);
+      if(raw) return JSON.parse(raw);
+    }catch(e){}
+    // Sin datos locales todavía: si este archivo trae un catálogo embebido (lo generó
+    // el admin al exportar la app actualizada), usarlo como punto de partida.
+    try{
+      const seedEl = document.getElementById("seed-data");
+      if(seedEl){
+        const embebido = JSON.parse(seedEl.textContent);
+        if(embebido && Array.isArray(embebido.clientes) && Array.isArray(embebido.articulos) && Array.isArray(embebido.usuarios)){
+          const inicial = { clientes: embebido.clientes, articulos: embebido.articulos, usuarios: embebido.usuarios, capturas: [], catalogoVersion: embebido.catalogoVersion || null };
+          try{ localStorage.setItem(STORAGE_KEY, JSON.stringify(inicial)); }catch(e){}
+          return inicial;
+        }
+      }
+    }catch(e){}
+    const fresh = seedDB();
+    try{ localStorage.setItem(STORAGE_KEY, JSON.stringify(fresh)); }catch(e){}
+    return fresh;
+  }
+  function saveDB(){ try{ localStorage.setItem(STORAGE_KEY, JSON.stringify(db)); }catch(e){} }
+
+
+  let db = loadDB();
+  let state = {
+    view: "login",
+    prevViewBeforeAdmin: "seleccionarCliente",
+    session: null,          // { usuario, nombre, admin }
+    clienteSeleccionado: null, // { id, nombre }
+    cart: [],                // [{articuloId, nombre, cajas}]
+    loginError: "",
+    buscarCliente: "",
+    buscarArticulo: "",
+    adminTab: "clientes",
+    lastCaptura: null
+  };
+
+  const app = document.getElementById("app");
+
+  function render(){
+    app.innerHTML = viewFns[state.view]();
+    bindEvents();
+  }
+
+  // ---------------- VIEWS ----------------
+
+  function viewLogin(){
+    return `
+      <div class="content" style="padding-top:64px;">
+        <div style="text-align:center; margin-bottom:36px;">
+          <div style="font-size:13px; letter-spacing:0.08em; color:var(--azul); font-weight:700;">VIKINGO DISTRIBUCIÓN</div>
+          <h2 class="screen-title" style="font-size:26px; margin-top:6px;">Colocación</h2>
+          <p class="screen-hint" style="margin-top:6px;">Captura de sugerido de compra en ruta</p>
+        </div>
+        <label for="in-usuario">Usuario</label>
+        <input id="in-usuario" type="text" autocomplete="off" autocapitalize="none" placeholder="ej. jperez">
+        <label for="in-password">Contraseña</label>
+        <input id="in-password" type="password" placeholder="••••••••">
+        ${state.loginError ? `<div class="error-box">${escapeHtml(state.loginError)}</div>` : ""}
+        <div style="margin-top:22px;">
+          <button class="btn btn-primary" id="btn-login">Ingresar</button>
+        </div>
+        <p style="text-align:center; font-size:12px; color:var(--gris); margin-top:26px;">Catálogo cargado: ${formatFechaHoraISO(db.catalogoVersion)}</p>
+      </div>
+    `;
+  }
+
+  function viewBienvenida(){
+    return `
+      <div class="topbar">
+        <div><div class="wordmark">VIKINGO DISTRIBUCIÓN</div><h1>Colocación</h1></div>
+        ${adminGearHtml()}
+      </div>
+      <div class="content" style="padding-top:60px; text-align:center;">
+        <div class="confirm-badge" style="background:var(--cielo); color:var(--azul-profundo);">✓</div>
+        <h2 class="screen-title">Bienvenido, ${escapeHtml(state.session.nombre)}</h2>
+        <p class="screen-hint">Listo para levantar el sugerido de compra de hoy.</p>
+        <button class="btn btn-primary" id="btn-comenzar">Comenzar</button>
+        <div style="margin-top:18px;">
+          <button class="btn btn-ghost btn-salir" id="btn-logout" style="margin:0 auto;">← Cerrar sesión</button>
+        </div>
+      </div>
+    `;
+  }
+
+  function viewSeleccionarCliente(){
+    const q = normalize(state.buscarCliente);
+    const lista = db.clientes.filter(c => normalize(displayItem("cliente",c)).includes(q));
+    return `
+      <div class="topbar">
+        <div><div class="wordmark">${escapeHtml(state.session.nombre)}</div><h1 style="font-size:17px;">Elegí el cliente</h1></div>
+        ${adminGearHtml()}
+      </div>
+      <div class="content">
+        <input id="in-buscar-cliente" type="text" placeholder="Buscar cliente..." value="${escapeHtml(state.buscarCliente)}">
+        <div style="margin-top:6px;">
+          ${lista.length ? lista.map(c => `
+            <div class="list-row" data-cliente-id="${c.id}">
+              <div><div class="name">${escapeHtml(c.cliente)}</div><div class="meta">${escapeHtml(c.pais||"")}</div></div>
+              <div class="chevron">›</div>
+            </div>
+          `).join("") : `<div class="empty-note">Ningún cliente coincide con la búsqueda.</div>`}
+        </div>
+      </div>
+    `;
+  }
+
+  function viewCaptura(){
+    const q = normalize(state.buscarArticulo);
+    const lista = (q ? db.articulos.filter(a => normalize(displayItem("articulo",a)).includes(q)) : db.articulos);
+    const totalCajas = state.cart.reduce((s,i)=> s + Number(i.cajas||0), 0);
+    return `
+      <div class="topbar">
+        <div><div class="wordmark">${escapeHtml(state.session.nombre)}</div><h1 style="font-size:17px;">Sugerido de compra</h1></div>
+        ${adminGearHtml(true)}
+      </div>
+      <div class="content no-pad-bottom" style="padding-bottom:14px;">
+        <div class="cliente-banner">
+          <div><div class="label">CLIENTE</div><div class="nombre">${escapeHtml(displayItem("cliente", state.clienteSeleccionado))}</div></div>
+          <button class="btn-ghost" id="btn-cambiar-cliente" style="width:auto;">Cambiar</button>
+        </div>
+
+        <input id="in-buscar-articulo" type="text" placeholder="Buscar artículo..." value="${escapeHtml(state.buscarArticulo)}">
+        <div style="margin-top:4px;">
+          ${lista.length ? lista.map(a => `
+            <div class="art-row">
+              <div class="name">${escapeHtml(a.articulo)}${a.socioComercial ? ` <span style="color:var(--gris); font-weight:400;">— ${escapeHtml(a.socioComercial)}</span>` : ""}</div>
+              <div class="add-line">
+                <input type="number" min="1" step="1" placeholder="Cajas sugeridas" id="qty-${a.id}">
+                <button class="btn btn-verde" data-agregar="${a.id}">Agregar</button>
+              </div>
+            </div>
+          `).join("") : `<div class="empty-note">Ningún artículo coincide con la búsqueda.</div>`}
+        </div>
+
+        <div class="cart-section">
+          <h3>Sugerido para ${escapeHtml(state.clienteSeleccionado.cliente)} (${state.cart.length} artículo${state.cart.length===1?"":"s"})</h3>
+          ${state.cart.length ? state.cart.map((i,idx) => `
+            <div class="cart-item">
+              <div class="name">${escapeHtml(i.articulo)}${i.socioComercial ? ` <span style="color:var(--gris); font-weight:400;">— ${escapeHtml(i.socioComercial)}</span>` : ""}</div>
+              <div style="display:flex; align-items:center; gap:10px;">
+                <div class="qty">${i.cajas} cajas</div>
+                <button class="remove" data-quitar="${idx}">×</button>
+              </div>
+            </div>
+          `).join("") : `<div class="empty-note" style="padding:16px;">Todavía no agregaste artículos.</div>`}
+        </div>
+      </div>
+      <div class="footer-bar">
+        <div class="total">Total<br><b>${totalCajas} cajas</b></div>
+        <button class="btn btn-primary" id="btn-enviar" ${state.cart.length===0?"disabled":""}>Enviar sugerido</button>
+      </div>
+    `;
+  }
+
+  function viewConfirmacion(){
+    const c = state.lastCaptura;
+    const totalCajas = c.items.reduce((s,i)=> s+Number(i.cajas||0),0);
+    return `
+      <div class="topbar">
+        <div><div class="wordmark">VIKINGO DISTRIBUCIÓN</div><h1 style="font-size:17px;">Sugerido enviado</h1></div>
+        ${adminGearHtml()}
+      </div>
+      <div class="content confirm-wrap">
+        <div class="confirm-badge">✓</div>
+        <h2 class="screen-title">Sugerido guardado</h2>
+        <p class="screen-hint">Se guardó en este dispositivo y quedará listo para sincronizar.</p>
+        <div class="confirm-summary">
+          <div class="row"><span>Cliente</span><span>${escapeHtml(c.cliente)}</span></div>
+          <div class="row"><span>País</span><span>${escapeHtml(c.pais||"—")}</span></div>
+          <div class="row"><span>Artículos</span><span>${c.items.length}</span></div>
+          <div class="row"><span>Total cajas</span><span>${totalCajas}</span></div>
+          <div class="row"><span>Fecha y hora</span><span>${c.fecha} ${c.hora}</span></div>
+          <div class="row"><span>Colocador</span><span>${escapeHtml(c.usuario)}</span></div>
+        </div>
+        <div class="detalle-items">
+          ${c.items.map(i => `<div class="item-row"><span>${escapeHtml(i.articulo)}${i.socioComercial ? ` — ${escapeHtml(i.socioComercial)}`:""}</span><span>${i.cajas} cajas</span></div>`).join("")}
+        </div>
+        <div style="margin-top:16px;"><button class="btn btn-outline" id="btn-descargar-sesion">Descargar CSV de este sugerido</button></div>
+        <div style="margin-top:16px;"><button class="btn btn-primary" id="btn-otro-cliente">Siguiente cliente</button></div>
+        <div style="margin-top:14px;">
+          <button class="btn btn-ghost btn-salir" id="btn-logout" style="margin:0 auto;">← Cerrar sesión</button>
+        </div>
+      </div>
+    `;
+  }
+
+  function adminGearHtml(mostrarVolver){
+    let botones = "";
+    if(mostrarVolver) botones += `<button class="icon-btn" id="btn-volver-topbar" title="Volver">←</button>`;
+    if(state.session && state.session.admin) botones += `<button class="icon-btn" id="btn-admin" title="Administrar">⚙</button>`;
+    botones += `<button class="icon-btn salir" id="btn-logout-icon" title="Cerrar sesión">🚪</button>`;
+    return `<div class="topbar-actions">${botones}</div>`;
+  }
+
+  // ---------------- ADMIN ----------------
+
+  function viewAdmin(){
+    const tabs = [["clientes","Clientes"],["articulos","Artículos"],["usuarios","Usuarios"],["capturas","Capturas"]];
+    return `
+      <div class="topbar">
+        <div><div class="wordmark">ADMINISTRAR</div><h1 style="font-size:17px;">Panel de datos</h1></div>
+        <div class="topbar-actions"><button class="icon-btn" id="btn-volver-admin" title="Volver">←</button></div>
+      </div>
+      <div class="content">
+        <div class="csv-upload" style="background:#EAF3EC; border-color:#CFE5D3;">
+          <h4 style="color:var(--verde-oscuro);">Compartir el catálogo actualizado con los colocadores</h4>
+          <p>Catálogo cargado en este dispositivo: <b>${formatFechaHoraISO(db.catalogoVersion)}</b>.</p>
+          <p><b>Opción A — sin servidor (mandalo por WhatsApp):</b> descargá la app ya con tu catálogo adentro y compartí ese archivo para que reemplace al anterior en el celular del colocador.</p>
+          <button class="btn btn-verde" id="btn-exportar-app" style="width:auto; margin-bottom:14px;">Descargar app actualizada (.html)</button>
+          <p><b>Opción B — si tenés servidor propio:</b> descargá este archivo de catálogo y subilo a tu servidor junto a la app, con el nombre exacto <code>catalogo.json</code>. Cada vez que el colocador abra la app con internet, se actualiza solo.</p>
+          <button class="btn btn-outline" id="btn-exportar-paquete" style="width:auto;">Descargar catalogo.json</button>
+        </div>
+        <div class="tabs">
+          ${tabs.map(([k,l]) => `<div class="tab ${state.adminTab===k?"active":""}" data-tab="${k}">${l}</div>`).join("")}
+        </div>
+        ${adminTabBody()}
+      </div>
+    `;
+  }
+
+  function adminTabBody(){
+    if(state.adminTab === "clientes") return adminListaSimple(db.clientes, "cliente");
+    if(state.adminTab === "articulos") return adminListaSimple(db.articulos, "articulo");
+    if(state.adminTab === "usuarios") return adminUsuarios();
+    if(state.adminTab === "capturas") return adminCapturas();
+    return "";
+  }
+
+  function adminListaSimple(coleccion, tipo){
+    const cfg = CAMPOS_CATALOGO[tipo];
+    const etiqueta = tipo === "cliente" ? "clientes" : "artículos";
+    return `
+      <div class="csv-upload">
+        <h4>Actualizar catálogo de ${etiqueta} desde CSV</h4>
+        <p>El archivo reemplaza <b>todo</b> el catálogo actual. Debe tener las columnas <b>${cfg.etiquetas.join(", ")}</b>, una fila por ${tipo}. Guardá tu Excel como "CSV UTF-8" antes de subirlo.</p>
+        <input type="file" accept=".csv" id="csv-${tipo}">
+        <div id="csv-msg-${tipo}"></div>
+      </div>
+      <div style="margin-bottom:14px;">
+        <button class="btn-ghost" data-descargar-catalogo="${tipo}" style="width:auto;">Descargar catálogo actual (CSV) — ${coleccion.length} registros</button>
+      </div>
+      ${coleccion.length ? coleccion.map(x => `
+        <div class="admin-row">
+          <div class="name">${escapeHtml(displayItem(tipo, x))}</div>
+          <button class="btn-danger-ghost" data-borrar="${tipo}" data-id="${x.id}">Eliminar</button>
+        </div>
+      `).join("") : `<div class="empty-note">Todavía no hay registros.</div>`}
+      <div class="admin-form">
+        <h4>Agregar ${tipo === "cliente" ? "cliente" : "artículo"} individual</h4>
+        ${cfg.campos.map((campo,i) => `
+          <label>${cfg.etiquetas[i]}</label>
+          <input type="text" id="nuevo-${tipo}-${campo}" placeholder="${cfg.etiquetas[i]}">
+        `).join("")}
+        <div style="margin-top:12px;"><button class="btn btn-outline" data-agregar-simple="${tipo}">Agregar</button></div>
+      </div>
+    `;
+  }
+
+  function adminUsuarios(){
+    return `
+      <div class="csv-upload">
+        <h4>Actualizar catálogo de colocadores desde CSV</h4>
+        <p>Reemplaza <b>todo</b> el catálogo actual, incluido tu propio usuario administrador — asegurate de incluirlo en el archivo o perderás el acceso. Columnas: <b>Nombre;Usuario;Contraseña;Administrador</b> (en Administrador poné "Si" o "No").</p>
+        <input type="file" accept=".csv" id="csv-usuario">
+        <div id="csv-msg-usuario"></div>
+      </div>
+      ${db.usuarios.length ? db.usuarios.map(u => `
+        <div class="admin-row">
+          <div><div class="name">${escapeHtml(u.nombre)} ${u.admin ? '<span class="badge-admin">ADMIN</span>' : ""}</div>
+          <div class="meta">usuario: ${escapeHtml(u.usuario)}</div></div>
+          <button class="btn-danger-ghost" data-borrar="usuario" data-id="${u.usuario}">Eliminar</button>
+        </div>
+      `).join("") : ""}
+      <div class="admin-form">
+        <h4>Agregar colocador</h4>
+        <label>Nombre completo</label>
+        <input type="text" id="nuevo-usr-nombre" placeholder="ej. María López">
+        <label>Usuario</label>
+        <input type="text" id="nuevo-usr-usuario" placeholder="ej. mlopez" autocapitalize="none">
+        <label>Contraseña</label>
+        <input type="text" id="nuevo-usr-password" placeholder="ej. mlopez1503">
+        <div class="checkbox-line">
+          <input type="checkbox" id="nuevo-usr-admin">
+          <label for="nuevo-usr-admin">Es administrador</label>
+        </div>
+        <div style="margin-top:14px;"><button class="btn btn-outline" id="btn-agregar-usuario">Agregar</button></div>
+      </div>
+    `;
+  }
+
+  function adminCapturas(){
+    const total = db.capturas.length;
+    return `
+      <p class="screen-hint" style="margin-top:0;">${total} sugerido${total===1?"":"s"} capturado${total===1?"":"s"} en este dispositivo.</p>
+      ${total ? `<div style="margin-bottom:16px;"><button class="btn btn-primary" id="btn-exportar-csv">Descargar CSV</button></div>` : ""}
+      ${db.capturas.slice().reverse().map(c => `
+        <div class="admin-row" style="align-items:flex-start;">
+          <div>
+            <div class="name">${escapeHtml(c.cliente)}${c.pais ? ` — ${escapeHtml(c.pais)}` : ""}</div>
+            <div class="meta">${c.fecha} ${c.hora} · ${escapeHtml(c.usuario)} · ${c.items.length} artículos</div>
+          </div>
+        </div>
+      `).join("")}
+    `;
+  }
+
+  function descargarCatalogoCSV(tipo){
+    const cfg = CAMPOS_CATALOGO[tipo];
+    const coleccion = tipo === "cliente" ? db.clientes : db.articulos;
+    const filas = [cfg.etiquetas].concat(coleccion.map(x => cfg.campos.map(c => x[c]||"")));
+    descargarCSVTexto(`catalogo_${tipo === "cliente" ? "clientes" : "articulos"}_actual.csv`, filas);
+  }
+
+  function bumpCatalogoVersion(){ db.catalogoVersion = new Date().toISOString(); }
+
+  function formatFechaHoraISO(iso){
+    if(!iso) return "sin registro todavía";
+    const d = new Date(iso);
+    return `${pad(d.getDate())}/${pad(d.getMonth()+1)}/${d.getFullYear()} ${pad(d.getHours())}:${pad(d.getMinutes())}`;
+  }
+
+  function exportarAppActualizada(){
+    const datos = {
+      clientes: db.clientes, articulos: db.articulos, usuarios: db.usuarios,
+      catalogoVersion: new Date().toISOString()
+    };
+    let html = "<!DOCTYPE html>\n" + document.documentElement.outerHTML;
+    const seedJson = JSON.stringify(datos).replace(/<\/script/gi, "<\\/script");
+    html = html.replace(
+      /(<script type="application\/json" id="seed-data">)([\s\S]*?)(<\/script>)/,
+      `$1${seedJson}$3`
+    );
+    const blob = new Blob([html], { type: "text/html;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url; a.download = `vikingo-colocacion_${fechaHoraActual().fecha}.html`;
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }
+
+  async function intentarActualizarCatalogoRemoto(){
+    try{
+      const resp = await fetch("catalogo.json", { cache: "no-store" });
+      if(!resp.ok) return;
+      const data = await resp.json();
+      if(!Array.isArray(data.clientes) || !Array.isArray(data.articulos) || !Array.isArray(data.usuarios)) return;
+      const versionNueva = data.generadoEn || null;
+      if(versionNueva && versionNueva === db.catalogoVersion) return;
+      db.clientes = data.clientes; db.articulos = data.articulos; db.usuarios = data.usuarios;
+      db.catalogoVersion = versionNueva || new Date().toISOString();
+      saveDB();
+      if(["login","bienvenida","seleccionarCliente"].includes(state.view)) render();
+    }catch(e){ /* sin conexión, o el archivo no existe en este servidor — seguir con lo local */ }
+  }
+
+  function exportarPaqueteCatalogo(){
+    const paquete = {
+      generadoEn: new Date().toISOString(),
+      clientes: db.clientes,
+      articulos: db.articulos,
+      usuarios: db.usuarios
+    };
+    const blob = new Blob([JSON.stringify(paquete, null, 2)], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url; a.download = `paquete_catalogo_${fechaHoraActual().fecha}.json`;
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }
+
+  function descargarCSVTexto(nombreArchivo, filas){
+    const csv = filas.map(r => r.map(v => `"${(v===undefined||v===null?"":v).toString().replace(/"/g,'""')}"`).join(",")).join("\r\n");
+    const blob = new Blob(["\uFEFF"+csv], { type: "text/csv;charset=utf-8;" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url; a.download = nombreArchivo;
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }
+
+  function parseCSV(texto){
+    const lineas = texto.replace(/\r\n/g,"\n").replace(/\r/g,"\n").split("\n").filter(l => l.trim().length);
+    if(!lineas.length) return [];
+    const delim = lineas[0].includes(";") && !lineas[0].includes(",") ? ";" : ",";
+    function splitLinea(l){
+      return l.split(delim).map(v => v.trim().replace(/^"(.*)"$/,"$1").trim());
+    }
+    const headers = splitLinea(lineas[0]).map(h => normalize(h));
+    return lineas.slice(1).map(l => {
+      const valores = splitLinea(l);
+      const obj = {};
+      headers.forEach((h,i) => obj[h] = (valores[i]||"").trim());
+      return obj;
+    });
+  }
+
+  function esVerdadero(v){
+    const n = normalize(v||"");
+    return n==="si" || n==="sí" || n==="true" || n==="1" || n==="x" || n==="verdadero";
+  }
+
+  function exportarCSV(){
+    let rows = [["fecha","hora","usuario","cliente","pais","articulo","socio_comercial","cajas_sugeridas"]];
+    db.capturas.forEach(c => {
+      c.items.forEach(i => {
+        rows.push([c.fecha, c.hora, c.usuario, c.cliente, c.pais||"", i.articulo, i.socioComercial||"", i.cajas]);
+      });
+    });
+    const csv = rows.map(r => r.map(v => `"${(v===undefined||v===null?"":v).toString().replace(/"/g,'""')}"`).join(",")).join("\r\n");
+    const blob = new Blob(["\uFEFF"+csv], { type: "text/csv;charset=utf-8;" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `sugeridos_colocacion_${fechaHoraActual().fecha}.csv`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }
+
+  const viewFns = {
+    login: viewLogin,
+    bienvenida: viewBienvenida,
+    seleccionarCliente: viewSeleccionarCliente,
+    captura: viewCaptura,
+    confirmacion: viewConfirmacion,
+    admin: viewAdmin
+  };
+
+  // ---------------- EVENTS ----------------
+
+  function bindEvents(){
+    // LOGIN
+    const btnLogin = document.getElementById("btn-login");
+    if(btnLogin){
+      btnLogin.onclick = () => {
+        const usuario = document.getElementById("in-usuario").value.trim();
+        const password = document.getElementById("in-password").value;
+        const found = db.usuarios.find(u => normalize(u.usuario) === normalize(usuario) && u.password === password);
+        if(!found){
+          state.loginError = "Usuario o contraseña incorrectos.";
+          render();
+          return;
+        }
+        state.session = { usuario: found.usuario, nombre: found.nombre, admin: !!found.admin };
+        state.loginError = "";
+        state.view = "bienvenida";
+        render();
+      };
+      document.getElementById("in-password").addEventListener("keydown", e => { if(e.key==="Enter") btnLogin.click(); });
+    }
+
+    // BIENVENIDA
+    const btnComenzar = document.getElementById("btn-comenzar");
+    if(btnComenzar) btnComenzar.onclick = () => { state.view = "seleccionarCliente"; render(); };
+
+    function cerrarSesion(){
+      if(state.view === "captura" && state.cart.length){
+        if(!confirm("Tenés un sugerido sin enviar. ¿Cerrar sesión de todas formas? Se perderá lo que agregaste.")) return;
+      }
+      state.session = null; state.clienteSeleccionado = null; state.cart = [];
+      state.buscarCliente = ""; state.buscarArticulo = "";
+      state.view = "login"; render();
+    }
+    const btnLogout = document.getElementById("btn-logout");
+    if(btnLogout) btnLogout.onclick = cerrarSesion;
+    const btnLogoutIcon = document.getElementById("btn-logout-icon");
+    if(btnLogoutIcon) btnLogoutIcon.onclick = cerrarSesion;
+
+    // SELECCIONAR CLIENTE
+    const inBuscarCliente = document.getElementById("in-buscar-cliente");
+    if(inBuscarCliente){
+      inBuscarCliente.oninput = (e) => { state.buscarCliente = e.target.value; render(); restoreFocus("in-buscar-cliente"); };
+    }
+    document.querySelectorAll("[data-cliente-id]").forEach(el => {
+      el.onclick = () => {
+        const c = db.clientes.find(c => c.id === el.dataset.clienteId);
+        state.clienteSeleccionado = c;
+        state.cart = [];
+        state.buscarArticulo = "";
+        state.view = "captura";
+        render();
+      };
+    });
+
+    // CAPTURA
+    function volverASeleccionCliente(){
+      if(state.cart.length){
+        if(!confirm("Tenés un sugerido sin enviar. ¿Volver de todas formas? Se perderá lo que agregaste.")) return;
+      }
+      state.clienteSeleccionado = null; state.cart = []; state.buscarCliente = "";
+      state.view = "seleccionarCliente"; render();
+    }
+    const btnCambiarCliente = document.getElementById("btn-cambiar-cliente");
+    if(btnCambiarCliente) btnCambiarCliente.onclick = volverASeleccionCliente;
+    const btnVolverTopbar = document.getElementById("btn-volver-topbar");
+    if(btnVolverTopbar) btnVolverTopbar.onclick = volverASeleccionCliente;
+
+    const inBuscarArticulo = document.getElementById("in-buscar-articulo");
+    if(inBuscarArticulo){
+      inBuscarArticulo.oninput = (e) => { state.buscarArticulo = e.target.value; render(); restoreFocus("in-buscar-articulo"); };
+    }
+
+    document.querySelectorAll("[data-agregar]").forEach(btn => {
+      btn.onclick = () => {
+        const artId = btn.dataset.agregar;
+        const art = db.articulos.find(a => a.id === artId);
+        const qtyInput = document.getElementById("qty-" + artId);
+        const cajas = parseInt(qtyInput.value, 10);
+        if(!cajas || cajas <= 0){ qtyInput.focus(); return; }
+        const existente = state.cart.find(i => i.articuloId === artId);
+        if(existente) existente.cajas = Number(existente.cajas) + cajas;
+        else state.cart.push({ articuloId: artId, articulo: art.articulo, socioComercial: art.socioComercial||"", cajas: cajas });
+        render();
+      };
+    });
+
+    document.querySelectorAll("[data-quitar]").forEach(btn => {
+      btn.onclick = () => { state.cart.splice(parseInt(btn.dataset.quitar,10), 1); render(); };
+    });
+
+    const btnEnviar = document.getElementById("btn-enviar");
+    if(btnEnviar) btnEnviar.onclick = () => {
+      if(state.cart.length === 0) return;
+      const {fecha, hora} = fechaHoraActual();
+      const captura = {
+        id: uid("cap"),
+        usuario: state.session.usuario,
+        clienteId: state.clienteSeleccionado.id,
+        cliente: state.clienteSeleccionado.cliente,
+        pais: state.clienteSeleccionado.pais || "",
+        fecha, hora,
+        items: state.cart.map(i => ({ articuloId: i.articuloId, articulo: i.articulo, socioComercial: i.socioComercial||"", cajas: i.cajas }))
+      };
+      db.capturas.push(captura);
+      saveDB();
+      state.lastCaptura = captura;
+      state.cart = [];
+      state.view = "confirmacion";
+      render();
+    };
+
+    // CONFIRMACION
+    const btnDescargarSesion = document.getElementById("btn-descargar-sesion");
+    if(btnDescargarSesion) btnDescargarSesion.onclick = () => {
+      const c = state.lastCaptura;
+      const filas = [["fecha","hora","usuario","cliente","pais","articulo","socio_comercial","cajas_sugeridas"]];
+      c.items.forEach(i => filas.push([c.fecha, c.hora, c.usuario, c.cliente, c.pais||"", i.articulo, i.socioComercial||"", i.cajas]));
+      const nombreLimpio = normalize(c.cliente).replace(/[^a-z0-9]+/g,"_").slice(0,30);
+      descargarCSVTexto(`sugerido_${nombreLimpio}_${c.fecha}.csv`, filas);
+    };
+
+    const btnOtroCliente = document.getElementById("btn-otro-cliente");
+    if(btnOtroCliente) btnOtroCliente.onclick = () => {
+      state.clienteSeleccionado = null; state.buscarCliente = "";
+      state.view = "seleccionarCliente"; render();
+    };
+
+    // ADMIN GEAR
+    const btnAdmin = document.getElementById("btn-admin");
+    if(btnAdmin) btnAdmin.onclick = () => {
+      state.prevViewBeforeAdmin = state.view;
+      state.view = "admin"; render();
+    };
+    const btnVolverAdmin = document.getElementById("btn-volver-admin");
+    if(btnVolverAdmin) btnVolverAdmin.onclick = () => { state.view = state.prevViewBeforeAdmin; render(); };
+
+    document.querySelectorAll("[data-tab]").forEach(t => {
+      t.onclick = () => { state.adminTab = t.dataset.tab; render(); };
+    });
+
+    document.querySelectorAll("[data-borrar]").forEach(btn => {
+      btn.onclick = () => {
+        const tipo = btn.dataset.borrar, id = btn.dataset.id;
+        if(tipo === "cliente") db.clientes = db.clientes.filter(c => c.id !== id);
+        if(tipo === "articulo") db.articulos = db.articulos.filter(a => a.id !== id);
+        if(tipo === "usuario") db.usuarios = db.usuarios.filter(u => u.usuario !== id);
+        bumpCatalogoVersion(); saveDB(); render();
+      };
+    });
+
+    ["cliente","articulo"].forEach(tipo => {
+      const input = document.getElementById(`csv-${tipo}`);
+      if(!input) return;
+      input.onchange = () => {
+        const file = input.files[0];
+        if(!file) return;
+        const msgBox = document.getElementById(`csv-msg-${tipo}`);
+        const reader = new FileReader();
+        reader.onload = (e) => {
+          try{
+            const filas = parseCSV(e.target.result);
+            const cfg = CAMPOS_CATALOGO[tipo];
+            const nuevos = filas
+              .map(f => {
+                const obj = { id: uid(tipo==="cliente"?"cli":"art") };
+                cfg.campos.forEach(campo => { obj[campo] = buscarCampo(f, ALT_HEADERS[campo]); });
+                return obj;
+              })
+              .filter(o => (o[cfg.campos[0]]||"").length);
+            if(!nuevos.length){ throw new Error(`El archivo no tiene ninguna fila válida con columna '${cfg.etiquetas[0]}'.`); }
+            if(tipo === "cliente") db.clientes = nuevos; else db.articulos = nuevos;
+            bumpCatalogoVersion(); saveDB();
+            msgBox.innerHTML = `<div class="csv-msg ok">Catálogo actualizado: ${nuevos.length} registros cargados.</div>`;
+            render();
+          }catch(err){
+            msgBox.innerHTML = `<div class="csv-msg error">No se pudo leer el archivo: ${escapeHtml(err.message)}</div>`;
+          }
+        };
+        reader.readAsText(file, "UTF-8");
+      };
+    });
+
+    const inputCsvUsuario = document.getElementById("csv-usuario");
+    if(inputCsvUsuario){
+      inputCsvUsuario.onchange = () => {
+        const file = inputCsvUsuario.files[0];
+        if(!file) return;
+        const msgBox = document.getElementById("csv-msg-usuario");
+        const reader = new FileReader();
+        reader.onload = (e) => {
+          try{
+            const filas = parseCSV(e.target.result);
+            const nuevos = filas
+              .filter(f => (f["usuario"]||"").trim().length)
+              .map(f => ({
+                nombre: (f["nombre"]||"").trim(),
+                usuario: (f["usuario"]||"").trim(),
+                password: (f["contraseña"]||f["contrasena"]||f["password"]||"").trim(),
+                admin: esVerdadero(f["administrador"]||f["admin"])
+              }));
+            if(!nuevos.length){ throw new Error("El archivo no tiene ninguna fila válida con columna 'Usuario'."); }
+            if(!nuevos.some(u => normalize(u.usuario) === normalize(state.session.usuario) && u.admin)){
+              throw new Error(`Tu propio usuario administrador ('${state.session.usuario}') no aparece como administrador en el archivo. No se aplicó el cambio para evitar que pierdas el acceso.`);
+            }
+            db.usuarios = nuevos;
+            bumpCatalogoVersion(); saveDB();
+            msgBox.innerHTML = `<div class="csv-msg ok">Catálogo actualizado: ${nuevos.length} usuarios cargados.</div>`;
+            render();
+          }catch(err){
+            msgBox.innerHTML = `<div class="csv-msg error">${escapeHtml(err.message)}</div>`;
+          }
+        };
+        reader.readAsText(file, "UTF-8");
+      };
+    }
+
+    document.querySelectorAll("[data-agregar-simple]").forEach(btn => {
+      btn.onclick = () => {
+        const tipo = btn.dataset.agregarSimple;
+        const cfg = CAMPOS_CATALOGO[tipo];
+        const valores = { id: uid(tipo==="cliente"?"cli":"art") };
+        cfg.campos.forEach(campo => {
+          valores[campo] = document.getElementById(`nuevo-${tipo}-${campo}`).value.trim();
+        });
+        if(!valores[cfg.campos[0]]) return;
+        if(tipo === "cliente") db.clientes.push(valores);
+        if(tipo === "articulo") db.articulos.push(valores);
+        bumpCatalogoVersion(); saveDB(); render();
+      };
+    });
+
+    const btnAgregarUsuario = document.getElementById("btn-agregar-usuario");
+    if(btnAgregarUsuario) btnAgregarUsuario.onclick = () => {
+      const nombre = document.getElementById("nuevo-usr-nombre").value.trim();
+      const usuario = document.getElementById("nuevo-usr-usuario").value.trim();
+      const password = document.getElementById("nuevo-usr-password").value.trim();
+      const admin = document.getElementById("nuevo-usr-admin").checked;
+      if(!nombre || !usuario || !password) return;
+      if(db.usuarios.some(u => normalize(u.usuario) === normalize(usuario))) { alert("Ese usuario ya existe."); return; }
+      db.usuarios.push({ usuario, password, nombre, admin });
+      bumpCatalogoVersion(); saveDB(); render();
+    };
+
+    document.querySelectorAll("[data-descargar-catalogo]").forEach(btn => {
+      btn.onclick = () => descargarCatalogoCSV(btn.dataset.descargarCatalogo);
+    });
+
+    const btnExportarApp = document.getElementById("btn-exportar-app");
+    if(btnExportarApp) btnExportarApp.onclick = exportarAppActualizada;
+
+    const btnExportarPaquete = document.getElementById("btn-exportar-paquete");
+    if(btnExportarPaquete) btnExportarPaquete.onclick = exportarPaqueteCatalogo;
+
+    const btnExportarCSV = document.getElementById("btn-exportar-csv");
+    if(btnExportarCSV) btnExportarCSV.onclick = exportarCSV;
+  }
+
+  function restoreFocus(id){
+    const el = document.getElementById(id);
+    if(el){ el.focus(); const v = el.value; el.value=""; el.value=v; }
+  }
+
+  render();
+  intentarActualizarCatalogoRemoto();
+  if("serviceWorker" in navigator){
+    navigator.serviceWorker.register("sw.js").catch(()=>{ /* si falla, la app sigue funcionando sin caché offline extra */ });
+  }
+})();
+</script>
+</body>
+</html>
