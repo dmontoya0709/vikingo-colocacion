@@ -1,5 +1,5 @@
 {
-  "generadoEn": "2026-09-07T21:14:55.996Z",
+  "generadoEn": "2026-09-08T15:19:08.023Z",
   "clientes": [
     {
       "id": "cli_5upyhxq",
@@ -5733,6 +5733,12 @@
       "usuario": "aacruz",
       "password": "vikingo2026",
       "admin": true
+    },
+    {
+      "nombre": "Suceli Perez",
+      "usuario": "scperez",
+      "password": "scperez0111",
+      "admin": false
     }
   ]
 }
