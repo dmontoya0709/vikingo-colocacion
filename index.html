@@ -11,6 +11,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Colocación">
+<script src="xlsx.full.min.js"></script>
 <style>
   :root{
     --azul: #071E69;
@@ -200,6 +201,16 @@
   function fechaHoraActual(){
     const d = new Date();
     return { fecha: `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`, hora: `${pad(d.getHours())}:${pad(d.getMinutes())}` };
+  }
+  function obtenerUbicacion(){
+    return new Promise((resolve) => {
+      if(!("geolocation" in navigator)){ resolve(null); return; }
+      navigator.geolocation.getCurrentPosition(
+        (pos) => resolve({ lat: pos.coords.latitude, lng: pos.coords.longitude }),
+        () => resolve(null), // permiso denegado, o no se pudo obtener: seguimos sin ubicación
+        { enableHighAccuracy: false, timeout: 5000, maximumAge: 60000 }
+      );
+    });
   }
   function escapeHtml(s){
     return (s===undefined||s===null) ? "" : s.toString()
@@ -409,12 +420,15 @@
         <div class="cart-section">
           <h3>Sugerido para ${escapeHtml(state.clienteSeleccionado.cliente)} (${state.cart.length} artículo${state.cart.length===1?"":"s"})</h3>
           ${state.cart.length ? state.cart.map((i,idx) => `
-            <div class="cart-item">
-              <div class="name">${escapeHtml(i.articulo)}${i.socioComercial ? ` <span style="color:var(--gris); font-weight:400;">— ${escapeHtml(i.socioComercial)}</span>` : ""}</div>
-              <div style="display:flex; align-items:center; gap:10px;">
-                <div class="qty">${i.cajas} cajas</div>
-                <button class="remove" data-quitar="${idx}">×</button>
+            <div class="cart-item" style="flex-direction:column; align-items:stretch;">
+              <div style="display:flex; align-items:center; justify-content:space-between; gap:10px;">
+                <div class="name">${escapeHtml(i.articulo)}${i.socioComercial ? ` <span style="color:var(--gris); font-weight:400;">— ${escapeHtml(i.socioComercial)}</span>` : ""}</div>
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <div class="qty">${i.cajas} cajas</div>
+                  <button class="remove" data-quitar="${idx}">×</button>
+                </div>
               </div>
+              <input type="text" data-justificacion-idx="${idx}" placeholder="Justificación (opcional)" value="${escapeHtml(i.justificacion||"")}" style="margin-top:8px; padding:8px 10px; font-size:13px;">
             </div>
           `).join("") : `<div class="empty-note" style="padding:16px;">Todavía no agregaste artículos.</div>`}
         </div>
@@ -445,11 +459,12 @@
           <div class="row"><span>Total cajas</span><span>${totalCajas}</span></div>
           <div class="row"><span>Fecha y hora</span><span>${c.fecha} ${c.hora}</span></div>
           <div class="row"><span>Colocador</span><span>${escapeHtml(c.usuario)}</span></div>
+          <div class="row"><span>Ubicación</span><span>${c.lat!=null ? `${c.lat.toFixed(5)}, ${c.lng.toFixed(5)}` : "No disponible"}</span></div>
         </div>
         <div class="detalle-items">
-          ${c.items.map(i => `<div class="item-row"><span>${escapeHtml(i.articulo)}${i.socioComercial ? ` — ${escapeHtml(i.socioComercial)}`:""}</span><span>${i.cajas} cajas</span></div>`).join("")}
+          ${c.items.map(i => `<div class="item-row"><span>${escapeHtml(i.articulo)}${i.socioComercial ? ` — ${escapeHtml(i.socioComercial)}`:""}${i.justificacion ? `<br><span style="font-size:11.5px; color:var(--gris);">${escapeHtml(i.justificacion)}</span>` : ""}</span><span>${i.cajas} cajas</span></div>`).join("")}
         </div>
-        <div style="margin-top:16px;"><button class="btn btn-outline" id="btn-descargar-sesion">Descargar CSV de este sugerido</button></div>
+        <div style="margin-top:16px;"><button class="btn btn-outline" id="btn-descargar-sesion">Descargar Excel de este sugerido</button></div>
         <div style="margin-top:16px;"><button class="btn btn-primary" id="btn-otro-cliente">Siguiente cliente</button></div>
         <div style="margin-top:14px;">
           <button class="btn btn-ghost btn-salir" id="btn-logout" style="margin:0 auto;">← Cerrar sesión</button>
@@ -511,7 +526,7 @@
         <div id="csv-msg-${tipo}"></div>
       </div>
       <div style="margin-bottom:14px;">
-        <button class="btn-ghost" data-descargar-catalogo="${tipo}" style="width:auto;">Descargar catálogo actual (CSV) — ${coleccion.length} registros</button>
+        <button class="btn-ghost" data-descargar-catalogo="${tipo}" style="width:auto;">Descargar catálogo actual (Excel) — ${coleccion.length} registros</button>
       </div>
       ${coleccion.length ? coleccion.map(x => `
         <div class="admin-row">
@@ -566,7 +581,7 @@
     const total = db.capturas.length;
     return `
       <p class="screen-hint" style="margin-top:0;">${total} sugerido${total===1?"":"s"} capturado${total===1?"":"s"} en este dispositivo.</p>
-      ${total ? `<div style="margin-bottom:16px;"><button class="btn btn-primary" id="btn-exportar-csv">Descargar CSV</button></div>` : ""}
+      ${total ? `<div style="margin-bottom:16px;"><button class="btn btn-primary" id="btn-exportar-csv">Descargar Excel</button></div>` : ""}
       ${db.capturas.slice().reverse().map(c => `
         <div class="admin-row" style="align-items:flex-start;">
           <div>
@@ -582,7 +597,7 @@
     const cfg = CAMPOS_CATALOGO[tipo];
     const coleccion = tipo === "cliente" ? db.clientes : db.articulos;
     const filas = [cfg.etiquetas].concat(coleccion.map(x => cfg.campos.map(c => x[c]||"")));
-    descargarCSVTexto(`catalogo_${tipo === "cliente" ? "clientes" : "articulos"}_actual.csv`, filas);
+    descargarXLSXTexto(`catalogo_${tipo === "cliente" ? "clientes" : "articulos"}_actual`, filas);
   }
 
   function bumpCatalogoVersion(){ db.catalogoVersion = new Date().toISOString(); }
@@ -642,6 +657,17 @@
     URL.revokeObjectURL(url);
   }
 
+  function descargarXLSXTexto(nombreArchivoBase, filas){
+    if(typeof XLSX === "undefined"){
+      alert("No se pudo cargar el generador de Excel (necesita internet la primera vez). Probá de nuevo con conexión.");
+      return;
+    }
+    const ws = XLSX.utils.aoa_to_sheet(filas);
+    const wb = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(wb, ws, "Datos");
+    XLSX.writeFile(wb, nombreArchivoBase.replace(/\.csv$/i,"") + ".xlsx");
+  }
+
   function descargarCSVTexto(nombreArchivo, filas){
     const csv = filas.map(r => r.map(v => `"${(v===undefined||v===null?"":v).toString().replace(/"/g,'""')}"`).join(",")).join("\r\n");
     const blob = new Blob(["\uFEFF"+csv], { type: "text/csv;charset=utf-8;" });
@@ -674,22 +700,13 @@
   }
 
   function exportarCSV(){
-    let rows = [["fecha","hora","usuario","cliente","pais","articulo","socio_comercial","cajas_sugeridas"]];
+    let rows = [["fecha","hora","usuario","cliente","pais","articulo","socio_comercial","cajas_sugeridas","justificacion","latitud","longitud"]];
     db.capturas.forEach(c => {
       c.items.forEach(i => {
-        rows.push([c.fecha, c.hora, c.usuario, c.cliente, c.pais||"", i.articulo, i.socioComercial||"", i.cajas]);
+        rows.push([c.fecha, c.hora, c.usuario, c.cliente, c.pais||"", i.articulo, i.socioComercial||"", i.cajas, i.justificacion||"", c.lat!=null?c.lat:"", c.lng!=null?c.lng:""]);
       });
     });
-    const csv = rows.map(r => r.map(v => `"${(v===undefined||v===null?"":v).toString().replace(/"/g,'""')}"`).join(",")).join("\r\n");
-    const blob = new Blob(["\uFEFF"+csv], { type: "text/csv;charset=utf-8;" });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = `sugeridos_colocacion_${fechaHoraActual().fecha}.csv`;
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
+    descargarXLSXTexto(`sugeridos_colocacion_${fechaHoraActual().fecha}`, rows);
   }
 
   const viewFns = {
@@ -790,8 +807,17 @@
         if(!cajas || cajas <= 0){ qtyInput.focus(); return; }
         const existente = state.cart.find(i => i.articuloId === artId);
         if(existente) existente.cajas = Number(existente.cajas) + cajas;
-        else state.cart.push({ articuloId: artId, articulo: art.articulo, socioComercial: art.socioComercial||"", cajas: cajas });
+        else state.cart.push({ articuloId: artId, articulo: art.articulo, socioComercial: art.socioComercial||"", cajas: cajas, justificacion: "" });
         render();
+      };
+    });
+
+    document.querySelectorAll("[data-justificacion-idx]").forEach(inp => {
+      inp.oninput = (e) => {
+        const idx = parseInt(inp.dataset.justificacionIdx, 10);
+        if(state.cart[idx]) state.cart[idx].justificacion = e.target.value;
+        // sin render() a propósito: no afecta totales ni otra parte de la pantalla,
+        // y así el colocador no pierde el foco mientras escribe.
       };
     });
 
@@ -800,8 +826,13 @@
     });
 
     const btnEnviar = document.getElementById("btn-enviar");
-    if(btnEnviar) btnEnviar.onclick = () => {
+    if(btnEnviar) btnEnviar.onclick = async () => {
       if(state.cart.length === 0) return;
+      const textoOriginal = btnEnviar.textContent;
+      btnEnviar.disabled = true;
+      btnEnviar.textContent = "Obteniendo ubicación...";
+      const ubicacion = await obtenerUbicacion();
+      btnEnviar.textContent = textoOriginal;
       const {fecha, hora} = fechaHoraActual();
       const captura = {
         id: uid("cap"),
@@ -810,7 +841,9 @@
         cliente: state.clienteSeleccionado.cliente,
         pais: state.clienteSeleccionado.pais || "",
         fecha, hora,
-        items: state.cart.map(i => ({ articuloId: i.articuloId, articulo: i.articulo, socioComercial: i.socioComercial||"", cajas: i.cajas }))
+        lat: ubicacion ? ubicacion.lat : null,
+        lng: ubicacion ? ubicacion.lng : null,
+        items: state.cart.map(i => ({ articuloId: i.articuloId, articulo: i.articulo, socioComercial: i.socioComercial||"", cajas: i.cajas, justificacion: i.justificacion||"" }))
       };
       db.capturas.push(captura);
       saveDB();
@@ -824,10 +857,10 @@
     const btnDescargarSesion = document.getElementById("btn-descargar-sesion");
     if(btnDescargarSesion) btnDescargarSesion.onclick = () => {
       const c = state.lastCaptura;
-      const filas = [["fecha","hora","usuario","cliente","pais","articulo","socio_comercial","cajas_sugeridas"]];
-      c.items.forEach(i => filas.push([c.fecha, c.hora, c.usuario, c.cliente, c.pais||"", i.articulo, i.socioComercial||"", i.cajas]));
+      const filas = [["fecha","hora","usuario","cliente","pais","articulo","socio_comercial","cajas_sugeridas","justificacion","latitud","longitud"]];
+      c.items.forEach(i => filas.push([c.fecha, c.hora, c.usuario, c.cliente, c.pais||"", i.articulo, i.socioComercial||"", i.cajas, i.justificacion||"", c.lat!=null?c.lat:"", c.lng!=null?c.lng:""]));
       const nombreLimpio = normalize(c.cliente).replace(/[^a-z0-9]+/g,"_").slice(0,30);
-      descargarCSVTexto(`sugerido_${nombreLimpio}_${c.fecha}.csv`, filas);
+      descargarXLSXTexto(`sugerido_${nombreLimpio}_${c.fecha}`, filas);
     };
 
     const btnOtroCliente = document.getElementById("btn-otro-cliente");
